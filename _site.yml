@@ -1,20 +1,10 @@
 name: OTTR Template Website
 output_dir: '.'
 navbar:
-  title: OTTR Web
+  title: DaSL Collection
   left:
   - text: Home
     href: index.html
-  - text: Setup
-    href: setup.html   
-  - text: Hosting
-    href: hosting.html   
-  - text: Structure
-    href: structure.html  
-  - text: Style
-    href: style.html
-  - text: Git Actions
-    href: git_actions.html
   - text: Contact
     href: contact.html
     icon: fa-envelope
