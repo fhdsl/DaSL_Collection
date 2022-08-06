@@ -59,6 +59,16 @@ jobs:
       toggle_url_check: "${{ env.URL_CHECKER }}"
       toggle_render_preview: "${{ env.RENDER_PREVIEW }}"
 
+  build-collection:
+    name: Build Collection
+    needs: yaml-check
+    uses: ./.github/workflows/build-collection.yml
+    with:
+      render-type: 'preview'
+      repository: $GITHUB_REPOSITORY
+    secrets:
+      gh_pat: ${{ secrets.GH_PAT }}
+
   spell-check:
     name: Check spelling
     needs: yaml-check
@@ -274,7 +284,7 @@ jobs:
 
   render-preview:
     name: Render preview
-    needs: yaml-check
+    needs: [yaml-check, collection-build]
     runs-on: ubuntu-latest
     container:
       image: jhudsl/course_template:main
