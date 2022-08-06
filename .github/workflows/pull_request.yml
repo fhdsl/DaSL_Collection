@@ -284,7 +284,7 @@ jobs:
 
   render-preview:
     name: Render preview
-    needs: [yaml-check, collection-build]
+    needs: [yaml-check, build-collection]
     runs-on: ubuntu-latest
     container:
       image: jhudsl/course_template:main
