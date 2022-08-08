@@ -35,7 +35,7 @@ if (!(httr::http_error(req))) {
   # Read in and save data
   repo_dat <-
     jsonlite::fromJSON(httr::content(req, as = "text"), flatten = TRUE)
-  message(paste("...", repo_dat_1$total_count, " repositories detected."))
+  message(paste("...", repo_dat$total_count, " repositories detected."))
   
   # Modify the request results to get what we need
   repo_df <-
