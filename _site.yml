@@ -5,9 +5,6 @@ navbar:
   left:
   - text: Contribute
     href: contribute.html
-  - text: Contact
-    href: contact.html
-    icon: fa-envelope
 
 
 output:
