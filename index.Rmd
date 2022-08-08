@@ -15,4 +15,5 @@ source("scripts/render_collection.R")
 knitr::kable(make_collection_table(), format = "html")
 ```
 
-This page was last updated on `r Sys.Date()`
+<br><br><br>
+This page was last updated on `r Sys.time()`
