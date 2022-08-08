@@ -16,6 +16,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          token: ${{ secrets.GH_PAT }}
 
         # Use the yaml-env-action action.
       - name: Load environment from YAML
@@ -38,8 +39,6 @@ jobs:
             echo branch does exist
           fi
         shell: bash
-        with:
-          token: ${{ secrets.GH_PAT }}
 
       - name: Check if this is a private repository
         id: public_repository
