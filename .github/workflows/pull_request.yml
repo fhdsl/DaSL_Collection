@@ -24,6 +24,8 @@ jobs:
             files: config_automation.yml # Pass a space-separated list of configuration files. Rightmost files take precedence.
 
       - name: Make branch if it doesn't exist
+        with:
+          token: ${{ secrets.GH_PAT }}
         run: |
           git config --local user.email "avamariehoffman@gmail.com"
           git config --local user.name "avahoffman"
