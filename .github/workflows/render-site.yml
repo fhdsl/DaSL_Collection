@@ -5,27 +5,27 @@
 
 name: Render html
 
-# Controls when the action will run. Triggers the workflow on push
-# events only for the master branch
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
-    paths:
-      - '**.Rmd'
-      - styles.css
-      - _site.yml
-      - resources/images/*.png
-      - resources/images/favicon.ico
-      - site_libs/*
+    branches: [ main, staging ]
 
 jobs:
-  # This workflow contains a single job called "build-all"
+  build-collection:
+    name: Build Collection
+    uses: ./.github/workflows/build-collection.yml
+    with:
+      render-type: 'main'
+      repository: $GITHUB_REPOSITORY
+    secrets:
+      gh_pat: ${{ secrets.GH_PAT }}
+  
   render-main:
     runs-on: ubuntu-latest
           # install.packages("remotes") # in case we decide not to go with the container...
           # remotes::install_cran("rmarkdown")
           # remotes::install_deps(dependencies = TRUE)
+    needs: build-collection
     container:
       image: jhudsl/course_template
     # Steps represent a sequence of tasks that will be executed as part of the job
