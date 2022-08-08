@@ -22,10 +22,10 @@ Enter a concise description, for example "A guide for instructors using AnVIL fo
 
 Make sure you link to the website where your course is being rendered. For example, this repository links to https://jhudatascience.org/AnVIL_Book_Instructor_Guide.
 
-![Add a description to the repository.](https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/resources/screenshots/repo-homepage.png)
+![Add a homepage link to the repository.](https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/resources/screenshots/repo-homepage.png)
 
 ### (4) Repository Topics
 
 Finally, you should add any relevant topics, as they will be listed in the Collection table!
 
-![Add a description to the repository.](https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/resources/screenshots/repo-tags.png)
+![Add tags to the repository.](https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/resources/screenshots/repo-tags.png)
