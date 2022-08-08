@@ -64,4 +64,5 @@ jobs:
           git add --force *.html
           git add --force site_libs/*
           git commit -m 'Render site' || echo "No changes to commit"
+          git pull --allow-unrelated-histories --strategy-option=ours
           git push origin main || echo "No changes to push"
