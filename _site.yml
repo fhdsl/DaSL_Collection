@@ -3,11 +3,8 @@ output_dir: '.'
 navbar:
   title: DaSL Collection
   left:
-  - text: Home
-    href: index.html
-  - text: Contact
-    href: contact.html
-    icon: fa-envelope
+  - text: Contribute
+    href: contribute.html
 
 
 output:

@@ -16,6 +16,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          token: ${{ secrets.GH_PAT }}
 
         # Use the yaml-env-action action.
       - name: Load environment from YAML
@@ -58,6 +59,16 @@ jobs:
       toggle_spell_check: "${{ env.SPELL_CHECK }}"
       toggle_url_check: "${{ env.URL_CHECKER }}"
       toggle_render_preview: "${{ env.RENDER_PREVIEW }}"
+
+  build-collection:
+    name: Build Collection
+    needs: yaml-check
+    uses: ./.github/workflows/build-collection.yml
+    with:
+      render-type: 'preview'
+      repository: $GITHUB_REPOSITORY
+    secrets:
+      gh_pat: ${{ secrets.GH_PAT }}
 
   spell-check:
     name: Check spelling
@@ -274,7 +285,7 @@ jobs:
 
   render-preview:
     name: Render preview
-    needs: yaml-check
+    needs: [yaml-check, build-collection]
     runs-on: ubuntu-latest
     container:
       image: jhudsl/course_template:main

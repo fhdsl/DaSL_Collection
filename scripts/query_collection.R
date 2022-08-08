@@ -22,7 +22,7 @@ git_pat <- opt$git_pat
 
 message(paste("Querying Github API..."))
 
-# Request search results specific to jhudsl organization
+# Request search results specific to jhudsl + fhdsl organizations
 # and provide the appropriate GH token
 req <- httr::GET(
   "https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl&per_page=500",
@@ -32,20 +32,24 @@ req <- httr::GET(
 if (!(httr::http_error(req))) {
   message(paste("API request successful!"))
   
-  # Read in and save data
+  # Read in
   repo_dat <-
-    jsonlite::fromJSON(httr::content(req_jhu, as = "text"), flatten = TRUE)
-  message(paste("...", repo_dat_1$total_count, " repositories detected."))
+    jsonlite::fromJSON(httr::content(req, as = "text"), flatten = TRUE)
+  message(paste("...", repo_dat$total_count, " repositories detected."))
   
-  # Modify the request results to get what we need
   repo_df <-
     tibble(repo_dat$items) %>%
-    select(name, homepage, html_url, description) %>%
+    select(name, homepage, html_url, description, private) %>% 
     # Collapse topics so they can be printed
     bind_cols(tibble(topics = unlist(
       lapply(repo_dat$items$topics, paste, collapse = ", ")
     ))) %>%
+    # Drop private repos
+    filter(!(private)) %>% 
+    select(!(private)) %>%
+    # Rearrange columns
     relocate(description, .before = topics) %>%
+    # Keep only those with homepages and descriptions
     filter(!(is.na(homepage)), homepage != "",!(is.na(description)))
   
   message(paste(
