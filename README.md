@@ -18,4 +18,12 @@ The collection is rendered nightly at 3am EST.
 
 ### How can I add my new course/content to the Collection?
 
-Your repository must be created under the jhudsl or fhdsl organizations and meet the above criteria. For more information see the [Contributing](https://hutchdatascience.org/DaSL_Collection/contribute.html) tab.
+Your repository must be created under the jhudsl, fhdsl, or datatrail-jhu organizations and meet the above criteria. For more information see the [Contributing](https://hutchdatascience.org/DaSL_Collection/contribute.html) tab.
+
+For repositories under other organizations, you can fork the repository into the jhudsl or fhdsl organizations. [Example](https://github.com/fhdsl/Data-Wrangling)
+
+### I want to use the raw Collection data!
+
+You can use the following link:
+
+<https://raw.githubusercontent.com/fhdsl/DaSL_Collection/main/resources/collection.tsv>
