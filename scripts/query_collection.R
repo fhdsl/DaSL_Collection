@@ -25,7 +25,7 @@ message(paste("Querying Github API..."))
 # Request search results specific to jhudsl + fhdsl organizations
 # and provide the appropriate GH token
 req <- httr::GET(
-  "https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl&per_page=500",
+  "https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl+fork:true&per_page=500",
   httr::add_headers(Authorization = paste("token", git_pat))
 )
 
