@@ -32,11 +32,8 @@ message(paste("Querying Github API..."))
 # Also allows us to pull in repos forked into these organizations
 url <- "https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl+user:datatrail-jhu+fork:true&per_page=50"
 
-# Provide the appropriate GH token
-config <- config(add_headers(Authorization = paste("token", git_pat)))
-
-# Make the request
-req <- GET(url = url, config = config)
+# Provide the appropriate GH token & Make the request
+req <- GET(url = url, config = add_headers(Authorization = paste("token", git_pat)))
 
 if (!(httr::http_error(req))) {
   message(paste("API request successful!"))
@@ -54,7 +51,7 @@ for (page in 1:last){
   
   url <- paste0("https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl+user:datatrail-jhu+fork:true&per_page=50&page=", page)
   message(paste("Gathering results from:", url))
-  req <- GET(url = url, config = config)
+  req <- GET(url = url, config = add_headers(Authorization = paste("token", git_pat)))
   repo_dat <-
     jsonlite::fromJSON(httr::content(req, as = "text"), flatten = TRUE)
   message(paste("... Gathered", nrow(repo_dat$items), "repositories."))
@@ -93,8 +90,8 @@ for (page in 1:last){
 if (!dir.exists("resources")) {
   dir.create("resources")
 }
-if (nrow(repo_df) > 0) {
-  readr::write_tsv(repo_df, file.path('resources', 'collection.tsv'))
+if (nrow(full_repo_df) > 0) {
+  readr::write_tsv(full_repo_df, file.path('resources', 'collection.tsv'))
 } else {
   readr::write_tsv(tibble(), file.path('resources', 'collection.tsv'))
 }
