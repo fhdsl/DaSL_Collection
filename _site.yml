@@ -13,6 +13,6 @@ output:
     lib_dir: site_libs
     self_contained: no
     highlight: textmate
-    css: styles.css
+    css: main.scss
     includes:
        in_header: resources/header.html
