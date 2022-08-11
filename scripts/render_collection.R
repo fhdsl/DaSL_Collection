@@ -25,7 +25,6 @@ make_collection_table <- function(exclude = NULL) {
       df <-
         df %>%
         mutate(`Book Name` = paste0("[", name, "](", homepage, ") ([github](", html_url, "))")) %>%
-        arrange(`Book Name`) %>%
         rename(Description = description, Topics = topics) %>%
         select(`Book Name`, Description, Topics)
     },
