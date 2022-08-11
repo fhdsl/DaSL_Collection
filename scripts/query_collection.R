@@ -48,29 +48,29 @@ last <- str_extract(req$headers$link, pattern = "\\d+")
 
 full_repo_df <- tibble()
 for (page in 1:last){
-  
+
   url <- paste0("https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl+user:datatrail-jhu+fork:true&per_page=50&page=", page)
   message(paste("Gathering results from:", url))
   req <- GET(url = url, config = add_headers(Authorization = paste("token", git_pat)))
   repo_dat <-
     jsonlite::fromJSON(httr::content(req, as = "text"), flatten = TRUE)
   message(paste("... Gathered", nrow(repo_dat$items), "repositories."))
-  
+
   repo_df <-
     tibble(repo_dat$items) %>%
-    select(full_name, homepage, html_url, description, private) %>% 
-    separate(full_name, into = c("org", "name"), sep = "/") %>% 
-    
+    select(full_name, homepage, html_url, description, private) %>%
+    separate(full_name, into = c("org", "name"), sep = "/") %>%
+
     # Add "DataTrail:" to datatrail repo names
     mutate(name = case_when(
       org == "datatrail-jhu" ~ paste("DataTrail:", name),
-      TRUE ~ name)) %>% 
-    
+      TRUE ~ name)) %>%
+
     # Collapse topics so they can be printed
     bind_cols(tibble(topics = unlist(
       lapply(repo_dat$items$topics, paste, collapse = ", ")
-    ))) %>% 
-    
+    ))) %>%
+
     # Drop private repos and remove org column
     filter(!(private)) %>%
     select(!c(private, org)) %>%
@@ -80,8 +80,9 @@ for (page in 1:last){
 
     # Keep only those with homepages and descriptions
     filter(!(is.na(homepage)), homepage != "",!(is.na(description)))
-  
-  full_repo_df <- rbind(full_repo_df, repo_df)
+
+  full_repo_df <- rbind(full_repo_df, repo_df) %>%
+    dplyr::arrange(name)
 }
 
 # --------- Save the collection ---------
