@@ -6,6 +6,7 @@ intro_to_r	https://jhudatascience.org/intro_to_r/	https://github.com/jhudsl/intr
 GDSCN_Book_Statistics_for_Genomics_RNA-seq	https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_RNA-seq/	https://github.com/jhudsl/GDSCN_Book_Statistics_for_Genomics_RNA-seq	A set of lab modules for RNA-seq analysis	anvil
 AnVIL_Book_Instructor_Guide	https://jhudatascience.org/AnVIL_Book_Instructor_Guide	https://github.com/jhudsl/AnVIL_Book_Instructor_Guide	A guide for instructors using AnVIL for workshops, lessons, or courses.	anvil, education
 ottr-website	https://www.ottrproject.org/	https://github.com/jhudsl/ottr-website	The website for OTTR	
+Data-Wrangling	http://sisbid.github.io/Data-Wrangling/	https://github.com/fhdsl/Data-Wrangling	UW Summer Institute in Statistics: Data Wrangling in R	r-programming
 code_review	https://hutchdatascience.org/code_review/	https://github.com/fhdsl/code_review	A repository with tips about code review and implementing it in a lab	codereview, fhdasl, training
 GDSCN_Book_Statistics_for_Genomics_PCA	https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_PCA/	https://github.com/jhudsl/GDSCN_Book_Statistics_for_Genomics_PCA	A set of lab modules for PCA analysis	anvil
 Baltimore_Community_Course	https://jhudatascience.org/Baltimore_Community_Course	https://github.com/jhudsl/Baltimore_Community_Course	Baltimore Community Data Science Course at JHSPH through partnership with SOURCE	community-outreach, course, data-science
