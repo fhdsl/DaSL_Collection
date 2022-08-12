@@ -1,19 +1,21 @@
 ---
-title: "**DaSL Collection**"
-output:
-  html_document
+title: '**DaSL Collection**'
+layout: single
+classes: wide
+permalink: /
+toc: false
+header:
+ overlay_color: "#123054"
+ overlay_filter: "0.2"
+ overlay_image: "/images/FHDataScienceLab_brothers.png"
 ---
-
-<div class = "banner_color">
- Resources created by the Fred Hutch and Johns Hopkins University Data Science Labs
-</div>
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 
-# Create table for AnVIL repos detected through the API
 knitr::kable(make_collection_table(), format = "html")
 ```
 
 <br><br><br>
 This page was last updated on `r Sys.time()`
+
