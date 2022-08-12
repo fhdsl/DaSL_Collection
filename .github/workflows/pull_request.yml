@@ -312,19 +312,22 @@ jobs:
       # We want a fresh run of the renders each time - so first delete old index.md file
       - name: Delete old index.md
         run: |
-          rm -f "_pages/index.md"
+          rm -f _pages/index.md
 
-       # Now we want to render Rmd -> md
-      - name: Run Rmd to md
+      # Now we want to render Rmd -> md
+      # Requires a little bit of shuffling around of files.
+      - name: Convert Rmd to md
         run: |
-          Rscript "scripts/build.R"
+          mv _pages/index.Rmd .
+          Rscript scripts/build.R
+          mv index.Rmd _pages/
+          mv index.md _pages/
 
       # Commit the rendered website files
       - name: Commit rendered website files to preview branch
         id: commit
         run: |
           branch_name='preview-${{ github.event.pull_request.number }}'
-          git diff origin/main -- '*.md' >/dev/null && changes=true || changes=false
           echo ::set-output name=changes::$changes
           git add . --force
           git commit -m 'Render preview' || echo "No changes to commit"
