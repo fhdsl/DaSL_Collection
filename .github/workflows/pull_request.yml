@@ -318,7 +318,8 @@ jobs:
       #   id: site
       #   run: Rscript -e "rmarkdown::render_site()"
       - name: Run Rmd to md
-        run: Rscript -e scripts/build.R
+        run: |
+          Rscript "scripts/build.R"
 
       # This checks on the steps before it and makes sure that they completed.
       # If the renders didn't complete we don't want to commit the file changes
