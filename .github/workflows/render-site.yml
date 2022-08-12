@@ -48,12 +48,16 @@ jobs:
       # We want a fresh run of the renders each time - so first delete old index.md file
       - name: Delete old index.md
         run: |
-          rm -f "_pages/index.md"
+          rm -f _pages/index.md
 
-       # Now we want to render Rmd -> md
-      - name: Run Rmd to md
+      # Now we want to render Rmd -> md
+      # Requires a little bit of shuffling around of files.
+      - name: Convert Rmd to md
         run: |
-          Rscript "scripts/build.R"
+          mv _pages/index.Rmd .
+          Rscript scripts/build.R
+          mv index.Rmd _pages/
+          mv index.md _pages/
 
       # Commit the rendered site files - html files and site_libs files
       - name: Commit rendered site files
