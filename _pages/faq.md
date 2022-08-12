@@ -2,7 +2,7 @@
 title: Contribute to the DaSL Collection
 layout: single
 classes: wide
-permalink: /FAQ/
+permalink: /faq/
 toc: true
 toc_label: "On This Page"
 toc_sticky: true
