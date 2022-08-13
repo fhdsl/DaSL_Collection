@@ -335,19 +335,6 @@ documentation, software-development
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[fhdsl.github.io](http://hutchdatascience.org/)
-([github](https://github.com/fhdsl/fhdsl.github.io))
-</td>
-<td markdown="1" style="text-align:left;">
-This is the hutchdatascience.org landing page. This is where we talk
-about what it is that we do.
-</td>
-<td markdown="1" style="text-align:left;">
-markdown, website
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [GDSCN: SARS Galaxy on
 AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/)
 ([github](https://github.com/jhudsl/GDSCN_Book_SARS_Galaxy_on_AnVIL))
@@ -544,4 +531,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-08-12 19:14:46
+<br><br><br> This page was last updated on 2022-08-13 03:47:13
