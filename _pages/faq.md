@@ -1,16 +1,6 @@
 ---
-title: Contribute to the DaSL Collection
-layout: single
-classes: wide
+title: FAQ
 permalink: /faq/
-toc: true
-toc_label: "On This Page"
-toc_sticky: true
-header:
- overlay_color: "#123054"
- overlay_filter: "0.2"
- overlay_image: "/images/FHDataScienceLab_brothers.png"
-#excerpt: "Data.  It happens.  "
 ---
 
 # What is the DaSL Collection?
@@ -23,11 +13,11 @@ The Collection workflow uses three important things to add courses to the DaSL C
 
 # How often is the Collection updated?
 
-The collection is rendered nightly at 3am EST.
+The collection is rendered nightly between 3am and 5am EST.
 
 # How can I add my new course/content to the Collection?
 
-Your repository must be created under the jhudsl, fhdsl, or datatrail-jhu organizations and meet the above criteria. For more information see the [Contributing](https://hutchdatascience.org/DaSL_Collection/contribute.html) tab.
+Your repository must be created under the jhudsl, fhdsl, or datatrail-jhu organizations and meet the above criteria. For more information see the [FAQ](https://hutchdatascience.org/DaSL_Collection/faq.html) tab.
 
 For repositories under other organizations, you can fork the repository into the jhudsl or fhdsl organizations. [Example](https://github.com/fhdsl/Data-Wrangling)
 
