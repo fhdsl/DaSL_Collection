@@ -1,10 +1,4 @@
 ---
-classes: wide
-header:
-  overlay_color: "#123054"
-  overlay_filter: 0.2
-  overlay_image: /images/FHDataScienceLab_brothers.png
-layout: single
 permalink: /
 title: "**DaSL Collection**"
 toc: false
@@ -89,18 +83,6 @@ with SOURCE
 </td>
 <td markdown="1" style="text-align:left;">
 community-outreach, course, data-science
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[chromebookdatascience](http://jhudatascience.org/chromebookdatascience/index.html)
-([github](https://github.com/jhudsl/chromebookdatascience))
-</td>
-<td markdown="1" style="text-align:left;">
-Chromebook Data Science website content
-</td>
-<td markdown="1" style="text-align:left;">
-NA
 </td>
 </tr>
 <tr markdown="1">
@@ -531,4 +513,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-08-16 04:03:11
+<br><br><br> This page was last updated on 2022-08-16 17:03:19
