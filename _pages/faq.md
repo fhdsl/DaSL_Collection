@@ -1,16 +1,6 @@
 ---
-title: Contribute to the DaSL Collection
-layout: single
-classes: wide
+title: FAQ
 permalink: /faq/
-toc: true
-toc_label: "On This Page"
-toc_sticky: true
-header:
- overlay_color: "#123054"
- overlay_filter: "0.2"
- overlay_image: "/images/FHDataScienceLab_brothers.png"
-#excerpt: "Data.  It happens.  "
 ---
 
 # What is the DaSL Collection?

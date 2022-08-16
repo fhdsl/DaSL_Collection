@@ -1,13 +1,7 @@
 ---
 title: '**DaSL Collection**'
-layout: single
-classes: wide
 permalink: /
 toc: false
-header:
- overlay_color: "#123054"
- overlay_filter: "0.2"
- overlay_image: "/images/FHDataScienceLab_brothers.png"
 ---
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
