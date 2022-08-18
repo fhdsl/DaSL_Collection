@@ -43,7 +43,7 @@ Started](https://jhudatascience.org/AnVIL_Book_Getting_Started)
 A guide for getting started using AnVIL
 </td>
 <td markdown="1" style="text-align:left;">
-anvil
+anvil, cloud-computing
 </td>
 </tr>
 <tr markdown="1">
@@ -135,7 +135,7 @@ content-library, website
 UW Summer Institute in Statistics: Data Wrangling in R
 </td>
 <td markdown="1" style="text-align:left;">
-r-programming
+data-science, r-programming, tidyverse
 </td>
 </tr>
 <tr markdown="1">
@@ -338,7 +338,7 @@ Expression](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_Differ
 A set of lab modules for an introduction to differential gene expression
 </td>
 <td markdown="1" style="text-align:left;">
-anvil
+anvil, cloud-computing, gene-expression
 </td>
 </tr>
 <tr markdown="1">
@@ -403,7 +403,7 @@ A 2-week introduction to R programming course, with a focus on public
 health datasets
 </td>
 <td markdown="1" style="text-align:left;">
-beginner, course, r-programming
+beginner, course, r-programming, tidyverse
 </td>
 </tr>
 <tr markdown="1">
@@ -513,4 +513,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-08-17 04:19:02
+<br><br><br> This page was last updated on 2022-08-18 04:21:22
