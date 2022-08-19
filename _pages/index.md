@@ -35,6 +35,19 @@ python, r, reproducibility, version-control
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[AnVIL: Getting
+Started](https://jhudatascience.org/AnVIL_Book_Getting_Started)
+([github](https://github.com/jhudsl/AnVIL_Book_Getting_Started))
+</td>
+<td markdown="1" style="text-align:left;">
+A guide for getting started using AnVIL
+</td>
+<td markdown="1" style="text-align:left;">
+anvil, cloud-computing
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [AnVIL: Instructor
 Guide](https://jhudatascience.org/AnVIL_Book_Instructor_Guide)
 ([github](https://github.com/jhudsl/AnVIL_Book_Instructor_Guide))
@@ -98,19 +111,6 @@ computing options and etiquette for using shared resources.
 </td>
 <td markdown="1" style="text-align:left;">
 computing, informatics
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DaSL Collection](https://hutchdatascience.org/DaSL_Collection)
-([github](https://github.com/fhdsl/DaSL_Collection))
-</td>
-<td markdown="1" style="text-align:left;">
-📚 An auto-generating library of all Data Science Lab Github-based
-content
-</td>
-<td markdown="1" style="text-align:left;">
-content-library, website
 </td>
 </tr>
 <tr markdown="1">
@@ -216,6 +216,19 @@ data-science, programming, r
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[DataTrail: 06
+datacleaning](https://datatrail-jhu.github.io/06_datacleaning)
+([github](https://github.com/datatrail-jhu/06_datacleaning))
+</td>
+<td markdown="1" style="text-align:left;">
+Course 6: Data cleaning and wrangling
+</td>
+<td markdown="1" style="text-align:left;">
+data-science, data-tidying, data-wrangling
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [DataTrail: 07 dataviz](https://datatrail-jhu.github.io/07_dataviz)
 ([github](https://github.com/datatrail-jhu/07_dataviz))
 </td>
@@ -224,18 +237,6 @@ Course 7: Data Visualization
 </td>
 <td markdown="1" style="text-align:left;">
 data-science, data-visualization, ggplot2
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DataTrail: 08 data](https://datatrail-jhu.github.io/08_data/)
-([github](https://github.com/datatrail-jhu/08_data))
-</td>
-<td markdown="1" style="text-align:left;">
-Course 8: Getting Data
-</td>
-<td markdown="1" style="text-align:left;">
-data-download, data-science, data-setup
 </td>
 </tr>
 <tr markdown="1">
@@ -316,20 +317,6 @@ documentation, software-development
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[Documentation and
-Usability](https://jhudatascience.org/Documentation_and_Usability/)
-([github](https://github.com/jhudsl/Documentation_and_Usability))
-</td>
-<td markdown="1" style="text-align:left;">
-A course to cover the basics of creating documentation and tutorials to
-maximize the usability of informatics tools
-</td>
-<td markdown="1" style="text-align:left;">
-documentation, software-development
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [GDSCN: SARS Galaxy on
 AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/)
 ([github](https://github.com/jhudsl/GDSCN_Book_SARS_Galaxy_on_AnVIL))
@@ -339,19 +326,6 @@ Lab module and lectures for variant detection in SARS-CoV-2 using Galaxy
 </td>
 <td markdown="1" style="text-align:left;">
 anvil, genomics, module
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[GDSCN: Statistics for Genomics Differential
-Expression](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_Differential_Expression/)
-([github](https://github.com/jhudsl/GDSCN_Book_Statistics_for_Genomics_Differential_Expression))
-</td>
-<td markdown="1" style="text-align:left;">
-A set of lab modules for an introduction to differential gene expression
-</td>
-<td markdown="1" style="text-align:left;">
-anvil, cloud-computing, gene-expression
 </td>
 </tr>
 <tr markdown="1">
@@ -388,19 +362,6 @@ RNA-seq](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_RNA-seq/)
 </td>
 <td markdown="1" style="text-align:left;">
 A set of lab modules for RNA-seq analysis
-</td>
-<td markdown="1" style="text-align:left;">
-anvil
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[GDSCN: Statistics for Genomics
-scRNA-seq](http://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_SCRNA-seq/)
-([github](https://github.com/jhudsl/GDSCN_Book_Statistics_for_Genomics_scRNA-seq))
-</td>
-<td markdown="1" style="text-align:left;">
-A set of lab modules for single cell RNA-seq analysis
 </td>
 <td markdown="1" style="text-align:left;">
 anvil
@@ -549,19 +510,7 @@ Website for the Uplift Hub
 NA
 </td>
 </tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[uplifthub website](https://www.uplifthub.org)
-([github](https://github.com/fhdsl/uplifthub_website))
-</td>
-<td markdown="1" style="text-align:left;">
-Website for the Uplift Hub
-</td>
-<td markdown="1" style="text-align:left;">
-NA
-</td>
-</tr>
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-08-19 04:08:03
+<br><br><br> This page was last updated on 2022-08-19 15:15:19
