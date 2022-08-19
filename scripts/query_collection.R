@@ -44,7 +44,7 @@ if (!(httr::http_error(req))) {
 # --------- Traverse pages ---------
 
 # Pull out the last page number of the request
-last <- str_extract(req$headers$link, pattern = "\\d+")
+last <- str_extract(req$headers$link, pattern = '.(?=>; rel=\"last\")')
 
 full_repo_df <- tibble()
 for (page in 1:last){
