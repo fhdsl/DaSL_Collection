@@ -61,6 +61,19 @@ anvil, education
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[AnVIL
+Phylogenetic-Techniques](https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/)
+([github](https://github.com/jhudsl/AnVIL_Phylogenetic-Techniques))
+</td>
+<td markdown="1" style="text-align:left;">
+<https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/>
+</td>
+<td markdown="1" style="text-align:left;">
+anvil
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [AnVIL Template](https://jhudatascience.org/AnVIL_Template/)
 ([github](https://github.com/jhudsl/AnVIL_Template))
 </td>
@@ -462,18 +475,6 @@ NA
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[phylogenetic-techniques](https://jhudatascience.org/phylogenetic-techniques/)
-([github](https://github.com/jhudsl/phylogenetic-techniques))
-</td>
-<td markdown="1" style="text-align:left;">
-<https://jhudatascience.org/phylogenetic-techniques/>
-</td>
-<td markdown="1" style="text-align:left;">
-anvil
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [Reproducibility in Cancer
 Informatics](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/)
 ([github](https://github.com/jhudsl/Reproducibility_in_Cancer_Informatics))
@@ -513,4 +514,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-08-23 04:43:30
+<br><br><br> This page was last updated on 2022-08-24 04:26:31
