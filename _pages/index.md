@@ -66,10 +66,11 @@ Phylogenetic-Techniques](https://jhudatascience.org/AnVIL_Phylogenetic-Technique
 ([github](https://github.com/jhudsl/AnVIL_Phylogenetic-Techniques))
 </td>
 <td markdown="1" style="text-align:left;">
-<https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/>
+A semester-long course on the basics of molecular phylogenetic
+techniques
 </td>
 <td markdown="1" style="text-align:left;">
-anvil
+anvil, r-programming
 </td>
 </tr>
 <tr markdown="1">
@@ -514,4 +515,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-09-10 04:40:52
+<br><br><br> This page was last updated on 2022-09-11 04:24:46
