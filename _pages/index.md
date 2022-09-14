@@ -426,10 +426,10 @@ beginner, course, r-programming, tidyverse
 ([github](https://github.com/jhudsl/jhudsl.github.io))
 </td>
 <td markdown="1" style="text-align:left;">
-source code for
+source code for the JHU Data Science Lab website
 </td>
 <td markdown="1" style="text-align:left;">
-NA
+website
 </td>
 </tr>
 <tr markdown="1">
@@ -515,4 +515,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-09-13 04:50:09
+<br><br><br> This page was last updated on 2022-09-14 04:45:28
