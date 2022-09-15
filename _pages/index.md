@@ -384,7 +384,7 @@ anvil
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
 [GDSCN: Statistics for Genomics
-scRNA-seq](http://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_SCRNA-seq/)
+scRNA-seq](http://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_scRNA-seq/)
 ([github](https://github.com/jhudsl/GDSCN_Book_Statistics_for_Genomics_scRNA-seq))
 </td>
 <td markdown="1" style="text-align:left;">
@@ -515,4 +515,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-09-14 04:45:28
+<br><br><br> This page was last updated on 2022-09-15 04:49:26
