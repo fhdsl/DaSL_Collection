@@ -317,6 +317,18 @@ data-science, package-development, r-package
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[DataTrail: DataTrail](https://datatrail-jhu.github.io/DataTrail/)
+([github](https://github.com/datatrail-jhu/DataTrail))
+</td>
+<td markdown="1" style="text-align:left;">
+The re-organized DataTrail curriculum <https://www.datatrail.org/>
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [Documentation and
 Usability](https://jhudatascience.org/Documentation_and_Usability/)
 ([github](https://github.com/jhudsl/Documentation_and_Usability))
@@ -515,4 +527,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-09-27 04:41:06
+<br><br><br> This page was last updated on 2022-09-28 04:50:34
