@@ -329,6 +329,19 @@ NA
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[DataTrail: scn](http://swirlstats.com/scn/)
+([github](https://github.com/datatrail-jhu/scn))
+</td>
+<td markdown="1" style="text-align:left;">
+:school_satchel: The swirl Course Network - A Repository for swirl
+Courses
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [Documentation and
 Usability](https://jhudatascience.org/Documentation_and_Usability/)
 ([github](https://github.com/jhudsl/Documentation_and_Usability))
@@ -527,4 +540,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-09-28 04:50:34
+<br><br><br> This page was last updated on 2022-09-29 04:50:23
