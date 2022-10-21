@@ -22,7 +22,7 @@ url                      :  "https://hutchdatascience.org/" # the base hostname 
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "fhdsl/fhdsl.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 logo                     : "/images/FHDaSL_SQ-funfetti.png" ## "/images/fhdasl-brothers-squared.png"
-teaser                   : #"/images/FHDataScienceLab_Rec.png"  ## "/images/Data-Science-Lab.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/images/FHDataScienceLab_Rec_funfetti.png"  ## "/images/Data-Science-Lab.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 
 
 # atom_feed:
