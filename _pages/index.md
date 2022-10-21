@@ -356,6 +356,34 @@ documentation, software-development
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[FH Cluster
+Guide](https://leanpub.com/courses/fredhutch/fredhutchcluster101)
+([github](https://github.com/fhdsl/FH_Cluster_Guide))
+</td>
+<td markdown="1" style="text-align:left;">
+This course introduces users to the Fred Hutch Cluster. It will lead
+users through account creation, using the terminal, connecting to the
+cluster, submitting jobs, and transferring files. Available in both web
+and Leanpub formats.
+</td>
+<td markdown="1" style="text-align:left;">
+command-line, computing-cluster, course, fredhutch, hpcc
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
+[FH letterhead](https://github.com/fhdsl/FH_letterhead)
+([github](https://github.com/fhdsl/FH_letterhead))
+</td>
+<td markdown="1" style="text-align:left;">
+A LaTeX template for Fred Hutch letterhead
+</td>
+<td markdown="1" style="text-align:left;">
+latex, letterhead, template
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [GDSCN: SARS Galaxy on
 AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/)
 ([github](https://github.com/jhudsl/GDSCN_Book_SARS_Galaxy_on_AnVIL))
@@ -567,4 +595,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-10-21 19:38:58
+<br><br><br> This page was last updated on 2022-10-21 20:26:33
