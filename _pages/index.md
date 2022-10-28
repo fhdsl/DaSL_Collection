@@ -384,6 +384,18 @@ latex, letterhead, template
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[FH WDL101 Cromwell](https://hutchdatascience.org/FH_WDL101_Cromwell/)
+([github](https://github.com/fhdsl/FH_WDL101_Cromwell))
+</td>
+<td markdown="1" style="text-align:left;">
+An introduction to using Cromwell and WDL at the Fred Hutch
+</td>
+<td markdown="1" style="text-align:left;">
+course, fredhutch, wdl
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [GDSCN: SARS Galaxy on
 AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/)
 ([github](https://github.com/jhudsl/GDSCN_Book_SARS_Galaxy_on_AnVIL))
@@ -595,4 +607,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-10-27 03:37:12
+<br><br><br> This page was last updated on 2022-10-28 03:39:03
