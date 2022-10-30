@@ -396,6 +396,18 @@ course, fredhutch, wdl
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[FH WDL102 Workflows](https://hutchdatascience.org/FH_WDL102_Workflows/)
+([github](https://github.com/fhdsl/FH_WDL102_Workflows))
+</td>
+<td markdown="1" style="text-align:left;">
+Introduction to creating WDL workflows
+</td>
+<td markdown="1" style="text-align:left;">
+course, fredhutch, openwdl, wdl, workflows
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [GDSCN: SARS Galaxy on
 AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/)
 ([github](https://github.com/jhudsl/GDSCN_Book_SARS_Galaxy_on_AnVIL))
@@ -607,4 +619,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-10-29 03:34:33
+<br><br><br> This page was last updated on 2022-10-30 03:43:20
