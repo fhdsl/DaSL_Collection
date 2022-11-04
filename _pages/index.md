@@ -372,18 +372,6 @@ command-line, computing-cluster, course, fredhutch, hpcc
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[FH letterhead](https://github.com/fhdsl/FH_letterhead)
-([github](https://github.com/fhdsl/FH_letterhead))
-</td>
-<td markdown="1" style="text-align:left;">
-A LaTeX template for Fred Hutch letterhead
-</td>
-<td markdown="1" style="text-align:left;">
-latex, letterhead, template
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [FH WDL101 Cromwell](https://hutchdatascience.org/FH_WDL101_Cromwell/)
 ([github](https://github.com/fhdsl/FH_WDL101_Cromwell))
 </td>
@@ -553,6 +541,21 @@ education, online-learning, open-source
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[OTTR Template
+Website](http://jhudatascience.org/OTTR_Template_Website/)
+([github](https://github.com/jhudsl/OTTR_Template_Website))
+</td>
+<td markdown="1" style="text-align:left;">
+Template to create websites with checks for broken urls and spelling, as
+well as automated rendering. This is an offshoot of the OTTR_Template
+(<https://github.com/jhudsl/OTTR_Template>).
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [ottr-website](https://www.ottrproject.org/)
 ([github](https://github.com/jhudsl/ottr-website))
 </td>
@@ -604,4 +607,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-11-03 03:34:19
+<br><br><br> This page was last updated on 2022-11-04 03:36:17
