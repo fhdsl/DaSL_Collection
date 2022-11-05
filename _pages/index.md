@@ -372,6 +372,18 @@ command-line, computing-cluster, course, fredhutch, hpcc
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[FH letterhead](https://github.com/fhdsl/FH_letterhead)
+([github](https://github.com/fhdsl/FH_letterhead))
+</td>
+<td markdown="1" style="text-align:left;">
+A LaTeX template for Fred Hutch letterhead
+</td>
+<td markdown="1" style="text-align:left;">
+latex, letterhead, template
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [FH WDL101 Cromwell](https://hutchdatascience.org/FH_WDL101_Cromwell/)
 ([github](https://github.com/fhdsl/FH_WDL101_Cromwell))
 </td>
@@ -607,4 +619,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-11-04 03:36:17
+<br><br><br> This page was last updated on 2022-11-05 03:30:23
