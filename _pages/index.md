@@ -580,20 +580,6 @@ NA
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[Reproducibility in Cancer
-Informatics](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/)
-([github](https://github.com/jhudsl/Reproducibility_in_Cancer_Informatics))
-</td>
-<td markdown="1" style="text-align:left;">
-This course discusses reproducibility and replicability in the context
-of cancer informatics.
-</td>
-<td markdown="1" style="text-align:left;">
-data-science, informatics, python, r, reproducibility
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [tidyversecourse](http://jhudatascience.org/tidyversecourse/)
 ([github](https://github.com/jhudsl/tidyversecourse))
 </td>
@@ -619,4 +605,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-11-05 03:30:23
+<br><br><br> This page was last updated on 2022-11-06 03:32:18
