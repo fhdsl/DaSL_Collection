@@ -27,3 +27,7 @@ For repositories under other organizations, you can fork the repository into the
 You can use the following link:
 
 <https://raw.githubusercontent.com/fhdsl/DaSL_Collection/main/resources/collection.tsv>
+
+### Testing Locally
+
+Testing the rendering of the collection before committing changes can be done with instructions [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
