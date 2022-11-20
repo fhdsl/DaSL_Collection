@@ -486,20 +486,6 @@ NA
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[GDSCN SARS Phylogeny on
-AnVIL](https://hutchdatascience.org/GDSCN_SARS_Phylogeny_on_AnVIL/)
-([github](https://github.com/fhdsl/GDSCN_SARS_Phylogeny_on_AnVIL))
-</td>
-<td markdown="1" style="text-align:left;">
-Lab module and lectures for identifying phylogenetic history of SARS
-variants using R
-</td>
-<td markdown="1" style="text-align:left;">
-NA
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [Informatics Research
 Leadership](https://jhudatascience.org/Informatics_Research_Leadership/)
 ([github](https://github.com/jhudsl/Informatics_Research_Leadership))
@@ -619,4 +605,4 @@ NA
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-11-19 03:24:41
+<br><br><br> This page was last updated on 2022-11-20 03:28:59
