@@ -616,7 +616,19 @@ Website for the Uplift Hub
 NA
 </td>
 </tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
+[Using Leanpub](https://hutchdatascience.org/Using_Leanpub/)
+([github](https://github.com/fhdsl/Using_Leanpub))
+</td>
+<td markdown="1" style="text-align:left;">
+A gentle introduction to Leanpub
+</td>
+<td markdown="1" style="text-align:left;">
+education, leanpub
+</td>
+</tr>
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-12-03 03:06:32
+<br><br><br> This page was last updated on 2022-12-04 03:06:56
