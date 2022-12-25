@@ -400,7 +400,7 @@ course, fredhutch, wdl
 ([github](https://github.com/fhdsl/FH_WDL102_Workflows))
 </td>
 <td markdown="1" style="text-align:left;">
-Introduction to creating WDL workflows
+Info about designing, optimizing and deploying your own WDL workflows
 </td>
 <td markdown="1" style="text-align:left;">
 course, fredhutch, openwdl, wdl, workflows
@@ -631,4 +631,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-12-24 03:06:28
+<br><br><br> This page was last updated on 2022-12-25 03:06:22
