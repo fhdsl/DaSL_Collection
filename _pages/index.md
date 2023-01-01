@@ -372,6 +372,18 @@ command-line, computing-cluster, course, fredhutch, hpcc
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[FH Cluster201](https://hutchdatascience.org/FH_Cluster201/)
+([github](https://github.com/fhdsl/FH_Cluster201))
+</td>
+<td markdown="1" style="text-align:left;">
+An emerging course for effective use of FH Computing.
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [FH letterhead](https://github.com/fhdsl/FH_letterhead)
 ([github](https://github.com/fhdsl/FH_letterhead))
 </td>
@@ -631,4 +643,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2022-12-31 03:06:35
+<br><br><br> This page was last updated on 2023-01-01 03:11:28
