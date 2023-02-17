@@ -113,6 +113,20 @@ community-outreach, course, data-science
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[Choosing Genomics
+Tools](http://hutchdatascience.org/Choosing_Genomics_Tools/)
+([github](https://github.com/fhdsl/Choosing_Genomics_Tools))
+</td>
+<td markdown="1" style="text-align:left;">
+A course to help learners find resources and tools to help them process
+and interpret their genomic data
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [code review](https://hutchdatascience.org/code_review/)
 ([github](https://github.com/fhdsl/code_review))
 </td>
@@ -655,4 +669,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-02-16 03:09:05
+<br><br><br> This page was last updated on 2023-02-17 03:13:46
