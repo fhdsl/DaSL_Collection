@@ -16,18 +16,6 @@ Computing_for_Cancer_Informatics	https://jhudatascience.org/Computing_for_Cancer
 DaSL_Collection	https://hutchdatascience.org/DaSL_Collection	https://github.com/fhdsl/DaSL_Collection	📚 An auto-generating library of all Data Science Lab Github-based content	content-library, website
 dasl-snack-github	http://hutchdatascience.org/dasl-snack-github/	https://github.com/fhdsl/dasl-snack-github	"A DaSL training ""snack"" covering the benefits and basics of using Git and GitHub to support your biomedical data science work. "	
 Data-Wrangling	http://sisbid.github.io/Data-Wrangling/	https://github.com/fhdsl/Data-Wrangling	UW Summer Institute in Statistics: Data Wrangling in R	data-science, r-programming, tidyverse
-DataTrail: 00_intro	https://datatrail-jhu.github.io/00_intro/	https://github.com/datatrail-jhu/00_intro	Course 0: Intro to DataTrail	data-science
-DataTrail: 01_chromebookintro	https://datatrail-jhu.github.io/01_chromebookintro/	https://github.com/datatrail-jhu/01_chromebookintro	Course 1: How To Use A Chromebook	chromebook
-DataTrail: 02_googlecloud	https://datatrail-jhu.github.io/02_googlecloud/	https://github.com/datatrail-jhu/02_googlecloud	Course 2: Google & Cloud	data-science, google-cloud
-DataTrail: 03_fileorganization	https://datatrail-jhu.github.io/03_fileorganization/	https://github.com/datatrail-jhu/03_fileorganization	Course 3: File Organization & Projects	data-science, project-organization
-DataTrail: 04_githubbasics	https://datatrail-jhu.github.io/04_githubbasics/	https://github.com/datatrail-jhu/04_githubbasics	Course 4: Github	data-science, github, version-control
-DataTrail: 05_R	https://datatrail-jhu.github.io/05_R/	https://github.com/datatrail-jhu/05_R	Course 5: Introduction to R	data-science, programming, r
-DataTrail: 06_datacleaning	https://datatrail-jhu.github.io/06_datacleaning	https://github.com/datatrail-jhu/06_datacleaning	Course 6: Data cleaning and wrangling	data-science, data-tidying, data-wrangling
-DataTrail: 07_dataviz	https://datatrail-jhu.github.io/07_dataviz	https://github.com/datatrail-jhu/07_dataviz	Course 7: Data Visualization	data-science, data-visualization, ggplot2
-DataTrail: 08_data	https://datatrail-jhu.github.io/08_data/	https://github.com/datatrail-jhu/08_data	Course 8: Getting Data	data-download, data-science, data-setup
-DataTrail: 09_dataanalysis	https://datatrail-jhu.github.io/09_dataanalysis/	https://github.com/datatrail-jhu/09_dataanalysis	Course 9: Basics of Data Analysis	data-analysis, data-science, r
-DataTrail: 10_communication	https://datatrail-jhu.github.io/10_communication	https://github.com/datatrail-jhu/10_communication	Course 10: Getting a job in data science	career, career-development, communication, data-science
-DataTrail: 11_dsjob	https://datatrail-jhu.github.io/11_dsjob	https://github.com/datatrail-jhu/11_dsjob	Course 11: Getting a job in data science	career-development, data-science, jobsearch
 DataTrail: 12_package	https://datatrail-jhu.github.io/12_package/	https://github.com/datatrail-jhu/12_package	How to Create an R package Course	data-science, package-development, r-package
 DataTrail: DataTrail	https://datatrail-jhu.github.io/DataTrail/	https://github.com/datatrail-jhu/DataTrail	The re-organized DataTrail curriculum https://www.datatrail.org/	
 DataTrail: scn	http://swirlstats.com/scn/	https://github.com/datatrail-jhu/scn	:school_satchel: The swirl Course Network - A Repository for swirl Courses	
