@@ -35,6 +35,32 @@ python, r, reproducibility, version-control
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[AI for software](https://hutchdatascience.org/AI_for_software/)
+([github](https://github.com/fhdsl/AI_for_software))
+</td>
+<td markdown="1" style="text-align:left;">
+DaSL’s course on AI skills for software development and programming
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
+[AnVIL: Epigenetics
+Intro](https://hutchdatascience.org/AnVIL_Book_Epigenetics_Intro/)
+([github](https://github.com/fhdsl/AnVIL_Book_Epigenetics_Intro))
+</td>
+<td markdown="1" style="text-align:left;">
+An introductory activity for epigenetics, or the idea of "nature versus
+nurture" in genetics. Learners use the UCSC Genome Browser.
+</td>
+<td markdown="1" style="text-align:left;">
+anvil, course, epigenetics, human-genomes, module, ucsc-browser
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [AnVIL: Getting
 Started](https://jhudatascience.org/AnVIL_Book_Getting_Started)
 ([github](https://github.com/jhudsl/AnVIL_Book_Getting_Started))
@@ -61,6 +87,19 @@ anvil, education
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[AnVIL Collection](https://hutchdatascience.org/AnVIL_Collection/)
+([github](https://github.com/fhdsl/AnVIL_Collection))
+</td>
+<td markdown="1" style="text-align:left;">
+📚 An auto-generating collection of all materials related to the AnVIL
+and GDSCN projects
+</td>
+<td markdown="1" style="text-align:left;">
+content-library, website
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [AnVIL
 Phylogenetic-Techniques](https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/)
 ([github](https://github.com/jhudsl/AnVIL_Phylogenetic-Techniques))
@@ -82,7 +121,7 @@ anvil, r-programming
 Pull Sequence Read Archive (SRA) data into AnVIL
 </td>
 <td markdown="1" style="text-align:left;">
-anvil
+anvil, genomics, ncbi-database, sequence-read-archive
 </td>
 </tr>
 <tr markdown="1">
@@ -95,6 +134,31 @@ An OTTR spinoff template for creating AnVIL content
 </td>
 <td markdown="1" style="text-align:left;">
 anvil, template
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
+[AnVIL Urban Genomics
+PCA](https://hutchdatascience.org/AnVIL_Urban_Genomics_PCA/)
+([github](https://github.com/fhdsl/AnVIL_Urban_Genomics_PCA))
+</td>
+<td markdown="1" style="text-align:left;">
+Lab module and lectures for exploring PCA using feral pigeon populations
+</td>
+<td markdown="1" style="text-align:left;">
+anvil, genomics, pca, urban-data-science
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
+[ari](https://jhudatascience.org/ari/)
+([github](https://github.com/jhudsl/ari))
+</td>
+<td markdown="1" style="text-align:left;">
+:dancers: The Automated R Instructor
+</td>
+<td markdown="1" style="text-align:left;">
+NA
 </td>
 </tr>
 <tr markdown="1">
@@ -144,10 +208,10 @@ Informatics](https://jhudatascience.org/Computing_for_Cancer_Informatics)
 ([github](https://github.com/jhudsl/Computing_for_Cancer_Informatics))
 </td>
 <td markdown="1" style="text-align:left;">
-The course will cover the key underlying principles and concepts in
-computing. It will cover concrete discussions of the differences between
-cloud and local computing. The course will highlight a number of
-computing options and etiquette for using shared resources.
+The course covers the key underlying principles and concepts in
+computing. It covers concrete discussions of the differences between
+cloud and local computing. The course highlights a number of computing
+options and etiquette for using shared resources.
 </td>
 <td markdown="1" style="text-align:left;">
 computing, informatics
@@ -168,6 +232,19 @@ content-library, website
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[dasl-snack-github](http://hutchdatascience.org/dasl-snack-github/)
+([github](https://github.com/fhdsl/dasl-snack-github))
+</td>
+<td markdown="1" style="text-align:left;">
+A DaSL training "snack" covering the benefits and basics of using Git
+and GitHub to support your biomedical data science work.
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [Data-Wrangling](http://sisbid.github.io/Data-Wrangling/)
 ([github](https://github.com/fhdsl/Data-Wrangling))
 </td>
@@ -176,157 +253,6 @@ UW Summer Institute in Statistics: Data Wrangling in R
 </td>
 <td markdown="1" style="text-align:left;">
 data-science, r-programming, tidyverse
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DataTrail: 00 intro](https://datatrail-jhu.github.io/00_intro/)
-([github](https://github.com/datatrail-jhu/00_intro))
-</td>
-<td markdown="1" style="text-align:left;">
-Course 0: Intro to DataTrail
-</td>
-<td markdown="1" style="text-align:left;">
-data-science
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DataTrail: 01
-chromebookintro](https://datatrail-jhu.github.io/01_chromebookintro/)
-([github](https://github.com/datatrail-jhu/01_chromebookintro))
-</td>
-<td markdown="1" style="text-align:left;">
-Course 1: How To Use A Chromebook
-</td>
-<td markdown="1" style="text-align:left;">
-chromebook
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DataTrail: 02
-googlecloud](https://datatrail-jhu.github.io/02_googlecloud/)
-([github](https://github.com/datatrail-jhu/02_googlecloud))
-</td>
-<td markdown="1" style="text-align:left;">
-Course 2: Google & Cloud
-</td>
-<td markdown="1" style="text-align:left;">
-data-science, google-cloud
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DataTrail: 03
-fileorganization](https://datatrail-jhu.github.io/03_fileorganization/)
-([github](https://github.com/datatrail-jhu/03_fileorganization))
-</td>
-<td markdown="1" style="text-align:left;">
-Course 3: File Organization & Projects
-</td>
-<td markdown="1" style="text-align:left;">
-data-science, project-organization
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DataTrail: 04
-githubbasics](https://datatrail-jhu.github.io/04_githubbasics/)
-([github](https://github.com/datatrail-jhu/04_githubbasics))
-</td>
-<td markdown="1" style="text-align:left;">
-Course 4: Github
-</td>
-<td markdown="1" style="text-align:left;">
-data-science, github, version-control
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DataTrail: 05 R](https://datatrail-jhu.github.io/05_R/)
-([github](https://github.com/datatrail-jhu/05_R))
-</td>
-<td markdown="1" style="text-align:left;">
-Course 5: Introduction to R
-</td>
-<td markdown="1" style="text-align:left;">
-data-science, programming, r
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DataTrail: 06
-datacleaning](https://datatrail-jhu.github.io/06_datacleaning)
-([github](https://github.com/datatrail-jhu/06_datacleaning))
-</td>
-<td markdown="1" style="text-align:left;">
-Course 6: Data cleaning and wrangling
-</td>
-<td markdown="1" style="text-align:left;">
-data-science, data-tidying, data-wrangling
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DataTrail: 07 dataviz](https://datatrail-jhu.github.io/07_dataviz)
-([github](https://github.com/datatrail-jhu/07_dataviz))
-</td>
-<td markdown="1" style="text-align:left;">
-Course 7: Data Visualization
-</td>
-<td markdown="1" style="text-align:left;">
-data-science, data-visualization, ggplot2
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DataTrail: 08 data](https://datatrail-jhu.github.io/08_data/)
-([github](https://github.com/datatrail-jhu/08_data))
-</td>
-<td markdown="1" style="text-align:left;">
-Course 8: Getting Data
-</td>
-<td markdown="1" style="text-align:left;">
-data-download, data-science, data-setup
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DataTrail: 09
-dataanalysis](https://datatrail-jhu.github.io/09_dataanalysis/)
-([github](https://github.com/datatrail-jhu/09_dataanalysis))
-</td>
-<td markdown="1" style="text-align:left;">
-Course 9: Basics of Data Analysis
-</td>
-<td markdown="1" style="text-align:left;">
-data-analysis, data-science, r
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DataTrail: 10
-communication](https://datatrail-jhu.github.io/10_communication)
-([github](https://github.com/datatrail-jhu/10_communication))
-</td>
-<td markdown="1" style="text-align:left;">
-Course 10: Getting a job in data science
-</td>
-<td markdown="1" style="text-align:left;">
-career, career-development, communication, data-science
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[DataTrail: 11 dsjob](https://datatrail-jhu.github.io/11_dsjob)
-([github](https://github.com/datatrail-jhu/11_dsjob))
-</td>
-<td markdown="1" style="text-align:left;">
-Course 11: Getting a job in data science
-</td>
-<td markdown="1" style="text-align:left;">
-career-development, data-science, jobsearch
 </td>
 </tr>
 <tr markdown="1">
@@ -348,6 +274,19 @@ data-science, package-development, r-package
 </td>
 <td markdown="1" style="text-align:left;">
 The re-organized DataTrail curriculum <https://www.datatrail.org/>
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
+[DataTrail:
+rgoogleclassroom](https://datatrail-jhu.github.io/rgoogleclassroom/)
+([github](https://github.com/datatrail-jhu/rgoogleclassroom))
+</td>
+<td markdown="1" style="text-align:left;">
+API wrapper for Google Classroom and a bit of Google Forms API too
 </td>
 <td markdown="1" style="text-align:left;">
 NA
@@ -454,7 +393,7 @@ AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/)
 Lab module and lectures for variant detection in SARS-CoV-2 using Galaxy
 </td>
 <td markdown="1" style="text-align:left;">
-anvil, genomics, module
+anvil, gdscn, genomics, module, sars-cov-2, variant-detection
 </td>
 </tr>
 <tr markdown="1">
@@ -467,7 +406,7 @@ Expression](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_Differ
 A set of lab modules for an introduction to differential gene expression
 </td>
 <td markdown="1" style="text-align:left;">
-anvil, cloud-computing, gene-expression
+anvil, cloud-computing, gdscn, gene-expression
 </td>
 </tr>
 <tr markdown="1">
@@ -480,7 +419,7 @@ PCA](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_PCA/)
 A set of lab modules for PCA analysis
 </td>
 <td markdown="1" style="text-align:left;">
-anvil
+anvil, gdscn, genomics
 </td>
 </tr>
 <tr markdown="1">
@@ -490,10 +429,10 @@ RNA-seq](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_RNA-seq/)
 ([github](https://github.com/jhudsl/GDSCN_Book_Statistics_for_Genomics_RNA-seq))
 </td>
 <td markdown="1" style="text-align:left;">
-A set of lab modules for RNA-seq analysis
+\[WORK IN PROGRESS\] A set of lab modules for RNA-seq analysis
 </td>
 <td markdown="1" style="text-align:left;">
-anvil
+NA
 </td>
 </tr>
 <tr markdown="1">
@@ -506,7 +445,7 @@ scRNA-seq](http://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_scRNA-se
 A set of lab modules for single cell RNA-seq analysis
 </td>
 <td markdown="1" style="text-align:left;">
-anvil
+anvil, gdscn, rna-seq, scrna-seq
 </td>
 </tr>
 <tr markdown="1">
@@ -519,21 +458,21 @@ Lab exercise: learn basic R programming through interactive swirl
 lessons
 </td>
 <td markdown="1" style="text-align:left;">
-NA
+gdscn, swirl
 </td>
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[GDSCN SARS Phylogeny on
-AnVIL](https://hutchdatascience.org/GDSCN_SARS_Phylogeny_on_AnVIL/)
-([github](https://github.com/fhdsl/GDSCN_SARS_Phylogeny_on_AnVIL))
+[GDSCN SARS RStudio on
+AnVIL](https://hutchdatascience.org/GDSCN_SARS_RStudio_on_AnVIL/)
+([github](https://github.com/fhdsl/GDSCN_SARS_RStudio_on_AnVIL))
 </td>
 <td markdown="1" style="text-align:left;">
 Lab module and lectures for identifying phylogenetic history of SARS
 variants using R
 </td>
 <td markdown="1" style="text-align:left;">
-NA
+anvil, gdscn, phylogenetic-analysis, sars-cov-2
 </td>
 </tr>
 <tr markdown="1">
@@ -669,4 +608,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-02-28 03:10:15
+<br><br><br> This page was last updated on 2023-05-02 20:20:08
