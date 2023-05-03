@@ -571,6 +571,18 @@ data-science, informatics, python, r, reproducibility
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[text2speech](http://jhudatascience.org/text2speech/)
+([github](https://github.com/jhudsl/text2speech))
+</td>
+<td markdown="1" style="text-align:left;">
+Text to Speech
+</td>
+<td markdown="1" style="text-align:left;">
+speech-synthesis, text-to-speech, tts, voice
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [tidyversecourse](http://jhudatascience.org/tidyversecourse/)
 ([github](https://github.com/jhudsl/tidyversecourse))
 </td>
@@ -608,4 +620,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-05-02 20:20:08
+<br><br><br> This page was last updated on 2023-05-03 03:06:58
