@@ -100,6 +100,18 @@ content-library, website
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[AnVIL Demos](https://hutchdatascience.org/AnVIL_Demos/)
+([github](https://github.com/fhdsl/AnVIL_Demos))
+</td>
+<td markdown="1" style="text-align:left;">
+⏱ 30-minute demos to help get you started on AnVIL!
+</td>
+<td markdown="1" style="text-align:left;">
+anvil, cloud, cloud-computing, genomics, introduction, research
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [AnVIL
 Phylogenetic-Techniques](https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/)
 ([github](https://github.com/jhudsl/AnVIL_Phylogenetic-Techniques))
@@ -620,4 +632,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-05-06 03:06:05
+<br><br><br> This page was last updated on 2023-05-07 03:06:41
