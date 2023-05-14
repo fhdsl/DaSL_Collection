@@ -104,10 +104,10 @@ content-library, website
 ([github](https://github.com/fhdsl/AnVIL_Demos))
 </td>
 <td markdown="1" style="text-align:left;">
-⏱ 30-minute demos to help get you started on AnVIL!
+⏱ 30-minute demos and tutorials from our live AnVIL series
 </td>
 <td markdown="1" style="text-align:left;">
-anvil, cloud, cloud-computing, genomics, introduction, research
+anvil, cloud, cloud-computing, genomics, research
 </td>
 </tr>
 <tr markdown="1">
@@ -632,4 +632,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-05-13 03:06:13
+<br><br><br> This page was last updated on 2023-05-14 03:06:16
