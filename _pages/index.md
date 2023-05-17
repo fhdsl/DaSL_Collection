@@ -543,7 +543,7 @@ education, online-learning, open-source
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
 [OTTR Template
-Website](http://jhudatascience.org/OTTR_Template_Website/)
+Website](https://jhudatascience.org/OTTR_Template_Website/)
 ([github](https://github.com/jhudsl/OTTR_Template_Website))
 </td>
 <td markdown="1" style="text-align:left;">
@@ -632,4 +632,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-05-16 03:06:18
+<br><br><br> This page was last updated on 2023-05-17 03:06:34
