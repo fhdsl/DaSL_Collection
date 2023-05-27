@@ -502,6 +502,19 @@ diversity, informatics, leadership
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[intro to r](https://jhudatascience.org/intro_to_r/)
+([github](https://github.com/jhudsl/intro_to_r))
+</td>
+<td markdown="1" style="text-align:left;">
+A 2-week introduction to R programming course, with a focus on public
+health datasets
+</td>
+<td markdown="1" style="text-align:left;">
+beginner, course, r-programming, tidyverse
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [jhudsl.github.io](https://jhudatascience.org)
 ([github](https://github.com/jhudsl/jhudsl.github.io))
 </td>
@@ -632,4 +645,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-05-26 03:06:35
+<br><br><br> This page was last updated on 2023-05-27 03:06:16
