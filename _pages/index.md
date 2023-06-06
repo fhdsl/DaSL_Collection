@@ -74,19 +74,6 @@ anvil, cloud-computing
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[AnVIL: Instructor
-Guide](https://jhudatascience.org/AnVIL_Book_Instructor_Guide)
-([github](https://github.com/jhudsl/AnVIL_Book_Instructor_Guide))
-</td>
-<td markdown="1" style="text-align:left;">
-A guide for instructors using AnVIL for workshops, lessons, or courses.
-</td>
-<td markdown="1" style="text-align:left;">
-anvil, education
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [AnVIL Collection](https://hutchdatascience.org/AnVIL_Collection/)
 ([github](https://github.com/fhdsl/AnVIL_Collection))
 </td>
@@ -645,4 +632,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-06-05 03:08:27
+<br><br><br> This page was last updated on 2023-06-06 03:11:32
