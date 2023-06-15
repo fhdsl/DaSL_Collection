@@ -61,6 +61,19 @@ anvil, course, epigenetics, human-genomes, module, ucsc-browser
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[AnVIL: Getting
+Started](https://jhudatascience.org/AnVIL_Book_Getting_Started)
+([github](https://github.com/jhudsl/AnVIL_Book_Getting_Started))
+</td>
+<td markdown="1" style="text-align:left;">
+A guide for getting started using AnVIL
+</td>
+<td markdown="1" style="text-align:left;">
+anvil, cloud-computing
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [AnVIL: Instructor
 Guide](https://jhudatascience.org/AnVIL_Book_Instructor_Guide)
 ([github](https://github.com/jhudsl/AnVIL_Book_Instructor_Guide))
@@ -632,4 +645,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-06-14 03:06:41
+<br><br><br> This page was last updated on 2023-06-15 03:06:41
