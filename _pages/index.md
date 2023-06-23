@@ -397,6 +397,19 @@ course, fredhutch, openwdl, wdl, workflows
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[GDSCN: SARS Galaxy on
+AnVIL](https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/)
+([github](https://github.com/jhudsl/GDSCN_Book_SARS_Galaxy_on_AnVIL))
+</td>
+<td markdown="1" style="text-align:left;">
+Lab module and lectures for variant detection in SARS-CoV-2 using Galaxy
+</td>
+<td markdown="1" style="text-align:left;">
+anvil, gdscn, genomics, module, sars-cov-2, variant-detection
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [GDSCN: Statistics for Genomics Differential
 Expression](https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_Differential_Expression/)
 ([github](https://github.com/jhudsl/GDSCN_Book_Statistics_for_Genomics_Differential_Expression))
@@ -445,6 +458,19 @@ A set of lab modules for single cell RNA-seq analysis
 </td>
 <td markdown="1" style="text-align:left;">
 anvil, gdscn, rna-seq, scrna-seq
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
+[GDSCN: swirl](https://jhudatascience.org/GDSCN_Book_swirl/)
+([github](https://github.com/jhudsl/GDSCN_Book_swirl))
+</td>
+<td markdown="1" style="text-align:left;">
+Lab exercise: learn basic R programming through interactive swirl
+lessons
+</td>
+<td markdown="1" style="text-align:left;">
+gdscn, swirl
 </td>
 </tr>
 <tr markdown="1">
@@ -619,4 +645,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-06-22 03:06:27
+<br><br><br> This page was last updated on 2023-06-23 03:18:26
