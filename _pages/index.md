@@ -510,7 +510,8 @@ A 2-week introduction to R programming course, with a focus on public
 health datasets
 </td>
 <td markdown="1" style="text-align:left;">
-beginner, course, r-programming, tidyverse
+beginner, beginner-friendly, beginner-programming, course,
+public-health, r-programming, tidyverse
 </td>
 </tr>
 <tr markdown="1">
@@ -596,6 +597,20 @@ data-science, informatics, python, r, reproducibility
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[SeattleStatSummer R](https://hutchdatascience.org/SeattleStatSummer_R/)
+([github](https://github.com/fhdsl/SeattleStatSummer_R))
+</td>
+<td markdown="1" style="text-align:left;">
+A 4-day introduction to R programming, focused on Fred Hutch Research
+Interns
+</td>
+<td markdown="1" style="text-align:left;">
+beginner, beginner-friendly, data-analysis, data-science,
+introduction-to-programming, r-programming, tidyverse
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [text2speech](http://jhudatascience.org/text2speech/)
 ([github](https://github.com/jhudsl/text2speech))
 </td>
@@ -645,4 +660,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-07-02 03:16:56
+<br><br><br> This page was last updated on 2023-07-03 03:15:02
