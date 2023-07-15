@@ -346,6 +346,21 @@ documentation, software-development
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[Ethical Data Handling for Cancer
+Research](https://jhudatascience.org/Ethical_Data_Handling_for_Cancer_Research/)
+([github](https://github.com/jhudsl/Ethical_Data_Handling_for_Cancer_Research))
+</td>
+<td markdown="1" style="text-align:left;">
+This course is designed to help researchers and investigators understand
+the key principles of data management from an ethics, privacy, security,
+usability and discoverability perspective.
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [FH Cluster
 Guide](https://leanpub.com/courses/fredhutch/fredhutchcluster101)
 ([github](https://github.com/fhdsl/FH_Cluster_Guide))
@@ -673,4 +688,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-07-14 03:16:21
+<br><br><br> This page was last updated on 2023-07-15 03:19:05
