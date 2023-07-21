@@ -611,6 +611,21 @@ NA
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[Overleaf and LaTeX for Scientific
+Articles](https://hutchdatascience.org/Overleaf_and_LaTeX_for_Scientific_Articles/)
+([github](https://github.com/fhdsl/Overleaf_and_LaTeX_for_Scientific_Articles))
+</td>
+<td markdown="1" style="text-align:left;">
+The course covers basic information about why LaTeX can be useful, how
+to get started in Overleaf using LaTeX with a template, how to work with
+a team on Overleaf, and what to do when you encounter problems.
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [Reproducibility in Cancer
 Informatics](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/)
 ([github](https://github.com/jhudsl/Reproducibility_in_Cancer_Informatics))
@@ -688,4 +703,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-07-20 03:06:47
+<br><br><br> This page was last updated on 2023-07-21 03:06:18
