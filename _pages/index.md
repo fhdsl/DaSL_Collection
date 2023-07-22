@@ -356,7 +356,7 @@ the key principles of data management from an ethics, privacy, security,
 usability and discoverability perspective.
 </td>
 <td markdown="1" style="text-align:left;">
-NA
+data, ethics, privacy, research, security
 </td>
 </tr>
 <tr markdown="1">
@@ -621,7 +621,7 @@ to get started in Overleaf using LaTeX with a template, how to work with
 a team on Overleaf, and what to do when you encounter problems.
 </td>
 <td markdown="1" style="text-align:left;">
-NA
+latex, overleaf, scientific-publications
 </td>
 </tr>
 <tr markdown="1">
@@ -703,4 +703,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-07-21 03:06:18
+<br><br><br> This page was last updated on 2023-07-22 03:06:16
