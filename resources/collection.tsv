@@ -18,7 +18,7 @@ Computing_for_Cancer_Informatics	https://jhudatascience.org/Computing_for_Cancer
 conrad	http://hutchdatascience.org/conrad/	https://github.com/fhdsl/conrad	Client for the Microsoft Cognitive Services Text to Speech REST API (reboot of the mscstts package)	azure, r, text-to-speech, tts
 DaSL_Collection	https://hutchdatascience.org/DaSL_Collection	https://github.com/fhdsl/DaSL_Collection	📚 An auto-generating library of all Data Science Lab Github-based content	content-library, website
 dasl-snack-github	http://hutchdatascience.org/dasl-snack-github/	https://github.com/fhdsl/dasl-snack-github	"A DaSL training ""snack"" covering the benefits and basics of using Git and GitHub to support your biomedical data science work. "	
-Data-Wrangling	http://sisbid.github.io/Data-Wrangling/	https://github.com/fhdsl/Data-Wrangling	UW Summer Institute in Statistics: Data Wrangling in R	data-science, r-programming, tidyverse
+Data-Wrangling	https://hutchdatascience.org/Data-Wrangling/	https://github.com/fhdsl/Data-Wrangling	UW Summer Institute in Statistics: Data Wrangling in R	data-science, data-wrangling, r-programming, r-stats, tidyverse
 DataTrail: 12_package	https://datatrail-jhu.github.io/12_package/	https://github.com/datatrail-jhu/12_package	How to Create an R package Course	data-science, package-development, r-package
 DataTrail: DataTrail	https://datatrail-jhu.github.io/DataTrail/	https://github.com/datatrail-jhu/DataTrail	The re-organized DataTrail curriculum https://www.datatrail.org/	
 DataTrail: rgoogleclassroom	https://datatrail-jhu.github.io/rgoogleclassroom/	https://github.com/datatrail-jhu/rgoogleclassroom	API wrapper for Google Classroom and a bit of Google Forms API too	
