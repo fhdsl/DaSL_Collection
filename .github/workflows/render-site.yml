@@ -57,7 +57,7 @@ jobs:
           mv _pages/index.Rmd .
           Rscript scripts/build.R
           mv index.Rmd _pages/
-          mv index.md _pages/
+          mv index.html _pages/
 
       # Commit the rendered site files - html files and site_libs files
       - name: Commit rendered site files

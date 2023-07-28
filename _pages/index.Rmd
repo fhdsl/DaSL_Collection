@@ -2,7 +2,6 @@
 title: '**DaSL Collection**'
 permalink: /
 toc: false
-always_allow_html: true
 ---
 
 <!-- ```{r, echo = FALSE, message = FALSE, warning = FALSE} -->
