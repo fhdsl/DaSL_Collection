@@ -4,12 +4,39 @@ permalink: /
 toc: false
 ---
 
+<!-- ```{r, echo = FALSE, message = FALSE, warning = FALSE} -->
+<!-- source("scripts/render_collection.R") -->
+
+<!-- knitr::kable(make_collection_table(), format = "html") -->
+<!-- ``` -->
+
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
+# load libraries ----
+library(DT)
+
 source("scripts/render_collection.R")
 
-knitr::kable(make_collection_table(), format = "html")
+# Make the JS table
+dt <- datatable(
+  make_collection_table(),
+  #extensions = c("SearchBuilder", "DateTime"),
+  escape = FALSE,
+  # Make cell values html enabled
+  rownames = FALSE,
+  # Remove 1, 2, 3 labels
+  options = list(
+    autowidth = TRUE,
+    search = list(regex = TRUE),
+    pageLength = 100, # Show 100 results
+    dom = 'ft', # Don't allow to change how many results are displayed
+    # dom = "Qlfrtip",
+    # searchBuilder = TRUE,
+    search = list(return = TRUE)
+  )
+)
+
+dt
 ```
 
 <br><br><br>
 This page was last updated on `r Sys.time()`
-
