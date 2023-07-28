@@ -270,14 +270,14 @@ NA
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[Data-Wrangling](http://sisbid.github.io/Data-Wrangling/)
+[Data-Wrangling](https://hutchdatascience.org/Data-Wrangling/)
 ([github](https://github.com/fhdsl/Data-Wrangling))
 </td>
 <td markdown="1" style="text-align:left;">
 UW Summer Institute in Statistics: Data Wrangling in R
 </td>
 <td markdown="1" style="text-align:left;">
-data-science, r-programming, tidyverse
+data-science, data-wrangling, r-programming, r-stats, tidyverse
 </td>
 </tr>
 <tr markdown="1">
@@ -703,4 +703,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-07-27 03:06:32
+<br><br><br> This page was last updated on 2023-07-28 03:06:24
