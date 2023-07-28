@@ -45,10 +45,10 @@ jobs:
           # use github PAT
           token: ${{ secrets.GH_PAT }}
 
-      # We want a fresh run of the renders each time - so first delete old index.md file
-      - name: Delete old index.md
-        run: |
-          rm -f _pages/index.md
+      # # We want a fresh run of the renders each time - so first delete old index.md file
+      # - name: Delete old index.md
+      #   run: |
+      #     rm -f _pages/index.md
 
       # Now we want to render Rmd -> md
       # Requires a little bit of shuffling around of files.
