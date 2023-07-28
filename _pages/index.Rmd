@@ -13,8 +13,6 @@ toc: false
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 # load libraries ----
 library(DT)
-library(leaflet)
-library(crosstalk)
 
 source("scripts/render_collection.R")
 
