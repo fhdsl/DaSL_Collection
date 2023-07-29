@@ -21,6 +21,7 @@ dasl-snack-github	http://hutchdatascience.org/dasl-snack-github/	https://github.
 Data-Wrangling	https://hutchdatascience.org/Data-Wrangling/	https://github.com/fhdsl/Data-Wrangling	UW Summer Institute in Statistics: Data Wrangling in R	data-science, data-wrangling, r-programming, r-stats, tidyverse
 DataTrail: 12_package	https://datatrail-jhu.github.io/12_package/	https://github.com/datatrail-jhu/12_package	How to Create an R package Course	data-science, package-development, r-package
 DataTrail: DataTrail	https://datatrail-jhu.github.io/DataTrail/	https://github.com/datatrail-jhu/DataTrail	The re-organized DataTrail curriculum https://www.datatrail.org/	
+DataTrail: DataTrail_Guides	https://datatrail-jhu.github.io/DataTrail_Guides/	https://github.com/datatrail-jhu/DataTrail_Guides	Guides for how to launch a DataTrail program	
 DataTrail: rgoogleclassroom	https://datatrail-jhu.github.io/rgoogleclassroom/	https://github.com/datatrail-jhu/rgoogleclassroom	API wrapper for Google Classroom and a bit of Google Forms API too	
 DataTrail: scn	http://swirlstats.com/scn/	https://github.com/datatrail-jhu/scn	:school_satchel: The swirl Course Network - A Repository for swirl Courses	
 Documentation_and_Usability	https://jhudatascience.org/Documentation_and_Usability/	https://github.com/jhudsl/Documentation_and_Usability	A course to cover the basics of creating documentation and tutorials to maximize the usability of informatics tools	documentation, software-development
