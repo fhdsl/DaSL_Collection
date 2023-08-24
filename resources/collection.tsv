@@ -10,6 +10,7 @@ AnVIL_Phylogenetic-Techniques	https://jhudatascience.org/AnVIL_Phylogenetic-Tech
 AnVIL_SRA_Data	https://hutchdatascience.org/AnVIL_SRA_Data/	https://github.com/fhdsl/AnVIL_SRA_Data	Pull Sequence Read Archive (SRA) data into AnVIL	anvil, genomics, ncbi-database, sequence-read-archive
 AnVIL_Template	https://jhudatascience.org/AnVIL_Template/	https://github.com/jhudsl/AnVIL_Template	An OTTR spinoff template for creating AnVIL content	anvil, template
 AnVIL_Urban_Genomics_PCA	https://hutchdatascience.org/AnVIL_Urban_Genomics_PCA/	https://github.com/fhdsl/AnVIL_Urban_Genomics_PCA	Lab module and lectures for exploring PCA using feral pigeon populations	anvil, genomics, pca, urban-data-science
+AnVIL_WDLs	https://github.com/fhdsl/AnVIL_WDLs/tree/main	https://github.com/fhdsl/AnVIL_WDLs	WDL workflows for use on AnVIL and other platforms	anvil, genomics, wdl, workflows
 ari	https://jhudatascience.org/ari/	https://github.com/jhudsl/ari	:dancers: The Automated R Instructor	
 Baltimore_Community_Course	https://jhudatascience.org/Baltimore_Community_Course	https://github.com/jhudsl/Baltimore_Community_Course	Baltimore Community Data Science Course at JHSPH through partnership with SOURCE	community-outreach, course, data-science
 Choosing_Genomics_Tools	http://hutchdatascience.org/Choosing_Genomics_Tools/	https://github.com/fhdsl/Choosing_Genomics_Tools	A course to help learners find resources and tools to help them process and interpret their genomic data	
