@@ -163,6 +163,18 @@ anvil, genomics, pca, urban-data-science
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[AnVIL WDLs](https://github.com/fhdsl/AnVIL_WDLs/tree/main)
+([github](https://github.com/fhdsl/AnVIL_WDLs))
+</td>
+<td markdown="1" style="text-align:left;">
+WDL workflows for use on AnVIL and other platforms
+</td>
+<td markdown="1" style="text-align:left;">
+anvil, genomics, wdl, workflows
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [ari](https://jhudatascience.org/ari/)
 ([github](https://github.com/jhudsl/ari))
 </td>
@@ -716,4 +728,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-08-24 03:06:27
+<br><br><br> This page was last updated on 2023-08-25 03:06:47
