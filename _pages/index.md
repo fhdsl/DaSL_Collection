@@ -100,6 +100,19 @@ content-library, website
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[AnVIL Data
+Subsetting](https://hutchdatascience.org/AnVIL_Data_Subsetting/)
+([github](https://github.com/fhdsl/AnVIL_Data_Subsetting))
+</td>
+<td markdown="1" style="text-align:left;">
+Tutorial for running the fastq_subsample WDL workflow on AnVIL!
+</td>
+<td markdown="1" style="text-align:left;">
+anvil, genomics, wdl, wdl-workflow, workflow
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [AnVIL Demos](https://hutchdatascience.org/AnVIL_Demos/)
 ([github](https://github.com/fhdsl/AnVIL_Demos))
 </td>
@@ -728,4 +741,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-08-29 03:07:11
+<br><br><br> This page was last updated on 2023-08-30 03:06:34
