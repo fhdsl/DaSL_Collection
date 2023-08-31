@@ -180,7 +180,7 @@ anvil, genomics, pca, urban-data-science
 ([github](https://github.com/fhdsl/AnVIL_WDLs))
 </td>
 <td markdown="1" style="text-align:left;">
-WDL workflows for use on AnVIL and other platforms
+Raw WDL workflow files for use on AnVIL and other platforms
 </td>
 <td markdown="1" style="text-align:left;">
 anvil, genomics, wdl, workflows
@@ -252,19 +252,6 @@ options and etiquette for using shared resources.
 </td>
 <td markdown="1" style="text-align:left;">
 computing, informatics
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[conrad](http://hutchdatascience.org/conrad/)
-([github](https://github.com/fhdsl/conrad))
-</td>
-<td markdown="1" style="text-align:left;">
-Client for the Microsoft Cognitive Services Text to Speech REST API
-(reboot of the mscstts package)
-</td>
-<td markdown="1" style="text-align:left;">
-azure, r, text-to-speech, tts
 </td>
 </tr>
 <tr markdown="1">
@@ -741,4 +728,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-08-30 03:06:34
+<br><br><br> This page was last updated on 2023-08-31 03:06:57
