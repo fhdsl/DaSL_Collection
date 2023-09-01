@@ -1,6 +1,6 @@
 name	homepage	html_url	description	topics
 Adv_Reproducibility_in_Cancer_Informatics	https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics	https://github.com/jhudsl/Adv_Reproducibility_in_Cancer_Informatics	This course the second course in a two part series that discusses reproducibility in the context of cancer informatics.	python, r, reproducibility, version-control
-AI_for_software	https://hutchdatascience.org/AI_for_software/	https://github.com/fhdsl/AI_for_software	DaSL's course on AI skills for software development and programming	
+AI_for_software	https://hutchdatascience.org/AI_for_software/	https://github.com/fhdsl/AI_for_software	DaSL's course on AI skills for software development and programming	artificial-intelligence, chatbot, course, learn-ai, llm, llms, software-learning
 AnVIL_Book_Epigenetics_Intro	https://hutchdatascience.org/AnVIL_Book_Epigenetics_Intro/	https://github.com/fhdsl/AnVIL_Book_Epigenetics_Intro	"An introductory activity for epigenetics, or the idea of ""nature versus nurture"" in genetics. Learners use the UCSC Genome Browser."	anvil, course, epigenetics, human-genomes, module, ucsc-browser
 AnVIL_Book_Getting_Started	https://jhudatascience.org/AnVIL_Book_Getting_Started	https://github.com/jhudsl/AnVIL_Book_Getting_Started	A guide for getting started using AnVIL 	anvil, cloud-computing
 AnVIL_Book_Instructor_Guide	https://jhudatascience.org/AnVIL_Book_Instructor_Guide	https://github.com/jhudsl/AnVIL_Book_Instructor_Guide	A guide for instructors using AnVIL for workshops, lessons, or courses.	anvil, education
