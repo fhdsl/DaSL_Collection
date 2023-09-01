@@ -594,6 +594,20 @@ website
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[NIH Data Sharing](https://hutchdatascience.org/NIH_Data_Sharing/)
+([github](https://github.com/fhdsl/NIH_Data_Sharing))
+</td>
+<td markdown="1" style="text-align:left;">
+Learn about the new NIH data sharing policy, places where you might want
+to share your particular kind of data, and how to deal with possible
+challenges associated with the policy.
+</td>
+<td markdown="1" style="text-align:left;">
+data-management, data-sharing, grant-proposals, nih
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [OTTR Template](https://www.ottrproject.org/)
 ([github](https://github.com/jhudsl/OTTR_Template))
 </td>
@@ -741,4 +755,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-08-31 17:28:04
+<br><br><br> This page was last updated on 2023-09-01 03:07:03
