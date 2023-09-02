@@ -42,7 +42,8 @@ python, r, reproducibility, version-control
 DaSL’s course on AI skills for software development and programming
 </td>
 <td markdown="1" style="text-align:left;">
-NA
+artificial-intelligence, chatbot, course, learn-ai, llm, llms,
+software-learning
 </td>
 </tr>
 <tr markdown="1">
@@ -755,4 +756,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-09-01 03:07:03
+<br><br><br> This page was last updated on 2023-09-02 03:06:37
