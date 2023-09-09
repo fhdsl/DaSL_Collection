@@ -679,6 +679,18 @@ latex, overleaf, scientific-publications
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[personas](http://hutchdatascience.org/personas)
+([github](https://github.com/fhdsl/personas))
+</td>
+<td markdown="1" style="text-align:left;">
+Where RDI curates the DaSL Data Science Personas
+</td>
+<td markdown="1" style="text-align:left;">
+data-science, personas, training
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [Reproducibility in Cancer
 Informatics](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/)
 ([github](https://github.com/jhudsl/Reproducibility_in_Cancer_Informatics))
@@ -756,4 +768,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-09-08 03:06:27
+<br><br><br> This page was last updated on 2023-09-09 03:06:19
