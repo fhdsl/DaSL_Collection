@@ -189,6 +189,18 @@ anvil, genomics, wdl, workflows
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[ari](https://jhudatascience.org/ari/)
+([github](https://github.com/jhudsl/ari))
+</td>
+<td markdown="1" style="text-align:left;">
+:dancers: The Automated R Instructor
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [Baltimore Community
 Course](https://jhudatascience.org/Baltimore_Community_Course)
 ([github](https://github.com/jhudsl/Baltimore_Community_Course))
@@ -639,6 +651,19 @@ NA
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[ottrpal](https://jhudatascience.org/ottrpal/)
+([github](https://github.com/jhudsl/ottrpal))
+</td>
+<td markdown="1" style="text-align:left;">
+Tools for converting OTTR courses into Leanpub or Coursera courses
+:otter:
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [Overleaf and LaTeX for Scientific
 Articles](https://hutchdatascience.org/Overleaf_and_LaTeX_for_Scientific_Articles/)
 ([github](https://github.com/fhdsl/Overleaf_and_LaTeX_for_Scientific_Articles))
@@ -743,4 +768,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-09-16 03:06:22
+<br><br><br> This page was last updated on 2023-09-17 03:06:27
