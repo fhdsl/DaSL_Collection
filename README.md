@@ -1,5 +1,7 @@
 # 📚 DaSL Collection
 
+[![Render Collection](https://github.com/fhdsl/DaSL_Collection/actions/workflows/render-site.yml/badge.svg)](https://github.com/fhdsl/DaSL_Collection/actions/workflows/render-site.yml)
+
 ### What is the DaSL Collection?
 
 DaSL Collection uses the Github API to gather jhudsl and fhdsl organization repositories that we have worked on. It renders the table in a markdown-readable format on the [website](https://hutchdatascience.org/DaSL_Collection).
