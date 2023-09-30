@@ -556,6 +556,19 @@ anvil, gdscn, phylogenetic-analysis, sars-cov-2
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[Informatics Research
+Leadership](https://jhudatascience.org/Informatics_Research_Leadership/)
+([github](https://github.com/jhudsl/Informatics_Research_Leadership))
+</td>
+<td markdown="1" style="text-align:left;">
+Guidance on supporting multidisciplinary teams in cancer informatics.
+</td>
+<td markdown="1" style="text-align:left;">
+diversity, informatics, leadership
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [intro to r](https://jhudatascience.org/intro_to_r/)
 ([github](https://github.com/jhudsl/intro_to_r))
 </td>
@@ -755,4 +768,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-09-29 03:06:21
+<br><br><br> This page was last updated on 2023-09-30 03:06:16
