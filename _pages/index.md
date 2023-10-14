@@ -164,19 +164,6 @@ anvil, template
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[AnVIL Urban Genomics
-PCA](https://hutchdatascience.org/AnVIL_Urban_Genomics_PCA/)
-([github](https://github.com/fhdsl/AnVIL_Urban_Genomics_PCA))
-</td>
-<td markdown="1" style="text-align:left;">
-Lab module and lectures for exploring PCA using feral pigeon populations
-</td>
-<td markdown="1" style="text-align:left;">
-anvil, genomics, pca, urban-data-science
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [AnVIL WDLs](https://github.com/fhdsl/AnVIL_WDLs/tree/main)
 ([github](https://github.com/fhdsl/AnVIL_WDLs))
 </td>
@@ -401,8 +388,8 @@ data, ethics, privacy, research, security
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
 [FH Cluster
-Guide](https://leanpub.com/courses/fredhutch/fredhutchcluster101)
-([github](https://github.com/fhdsl/FH_Cluster_Guide))
+101](https://leanpub.com/courses/fredhutch/fredhutchcluster101)
+([github](https://github.com/fhdsl/FH_Cluster_101))
 </td>
 <td markdown="1" style="text-align:left;">
 This course introduces users to the Fred Hutch Cluster. It will lead
@@ -768,4 +755,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-10-13 03:06:54
+<br><br><br> This page was last updated on 2023-10-14 03:06:29
