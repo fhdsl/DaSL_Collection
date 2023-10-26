@@ -371,6 +371,18 @@ NA
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[devguide](https://hutchdatascience.org/devguide)
+([github](https://github.com/fhdsl/devguide))
+</td>
+<td markdown="1" style="text-align:left;">
+DaSL Dev Guide
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [Documentation and
 Usability](https://jhudatascience.org/Documentation_and_Usability/)
 ([github](https://github.com/jhudsl/Documentation_and_Usability))
@@ -556,6 +568,20 @@ anvil, gdscn, phylogenetic-analysis, sars-cov-2
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[GitHub Automation for
+Scientists](http://hutchdatascience.org/GitHub_Automation_for_Scientists/)
+([github](https://github.com/fhdsl/GitHub_Automation_for_Scientists))
+</td>
+<td markdown="1" style="text-align:left;">
+A course that introduces Github actions to developers of scientific
+worklflows and software
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [Informatics Research
 Leadership](https://jhudatascience.org/Informatics_Research_Leadership/)
 ([github](https://github.com/jhudsl/Informatics_Research_Leadership))
@@ -719,6 +745,18 @@ introduction-to-programming, r-programming, tidyverse
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[sixtyfour](https://hutchdatascience.org/sixtyfour//)
+([github](https://github.com/fhdsl/sixtyfour))
+</td>
+<td markdown="1" style="text-align:left;">
+🚚 CEO, entrepreneur
+</td>
+<td markdown="1" style="text-align:left;">
+aws, aws-billing
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [text2speech](http://jhudatascience.org/text2speech/)
 ([github](https://github.com/jhudsl/text2speech))
 </td>
@@ -768,4 +806,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-10-25 03:06:28
+<br><br><br> This page was last updated on 2023-10-26 03:06:40
