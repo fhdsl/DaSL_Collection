@@ -371,18 +371,6 @@ NA
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[devguide](https://hutchdatascience.org/devguide)
-([github](https://github.com/fhdsl/devguide))
-</td>
-<td markdown="1" style="text-align:left;">
-DaSL Dev Guide
-</td>
-<td markdown="1" style="text-align:left;">
-NA
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [Documentation and
 Usability](https://jhudatascience.org/Documentation_and_Usability/)
 ([github](https://github.com/jhudsl/Documentation_and_Usability))
@@ -745,18 +733,6 @@ introduction-to-programming, r-programming, tidyverse
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[sixtyfour](https://hutchdatascience.org/sixtyfour//)
-([github](https://github.com/fhdsl/sixtyfour))
-</td>
-<td markdown="1" style="text-align:left;">
-🚚 CEO, entrepreneur
-</td>
-<td markdown="1" style="text-align:left;">
-aws, aws-billing
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [text2speech](http://jhudatascience.org/text2speech/)
 ([github](https://github.com/jhudsl/text2speech))
 </td>
@@ -806,4 +782,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-10-26 03:06:40
+<br><br><br> This page was last updated on 2023-10-27 03:06:29
