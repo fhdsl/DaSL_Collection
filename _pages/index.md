@@ -39,7 +39,7 @@ python, r, reproducibility, version-control
 ([github](https://github.com/fhdsl/AI_for_software))
 </td>
 <td markdown="1" style="text-align:left;">
-DaSL’s course on AI skills for software development and programming
+DaSL’s course on AI skills for efficient programming
 </td>
 <td markdown="1" style="text-align:left;">
 artificial-intelligence, chatbot, course, learn-ai, llm, llms,
@@ -795,4 +795,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-11-07 03:05:57
+<br><br><br> This page was last updated on 2023-11-08 03:06:41
