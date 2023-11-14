@@ -529,19 +529,6 @@ anvil, gdscn, rna-seq, scrna-seq
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[GDSCN: swirl](https://jhudatascience.org/GDSCN_Book_swirl/)
-([github](https://github.com/jhudsl/GDSCN_Book_swirl))
-</td>
-<td markdown="1" style="text-align:left;">
-Lab exercise: learn basic R programming through interactive swirl
-lessons
-</td>
-<td markdown="1" style="text-align:left;">
-gdscn, swirl
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [GDSCN SARS RStudio on
 AnVIL](https://hutchdatascience.org/GDSCN_SARS_RStudio_on_AnVIL/)
 ([github](https://github.com/fhdsl/GDSCN_SARS_RStudio_on_AnVIL))
@@ -552,20 +539,6 @@ variants using R
 </td>
 <td markdown="1" style="text-align:left;">
 anvil, gdscn, phylogenetic-analysis, sars-cov-2
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[GitHub Automation for
-Scientists](http://hutchdatascience.org/GitHub_Automation_for_Scientists/)
-([github](https://github.com/fhdsl/GitHub_Automation_for_Scientists))
-</td>
-<td markdown="1" style="text-align:left;">
-A course that introduces Github actions to developers of scientific
-worklflows and software
-</td>
-<td markdown="1" style="text-align:left;">
-NA
 </td>
 </tr>
 <tr markdown="1">
@@ -795,4 +768,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-11-13 03:06:20
+<br><br><br> This page was last updated on 2023-11-14 03:06:32
