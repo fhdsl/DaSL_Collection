@@ -529,6 +529,19 @@ anvil, gdscn, rna-seq, scrna-seq
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[GDSCN: swirl](https://jhudatascience.org/GDSCN_Book_swirl/)
+([github](https://github.com/jhudsl/GDSCN_Book_swirl))
+</td>
+<td markdown="1" style="text-align:left;">
+Lab exercise: learn basic R programming through interactive swirl
+lessons
+</td>
+<td markdown="1" style="text-align:left;">
+gdscn, swirl
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [GDSCN SARS RStudio on
 AnVIL](https://hutchdatascience.org/GDSCN_SARS_RStudio_on_AnVIL/)
 ([github](https://github.com/fhdsl/GDSCN_SARS_RStudio_on_AnVIL))
@@ -539,6 +552,20 @@ variants using R
 </td>
 <td markdown="1" style="text-align:left;">
 anvil, gdscn, phylogenetic-analysis, sars-cov-2
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
+[GitHub Automation for
+Scientists](http://hutchdatascience.org/GitHub_Automation_for_Scientists/)
+([github](https://github.com/fhdsl/GitHub_Automation_for_Scientists))
+</td>
+<td markdown="1" style="text-align:left;">
+A course that introduces Github actions to developers of scientific
+worklflows and software
+</td>
+<td markdown="1" style="text-align:left;">
+NA
 </td>
 </tr>
 <tr markdown="1">
@@ -591,20 +618,6 @@ source code for the JHU Data Science Lab website
 </td>
 <td markdown="1" style="text-align:left;">
 website
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[NIH Data Sharing](https://hutchdatascience.org/NIH_Data_Sharing/)
-([github](https://github.com/fhdsl/NIH_Data_Sharing))
-</td>
-<td markdown="1" style="text-align:left;">
-Learn about the new NIH data sharing policy, places where you might want
-to share your particular kind of data, and how to deal with possible
-challenges associated with the policy.
-</td>
-<td markdown="1" style="text-align:left;">
-data-management, data-sharing, grant-proposals, nih
 </td>
 </tr>
 <tr markdown="1">
@@ -768,4 +781,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-11-14 03:06:32
+<br><br><br> This page was last updated on 2023-11-15 03:06:08
