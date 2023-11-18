@@ -36,7 +36,7 @@ python, r, reproducibility, version-control
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
 [AI for Efficient
-Programming](https://hutchdatascience.org/AI_for_software/)
+Programming](https://hutchdatascience.org/AI_for_Efficient_Programming/)
 ([github](https://github.com/fhdsl/AI_for_Efficient_Programming))
 </td>
 <td markdown="1" style="text-align:left;">
@@ -796,4 +796,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-11-17 03:06:07
+<br><br><br> This page was last updated on 2023-11-18 03:05:56
