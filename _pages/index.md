@@ -49,6 +49,19 @@ software-learning
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[AI Possibilities](http://hutchdatascience.org/AI_Possibilities/)
+([github](https://github.com/fhdsl/AI_Possibilities))
+</td>
+<td markdown="1" style="text-align:left;">
+This is the first course in DaSL’s AI for Decision Makers specialization
+on Coursera
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [AnVIL: Epigenetics
 Intro](https://hutchdatascience.org/AnVIL_Book_Epigenetics_Intro/)
 ([github](https://github.com/fhdsl/AnVIL_Book_Epigenetics_Intro))
@@ -571,19 +584,6 @@ NA
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[how ai works](http://hutchdatascience.org/how_ai_works/)
-([github](https://github.com/fhdsl/how_ai_works))
-</td>
-<td markdown="1" style="text-align:left;">
-This is the first course in DaSL’s AI for Decision Makers specialization
-on Coursera
-</td>
-<td markdown="1" style="text-align:left;">
-NA
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [Informatics Research
 Leadership](https://jhudatascience.org/Informatics_Research_Leadership/)
 ([github](https://github.com/jhudsl/Informatics_Research_Leadership))
@@ -796,4 +796,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-11-18 03:05:56
+<br><br><br> This page was last updated on 2023-11-19 03:06:13
