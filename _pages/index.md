@@ -543,6 +543,19 @@ anvil, gdscn, rna-seq, scrna-seq
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[GDSCN: swirl](https://jhudatascience.org/GDSCN_Book_swirl/)
+([github](https://github.com/jhudsl/GDSCN_Book_swirl))
+</td>
+<td markdown="1" style="text-align:left;">
+Lab exercise: learn basic R programming through interactive swirl
+lessons
+</td>
+<td markdown="1" style="text-align:left;">
+gdscn, swirl
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [GDSCN SARS RStudio on
 AnVIL](https://hutchdatascience.org/GDSCN_SARS_RStudio_on_AnVIL/)
 ([github](https://github.com/fhdsl/GDSCN_SARS_RStudio_on_AnVIL))
@@ -783,4 +796,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-11-20 03:06:03
+<br><br><br> This page was last updated on 2023-11-21 03:06:17
