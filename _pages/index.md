@@ -35,6 +35,20 @@ python, r, reproducibility, version-control
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
+[AI for Decision
+Makers](http://hutchdatascience.org/AI_for_Decision_Makers/)
+([github](https://github.com/fhdsl/AI_for_Decision_Makers))
+</td>
+<td markdown="1" style="text-align:left;">
+This is DaSL’s course on AI basics and use cases aimed at executives and
+people in management positions.
+</td>
+<td markdown="1" style="text-align:left;">
+NA
+</td>
+</tr>
+<tr markdown="1">
+<td markdown="1" style="text-align:left;">
 [AI for Efficient
 Programming](https://hutchdatascience.org/AI_for_Efficient_Programming/)
 ([github](https://github.com/fhdsl/AI_for_Efficient_Programming))
@@ -45,19 +59,6 @@ DaSL’s course on AI skills for efficient programming
 <td markdown="1" style="text-align:left;">
 artificial-intelligence, chatbot, course, learn-ai, llm, llms,
 software-learning
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[AI Possibilities](http://hutchdatascience.org/AI_Possibilities/)
-([github](https://github.com/fhdsl/AI_Possibilities))
-</td>
-<td markdown="1" style="text-align:left;">
-This is the first course in DaSL’s AI for Decision Makers specialization
-on Coursera
-</td>
-<td markdown="1" style="text-align:left;">
-NA
 </td>
 </tr>
 <tr markdown="1">
@@ -796,4 +797,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-11-21 03:06:17
+<br><br><br> This page was last updated on 2023-11-22 03:06:06
