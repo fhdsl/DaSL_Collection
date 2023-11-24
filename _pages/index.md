@@ -347,19 +347,6 @@ NA
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[DataTrail: DataTrail
-Guides](https://datatrail-jhu.github.io/DataTrail_Guides/)
-([github](https://github.com/datatrail-jhu/DataTrail_Guides))
-</td>
-<td markdown="1" style="text-align:left;">
-Guides for how to launch a DataTrail program
-</td>
-<td markdown="1" style="text-align:left;">
-NA
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [DataTrail:
 rgoogleclassroom](https://datatrail-jhu.github.io/rgoogleclassroom/)
 ([github](https://github.com/datatrail-jhu/rgoogleclassroom))
@@ -797,4 +784,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-11-23 03:06:05
+<br><br><br> This page was last updated on 2023-11-24 03:06:04
