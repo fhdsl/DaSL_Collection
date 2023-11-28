@@ -1,6 +1,5 @@
 name	homepage	html_url	description	topics
 Adv_Reproducibility_in_Cancer_Informatics	https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics	https://github.com/jhudsl/Adv_Reproducibility_in_Cancer_Informatics	This course the second course in a two part series that discusses reproducibility in the context of cancer informatics.	python, r, reproducibility, version-control
-AI_for_Decision_Makers	http://hutchdatascience.org/AI_for_Decision_Makers/	https://github.com/fhdsl/AI_for_Decision_Makers	This is DaSL's course on AI basics and use cases aimed at executives and people in management positions.	
 AI_for_Efficient_Programming	https://hutchdatascience.org/AI_for_Efficient_Programming/	https://github.com/fhdsl/AI_for_Efficient_Programming	DaSL's course on AI skills for efficient programming	artificial-intelligence, chatbot, course, learn-ai, llm, llms, software-learning
 AnVIL_Book_Epigenetics_Intro	https://hutchdatascience.org/AnVIL_Book_Epigenetics_Intro/	https://github.com/fhdsl/AnVIL_Book_Epigenetics_Intro	"An introductory activity for epigenetics, or the idea of ""nature versus nurture"" in genetics. Learners use the UCSC Genome Browser."	anvil, course, epigenetics, human-genomes, module, ucsc-browser
 AnVIL_Book_Getting_Started	https://jhudatascience.org/AnVIL_Book_Getting_Started	https://github.com/jhudsl/AnVIL_Book_Getting_Started	A guide for getting started using AnVIL 	anvil, cloud-computing
@@ -56,5 +55,4 @@ Reproducibility_in_Cancer_Informatics	https://jhudatascience.org/Reproducibility
 SeattleStatSummer_R	https://hutchdatascience.org/SeattleStatSummer_R/	https://github.com/fhdsl/SeattleStatSummer_R	A 4-day introduction to R programming, focused on Fred Hutch Research Interns	beginner, beginner-friendly, data-analysis, data-science, introduction-to-programming, r-programming, tidyverse
 text2speech	http://jhudatascience.org/text2speech/	https://github.com/jhudsl/text2speech	Text to Speech	speech-synthesis, text-to-speech, tts, voice
 tidyversecourse	http://jhudatascience.org/tidyversecourse/	https://github.com/jhudsl/tidyversecourse	Tidyverse Skills for Data Science in R	r, tidyverse
-uplifthub_website	https://www.uplifthub.org	https://github.com/fhdsl/uplifthub_website	Website for the Uplift Hub	
 Using_Leanpub	https://hutchdatascience.org/Using_Leanpub/	https://github.com/fhdsl/Using_Leanpub	A gentle introduction to Leanpub	education, leanpub
