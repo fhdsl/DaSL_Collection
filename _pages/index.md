@@ -35,20 +35,6 @@ python, r, reproducibility, version-control
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[AI for Decision
-Makers](http://hutchdatascience.org/AI_for_Decision_Makers/)
-([github](https://github.com/fhdsl/AI_for_Decision_Makers))
-</td>
-<td markdown="1" style="text-align:left;">
-This is DaSL’s course on AI basics and use cases aimed at executives and
-people in management positions.
-</td>
-<td markdown="1" style="text-align:left;">
-NA
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [AI for Efficient
 Programming](https://hutchdatascience.org/AI_for_Efficient_Programming/)
 ([github](https://github.com/fhdsl/AI_for_Efficient_Programming))
@@ -772,18 +758,6 @@ r, tidyverse
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[uplifthub website](https://www.uplifthub.org)
-([github](https://github.com/fhdsl/uplifthub_website))
-</td>
-<td markdown="1" style="text-align:left;">
-Website for the Uplift Hub
-</td>
-<td markdown="1" style="text-align:left;">
-NA
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [Using Leanpub](https://hutchdatascience.org/Using_Leanpub/)
 ([github](https://github.com/fhdsl/Using_Leanpub))
 </td>
@@ -797,4 +771,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2023-11-28 03:06:06
+<br><br><br> This page was last updated on 2023-12-03 03:03:59
