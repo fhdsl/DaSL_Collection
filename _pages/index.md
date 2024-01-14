@@ -153,18 +153,6 @@ anvil, genomics, ncbi-database, sequence-read-archive
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[AnVIL Template](https://jhudatascience.org/AnVIL_Template/)
-([github](https://github.com/jhudsl/AnVIL_Template))
-</td>
-<td markdown="1" style="text-align:left;">
-An OTTR spinoff template for creating AnVIL content
-</td>
-<td markdown="1" style="text-align:left;">
-anvil, template
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [AnVIL Urban Genomics
 PCA](https://hutchdatascience.org/AnVIL_Urban_Genomics_PCA/)
 ([github](https://github.com/fhdsl/AnVIL_Urban_Genomics_PCA))
@@ -284,19 +272,6 @@ content-library, website
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[dasl-snack-github](http://hutchdatascience.org/dasl-snack-github/)
-([github](https://github.com/fhdsl/dasl-snack-github))
-</td>
-<td markdown="1" style="text-align:left;">
-A DaSL training "snack" covering the benefits and basics of using Git
-and GitHub to support your biomedical data science work.
-</td>
-<td markdown="1" style="text-align:left;">
-NA
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [Data-Wrangling](https://hutchdatascience.org/Data-Wrangling/)
 ([github](https://github.com/fhdsl/Data-Wrangling))
 </td>
@@ -397,22 +372,6 @@ usability and discoverability perspective.
 </td>
 <td markdown="1" style="text-align:left;">
 data, ethics, privacy, research, security
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[FH Cluster
-101](https://leanpub.com/courses/fredhutch/fredhutchcluster101)
-([github](https://github.com/fhdsl/FH_Cluster_101))
-</td>
-<td markdown="1" style="text-align:left;">
-This course introduces users to the Fred Hutch Cluster. It will lead
-users through account creation, using the terminal, connecting to the
-cluster, submitting jobs, and transferring files. Available in both web
-and Leanpub formats.
-</td>
-<td markdown="1" style="text-align:left;">
-command-line, computing-cluster, course, fredhutch, hpcc
 </td>
 </tr>
 <tr markdown="1">
@@ -543,20 +502,6 @@ gdscn, swirl
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[GDSCN SARS RStudio on
-AnVIL](https://hutchdatascience.org/GDSCN_SARS_RStudio_on_AnVIL/)
-([github](https://github.com/fhdsl/GDSCN_SARS_RStudio_on_AnVIL))
-</td>
-<td markdown="1" style="text-align:left;">
-Lab module and lectures for identifying phylogenetic history of SARS
-variants using R
-</td>
-<td markdown="1" style="text-align:left;">
-anvil, gdscn, phylogenetic-analysis, sars-cov-2
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
 [GitHub Automation for
 Scientists](http://hutchdatascience.org/GitHub_Automation_for_Scientists/)
 ([github](https://github.com/fhdsl/GitHub_Automation_for_Scientists))
@@ -654,11 +599,12 @@ NA
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[ottr-website](https://www.ottrproject.org/)
-([github](https://github.com/jhudsl/ottr-website))
+[ottrpal](https://jhudatascience.org/ottrpal/)
+([github](https://github.com/jhudsl/ottrpal))
 </td>
 <td markdown="1" style="text-align:left;">
-The website for OTTR
+Tools for converting OTTR courses into Leanpub or Coursera courses
+:otter:
 </td>
 <td markdown="1" style="text-align:left;">
 NA
@@ -666,12 +612,11 @@ NA
 </tr>
 <tr markdown="1">
 <td markdown="1" style="text-align:left;">
-[ottrpal](https://jhudatascience.org/ottrpal/)
-([github](https://github.com/jhudsl/ottrpal))
+[ottrproject.org](https://www.ottrproject.org/)
+([github](https://github.com/jhudsl/ottrproject.org))
 </td>
 <td markdown="1" style="text-align:left;">
-Tools for converting OTTR courses into Leanpub or Coursera courses
-:otter:
+This repo publishes ottrproject.org
 </td>
 <td markdown="1" style="text-align:left;">
 NA
@@ -702,20 +647,6 @@ Where RDI curates the DaSL Data Science Personas
 </td>
 <td markdown="1" style="text-align:left;">
 data-science, personas, training
-</td>
-</tr>
-<tr markdown="1">
-<td markdown="1" style="text-align:left;">
-[Reproducibility in Cancer
-Informatics](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/)
-([github](https://github.com/jhudsl/Reproducibility_in_Cancer_Informatics))
-</td>
-<td markdown="1" style="text-align:left;">
-This course discusses reproducibility and replicability in the context
-of cancer informatics.
-</td>
-<td markdown="1" style="text-align:left;">
-data-science, informatics, python, r, reproducibility
 </td>
 </tr>
 <tr markdown="1">
@@ -771,4 +702,4 @@ education, leanpub
 </tbody>
 </table>
 
-<br><br><br> This page was last updated on 2024-01-07 03:04:13
+<br><br><br> This page was last updated on 2024-01-14 03:04:11
