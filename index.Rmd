@@ -13,12 +13,28 @@ output:
       toc: true
 ---
 
-# Full Collection
+## Open Courses
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 
-knitr::kable(make_collection_table(), format = "html")
+knitr::kable(make_collection_table(include = c("course"), exclude = c("fredhutch")), format = "html")
+```
+
+## Fred Hutch Courses
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+source("scripts/render_collection.R")
+
+knitr::kable(make_collection_table(include = c("fredhutch")), format = "html")
+```
+
+## Our EdTech Software
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+source("scripts/render_collection.R")
+
+knitr::kable(make_collection_table(include = c("edtech-software")), format = "html")
 ```
 
 <br><br><br>

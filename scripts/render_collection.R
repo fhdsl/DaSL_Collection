@@ -1,7 +1,7 @@
 library(dplyr)
 library(stringr)
 
-make_collection_table <- function(exclude = NULL) {
+make_collection_table <- function(exclude = NULL, include = NULL) {
   # Read in repos found by GHA
   df <- tryCatch(
     # Check for the file created by GHA
@@ -24,6 +24,16 @@ make_collection_table <- function(exclude = NULL) {
       
       # Remove duplicates if necessary
       df <- distinct(df)
+      
+      # Filter if desired
+      if(!is.null(include)){
+        df <- 
+          df %>% filter(stringr::str_detect(Topics, paste(include, collapse = "|")))
+      }
+      if(!is.null(exclude)){
+        df <- 
+          df %>% filter(!stringr::str_detect(Topics, paste(exclude, collapse = "|")))
+      }
       
       return(df)
     },
