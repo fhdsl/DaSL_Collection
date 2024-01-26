@@ -20,7 +20,7 @@ output:
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 
-knitr::kable(make_collection_table(include = c("course"), exclude = c("fredhutch")), format = "html")
+knitr::kable(make_collection_table(include = c("course"), exclude = c("fredhutch")), format = "html", table.attr = "style='width:120%;'")
 ```
 
 ## Fred Hutch Courses
@@ -28,7 +28,7 @@ knitr::kable(make_collection_table(include = c("course"), exclude = c("fredhutch
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 
-knitr::kable(make_collection_table(include = c("fredhutch")), format = "html")
+knitr::kable(make_collection_table(include = c("fredhutch")), format = "html", table.attr = "style='width:120%;'")
 ```
 
 ## Our EdTech Software
@@ -36,7 +36,7 @@ knitr::kable(make_collection_table(include = c("fredhutch")), format = "html")
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 
-knitr::kable(make_collection_table(include = c("edtech-software")), format = "html")
+knitr::kable(make_collection_table(include = c("edtech-software")), format = "html", table.attr = "style='width:120%;'")
 ```
 
 <br><br><br>

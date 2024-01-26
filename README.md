@@ -1,6 +1,6 @@
 # 📚 DaSL Collection
 
-[![Render Collection](https://github.com/fhdsl/DaSL_Collection/actions/workflows/render-site.yml/badge.svg)](https://github.com/fhdsl/DaSL_Collection/actions/workflows/render-all.yml)
+[![Render Collection](https://github.com/fhdsl/DaSL_Collection/actions/workflows/render-html.yml/badge.svg)](https://github.com/fhdsl/DaSL_Collection/actions/workflows/render-html.yml)
 
 ### What is the DaSL Collection?
 
