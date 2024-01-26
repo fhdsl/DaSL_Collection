@@ -49,7 +49,8 @@ jobs:
       toggle_render_preview: "${{ env.RENDER_PREVIEW }}"
       rendering_docker_image: "${{ env.RENDERING_DOCKER_IMAGE }}"
 
-########################## Make the error reports ##############################
+########################## CHECKS ##############################
+
   spell-check:
     name: Check spelling
     needs: yaml-check
@@ -80,6 +81,8 @@ jobs:
       error_min: 0
       gh_pat: secrets.GH_PAT
       
+########################## BUILD COLLECTION ##############################
+      
   build-collection:
     name: Build Collection
     needs: yaml-check
@@ -91,6 +94,7 @@ jobs:
       gh_pat: ${{ secrets.GH_PAT }}
 
 ############################# Style the code ###################################
+  
   style-code:
     name: Style code
     needs: yaml-check

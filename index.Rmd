@@ -25,11 +25,3 @@ knitr::kable(make_collection_table(), format = "html")
 This page was last updated on `r Sys.time()`
 
 
-
-
-
-
-
-
-
-
