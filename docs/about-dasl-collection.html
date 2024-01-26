@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>FAQ</title>
+  <title>About DaSL Collection | FAQ</title>
   <meta name="description" content="A collection of DaSL materials" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="FAQ" />
+  <meta property="og:title" content="About DaSL Collection | FAQ" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="FAQ" />
+  <meta name="twitter:title" content="About DaSL Collection | FAQ" />
   
   <meta name="twitter:description" content="A collection of DaSL materials" />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-
-<link rel="next" href="about-dasl-collection.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="about-the-authors.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -136,42 +136,66 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/dasl_thin_main_image.png">
 </div>
-<div id="header">
-<h1 class="title">FAQ</h1>
+<div id="about-dasl-collection" class="section level1">
+<h1>About DaSL Collection</h1>
+<div id="what-is-the-dasl-collection" class="section level2">
+<h2>What is the DaSL Collection?</h2>
+<p>DaSL Collection uses the GitHub API to gather repositories that we have worked on. It renders the table in a markdown-readable format.</p>
 </div>
-<div id="full-collection" class="section level1">
-<h1>Full Collection</h1>
-<table>
-<thead>
-<tr>
-<th style="text-align:left;">
-Book Name
-</th>
-<th style="text-align:left;">
-Description
-</th>
-<th style="text-align:left;">
-Topics
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-none
-</td>
-<td style="text-align:left;">
-none
-</td>
-<td style="text-align:left;">
-none
-</td>
-</tr>
-</tbody>
-</table>
-<p><br><br><br>
-This page was last updated on 2024-01-26 20:45:44</p>
+<div id="what-is-needed-to-list-my-repository" class="section level2">
+<h2>What is needed to list my repository?</h2>
+<p>The Collection workflow uses three important things to add courses to the DaSL Collection. These are the repository <strong>description</strong>, <strong>homepage</strong>, and <strong>topics</strong> tags. Repositories must be set to public to be listed in the Collection.</p>
+</div>
+<div id="how-often-is-the-collection-updated" class="section level2">
+<h2>How often is the Collection updated?</h2>
+<p>The collection is rendered nightly between 3am and 5am EST.</p>
+</div>
+<div id="how-can-i-add-my-new-coursecontent-to-the-collection" class="section level2">
+<h2>How can I add my new course/content to the Collection?</h2>
+<p>Your repository must be created under the <code>jhudsl</code>, <code>fhdsl</code>, or <code>datatrail-jhu</code> organizations and meet the above criteria.</p>
+<p>For repositories under other organizations, you can fork the repository into the <code>jhudsl</code> or <code>fhdsl</code> organizations. <a href="https://github.com/fhdsl/Data-Wrangling">Example</a></p>
+</div>
+<div id="i-want-to-use-the-raw-collection-data" class="section level2">
+<h2>I want to use the raw Collection data!</h2>
+<p>You can use the following link:</p>
+<p><a href="https://raw.githubusercontent.com/fhdsl/DaSL_Collection/main/resources/collection.tsv" class="uri">https://raw.githubusercontent.com/fhdsl/DaSL_Collection/main/resources/collection.tsv</a></p>
+</div>
+<div id="how-do-i-edit-description-homepage-and-topics" class="section level2">
+<h2>How do I edit <strong>description</strong>, <strong>homepage</strong>, and <strong>topics</strong>?</h2>
+<div id="where-to-edit" class="section level3">
+<h3>Where to edit</h3>
+<p>Start by clicking the gear button on the top right of the repository page on GitHub next to “About”.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/resources/screenshots/repo-about.png" alt="" />
+<p class="caption">Where is the <code>gear</code> button next to the “About” menu?</p>
+</div>
+</div>
+<div id="edit-repository-description" class="section level3">
+<h3>Edit repository description</h3>
+<p>Enter a concise description, for example “A guide for instructors using AnVIL for workshops, lessons, or courses.”</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/resources/screenshots/repo-description.png" alt="" />
+<p class="caption">Add a description to the repository.</p>
+</div>
+</div>
+<div id="edit-repository-homepage" class="section level3">
+<h3>Edit repository homepage</h3>
+<p>Make sure you link to the website where your course is being rendered. For example, this repository links to <a href="https://jhudatascience.org/AnVIL_Book_Instructor_Guide" class="uri">https://jhudatascience.org/AnVIL_Book_Instructor_Guide</a>.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/resources/screenshots/repo-homepage.png" alt="" />
+<p class="caption">Add a homepage link to the repository.</p>
+</div>
+</div>
+<div id="edit-repository-topics" class="section level3">
+<h3>Edit repository topics</h3>
+<p>Finally, you should add any relevant topics, as they will be listed in the Collection table!</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/resources/screenshots/repo-tags.png" alt="" />
+<p class="caption">Add tags to the repository.</p>
+</div>
 
+</div>
+</div>
 </div>
 <hr>
 <center> 
@@ -187,8 +211,8 @@ This page was last updated on 2024-01-26 20:45:44</p>
           </div>
         </div>
       </div>
-
-<a href="about-dasl-collection.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
