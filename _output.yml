@@ -1,4 +1,6 @@
-bookdown::gitbook
+bookdown::gitbook:
+  css: assets/style_minimal.css
+  
   # css: [assets/style.css, assets/style_custom.css]
   # includes:
   #   in_header: GA_Script.Rhtml
