@@ -24,17 +24,14 @@ output:
 
 ```{r}
 source("scripts/render_collection.R")
-# load libraries ----
-install.packages("DT", repos='http://cran.us.r-project.org')
-library(DT)
 ```
 
 # Browse Our Materials
 
 ## Courses & Tutorials
 
-```{r}
-dt <- datatable(
+```{r eval=TRUE}
+dt <- DT::datatable(
   make_collection_table(include = c("course")),
   #extensions = c("SearchBuilder", "DateTime"),
   escape = FALSE,
@@ -56,8 +53,8 @@ dt
 
 ## EdTech Software
 
-```{r}
-dt <- datatable(
+```{r eval=TRUE}
+dt <- DT::datatable(
   make_collection_table(include = c("edtech-software")),
   #extensions = c("SearchBuilder", "DateTime"),
   escape = FALSE,
