@@ -13,7 +13,16 @@ output:
       toc: false
 ---
 
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
+<!-- /* Tables should be wider .. */ -->
+<style type="text/css">
+.main-container {
+  max-width: 4000px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+```{r}
 source("scripts/render_collection.R")
 # load libraries ----
 install.packages("DT", repos='http://cran.us.r-project.org')
@@ -24,7 +33,7 @@ library(DT)
 
 ## Courses & Tutorials
 
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
+```{r}
 dt <- datatable(
   make_collection_table(include = c("course")),
   #extensions = c("SearchBuilder", "DateTime"),
@@ -47,7 +56,7 @@ dt
 
 ## EdTech Software
 
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
+```{r}
 dt <- datatable(
   make_collection_table(include = c("edtech-software")),
   #extensions = c("SearchBuilder", "DateTime"),
