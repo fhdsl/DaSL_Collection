@@ -2,7 +2,6 @@ ahoffma
 AnVIL
 cheatsheet
 css
-custimization
 DaSL
 fredhutch
 HTTPS
