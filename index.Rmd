@@ -13,15 +13,6 @@ output:
       toc: false
 ---
 
-<!-- /* Tables should be wider .. */ -->
-<style type="text/css">
-.main-container {
-  max-width: 4000px !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
 ```{r}
 source("scripts/render_collection.R")
 ```
