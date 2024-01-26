@@ -11,12 +11,12 @@ always_allow_html: true
 output:
     bookdown::html_document2:
       toc: false
-      number_sections: false
 ---
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 # load libraries ----
+install.packages("DT")
 library(DT)
 ```
 
