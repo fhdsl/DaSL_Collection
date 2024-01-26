@@ -10,25 +10,18 @@ description: "A collection of DaSL materials"
 always_allow_html: true
 output:
     bookdown::html_document2:
-      toc: true
+      toc: false
+      number_sections: false
 ---
 
-# DaSL Collection
+# Search for Courses
 
-## Open Courses
-
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
-source("scripts/render_collection.R")
-
-knitr::kable(make_collection_table(include = c("course"), exclude = c("fredhutch")), format = "html", table.attr = "style='width:120%;'")
-```
-
-## Fred Hutch Courses
+## Courses & Tutorials
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 
-knitr::kable(make_collection_table(include = c("fredhutch")), format = "html", table.attr = "style='width:120%;'")
+knitr::kable(make_collection_table(include = c("course")), format = "html", table.attr = "style='width:120%;'")
 ```
 
 ## Our EdTech Software
