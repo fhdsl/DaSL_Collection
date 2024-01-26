@@ -1,7 +1,7 @@
 book_filename: "DaSL Collection"
 chapter_name: " "
 repo: https://github.com/fhdsl/DaSL_Collection
-rmd_files: ["index.Rmd", "About.Rmd"]
+rmd_files: ["index.Rmd", "faq.Rmd"]
 new_session: yes
 delete_merged_file: true
 language:
