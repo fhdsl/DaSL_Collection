@@ -1,5 +1,5 @@
-# Candace Savonen Dec 2021
-# Updated May 2023
+# Candace Savonen 2021
+# Updated Jan 2023
 
 name: Pull Request
 
@@ -31,45 +31,25 @@ jobs:
       # Make the branch fresh
       - name: Make the branch fresh
         run: |
-          git config --global --add safe.directory ${GITHUB_WORKSPACE}
+          git config --global --add safe.directory $GITHUB_WORKSPACE
           git config --global user.email "itcrtrainingnetwork@gmail.com"
           git config --global user.name "jhudsl-robot"
+
           branch_name='preview-${{ github.event.pull_request.number }}'
           echo branch doesnt exist
           git checkout -b $branch_name || echo branch exists
           git push --set-upstream origin $branch_name
         shell: bash
 
-      - name: Check if this is a private repository
-        id: public_repository
-        run: |
-          public=$(curl -Is https://github.com/${GITHUB_REPOSITORY} | head -1 | tr -dc '0-9')
-          if [ $public -eq 2200 ];then
-            public='true'
-            echo 'public repository'
-          else
-            public='false'
-            echo 'private repository'
-          fi
-          echo ::set-output name=public::$public
-        shell: bash
-
     outputs:
-      public_repository: "${{ steps.public_repository.outputs.public }}"
       toggle_spell_check: "${{ env.SPELL_CHECK }}"
+      toggle_style_code: "${{ env.STYLE_CODE }}"
       toggle_url_check: "${{ env.URL_CHECKER }}"
+      toggle_quiz_check: "${{ env.CHECK_QUIZZES }}"
       toggle_render_preview: "${{ env.RENDER_PREVIEW }}"
+      rendering_docker_image: "${{ env.RENDERING_DOCKER_IMAGE }}"
 
-  build-collection:
-    name: Build Collection
-    needs: yaml-check
-    uses: ./.github/workflows/build-collection.yml
-    with:
-      render-type: 'preview'
-      repository: $GITHUB_REPOSITORY
-    secrets:
-      gh_pat: ${{ secrets.GH_PAT }}
-
+########################## Make the error reports ##############################
   spell-check:
     name: Check spelling
     needs: yaml-check
@@ -89,13 +69,50 @@ jobs:
       check_type: urls
       error_min: 0
       gh_pat: secrets.GH_PAT
-      
+
+  quiz-check:
+    name: Check quiz formatting
+    if: ${{needs.yaml-check.outputs.toggle_quiz_check == 'yes'}}
+    needs: yaml-check
+    uses: jhudsl/ottr-reports/.github/workflows/report-maker.yml@main
+    with:
+      check_type: quiz_format
+      error_min: 0
+      gh_pat: secrets.GH_PAT
+
+############################# Style the code ###################################
+  style-code:
+    name: Style code
+    needs: yaml-check
+    runs-on: ubuntu-latest
+    if: ${{needs.yaml-check.outputs.toggle_style_code == 'yes'}}
+    container:
+      image: jhudsl/base_ottr:main
+
+    steps:
+      - name: Checkout files
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Run styler
+        run: Rscript -e "styler::style_file(list.files(pattern = 'Rmd$', recursive = TRUE, full.names = TRUE));warnings()"
+
+      - name: Commit styled files
+        run: |
+          git config --system --add safe.directory "$GITHUB_WORKSPACE"
+          git add \*.Rmd
+          git commit -m 'Style Rmds' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
+
+############################# Render Preview ###################################
+
   render-preview:
     name: Render preview
-    needs: [yaml-check, build-collection]
+    needs: yaml-check
     runs-on: ubuntu-latest
     container:
-      image: jhudsl/course_template:main
+      image: ${{needs.yaml-check.outputs.rendering_docker_image}}
     if: ${{needs.yaml-check.outputs.toggle_render_preview == 'yes'}}
 
     steps:

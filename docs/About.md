@@ -9,35 +9,30 @@ These credits are based on our [course contributors table guidelines](https://ww
 |Credits|Names|
 |-------|-----|
 |**Pedagogy**||
-|Lead Content Instructor(s)|[FirstName LastName]|
-|Lecturer(s) (include chapter name/link in parentheses if only for specific chapters) - make new line if more than one chapter involved| Delivered the course in some way - video or audio|
-|Content Author(s) (include chapter name/link in parentheses if only for specific chapters) - make new line if more than one chapter involved | If any other authors besides lead instructor|
-|Content Contributor(s) (include section name/link in parentheses) - make new line if more than one section involved|  Wrote less than a chapter|
-|Content Editor(s)/Reviewer(s) | Checked your content|
-|Content Director(s) | Helped guide the content direction|
-|Content Consultants (include chapter name/link in parentheses or word "General") - make new line if more than one chapter involved | Gave high level advice on content|
-|Acknowledgments| Gave small assistance to content but not to the level of consulting |
+|Lead Content Instructor(s)|[Ava Hoffman] - Course 1: <br> Exploring AI Possibilities <br> [Carrie Wright] - Course 2: <br> Avoiding AI Harm <br> [Candace Savonen] - Course 3: <br> Determining AI Needs <br> [Elizabeth Humphries] - Course 4:<br>  Developing AI Policy <br>|
+|Project Management| [Elizabeth Humphries], [Shasta Nicholson]|
+|Content Author| [Christopher Lo] - [Avoiding AI Harm - Effective Use of Training and Testing Data](https://hutchdatascience.org/AI_for_Decision_Makers/effective-use-of-training-and-testing-data.html), [Developing AI Policy - Education case study](https://hutchdatascience.org/AI_for_Decision_Makers/ai-acts-orders-and-regulations.html#education) <br> [Monica Gerber] - [Developing AI Policy - Healthcare case study](https://hutchdatascience.org/AI_for_Decision_Makers/ai-acts-orders-and-regulations.html#healthcare) |
+|Content Editor(s)/Reviewer(s) | [Sitapriya Moorthi], [Jeffrey Leek], [Amy Paguirigan], [Jenny Weddle], [Christopher Lo]|
+|Content Director(s) |[Jeff Leek] , [Elizabeth Humphries] |
+|Content Consultants | [Robert McDermott], [Jennifer Weddle], [Adina Mueller]|
 |**Production**||
-|Content Publisher(s)| Helped with publishing platform|
-|Content Publishing Reviewer(s)| Reviewed overall content and aesthetics on publishing platform|
+|Content Publisher(s)| [Shasta Nicholson]|
+|Content Publishing Reviewer(s)| [Ava Hoffman], [Carrie Wright], [Candace Savonen],[Elizabeth Humphries] |
 |**Technical**||
-|Course Publishing Engineer(s)| Helped with the code for the technical aspects related to the specific course generation|
 |Template Publishing Engineers|[Candace Savonen], [Carrie Wright], [Ava Hoffman]|
 |Publishing Maintenance Engineer|[Candace Savonen]|
 |Technical Publishing Stylists|[Carrie Wright], [Ava Hoffman], [Candace Savonen]|
-|Package Developers ([ottrpal]) [Candace Savonen], [John Muschelli], [Carrie Wright]|
+|Package Developers ([ottrpal]) | [Candace Savonen], [John Muschelli], [Carrie Wright]|
 |**Art and Design**||
-|Illustrator(s)| Created graphics for the course|
-|Figure Artist(s)| Created figures/plots for course|
-|Videographer(s)| Filmed videos|
-|Videography Editor(s)| Edited film|
-|Audiographer(s)| Recorded audio|
-|Audiography Editor(s)| Edited audio recordings|
+|Illustrator(s)| [Ava Hoffman], [Candace Savonen], [Carrie Wright], [Elizabeth Humphries], [Sitapriya Moorthi]|
+|Figure Artist(s)|[Ava Hoffman] [Candace Savonen], [Carrie Wright], [Elizabeth Humphries], [Sitapriya Moorthi]|
 |**Funding**||
-|Funder(s)| Institution/individual who funded course including grant number|
-|Funding Staff| Staff members who help with funding|
+|Funder(s)| The development of this course was supported by the National Cancer Institute (NCI) under Grant UE5CA254170.|
+|Funding Staff| [Shasta Nicholson], [Maleah O'Conner], [Sandy Ombrek]|
 
 &nbsp;
+
+**Tools used to create this course:**
 
 
 ```
@@ -51,12 +46,13 @@ These credits are based on our [course contributors table guidelines](https://ww
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2024-01-16                  
+##  date     2024-01-12                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source                            
 ##  assertthat    0.2.1   2019-03-21 [1] RSPM (R 4.0.5)                    
 ##  bookdown      0.24    2023-03-28 [1] Github (rstudio/bookdown@88bc4ea) 
+##  bslib         0.4.2   2022-12-16 [1] CRAN (R 4.0.2)                    
 ##  cachem        1.0.7   2023-02-24 [1] CRAN (R 4.0.2)                    
 ##  callr         3.5.0   2020-10-08 [1] RSPM (R 4.0.2)                    
 ##  cli           3.6.1   2023-03-23 [1] CRAN (R 4.0.2)                    
@@ -70,6 +66,8 @@ These credits are based on our [course contributors table guidelines](https://ww
 ##  fs            1.5.0   2020-07-31 [1] RSPM (R 4.0.3)                    
 ##  glue          1.4.2   2020-08-27 [1] RSPM (R 4.0.5)                    
 ##  htmltools     0.5.5   2023-03-23 [1] CRAN (R 4.0.2)                    
+##  jquerylib     0.1.4   2021-04-26 [1] CRAN (R 4.0.2)                    
+##  jsonlite      1.7.1   2020-09-07 [1] RSPM (R 4.0.2)                    
 ##  knitr         1.33    2023-03-28 [1] Github (yihui/knitr@a1052d1)      
 ##  magrittr      2.0.3   2022-03-30 [1] CRAN (R 4.0.2)                    
 ##  memoise       2.0.1   2021-11-26 [1] CRAN (R 4.0.2)                    
@@ -83,6 +81,7 @@ These credits are based on our [course contributors table guidelines](https://ww
 ##  rlang         1.1.0   2023-03-14 [1] CRAN (R 4.0.2)                    
 ##  rmarkdown     2.10    2023-03-28 [1] Github (rstudio/rmarkdown@02d3c25)
 ##  rprojroot     2.0.3   2022-04-02 [1] CRAN (R 4.0.2)                    
+##  sass          0.4.5   2023-01-24 [1] CRAN (R 4.0.2)                    
 ##  sessioninfo   1.1.1   2018-11-05 [1] RSPM (R 4.0.3)                    
 ##  stringi       1.5.3   2020-09-09 [1] RSPM (R 4.0.3)                    
 ##  stringr       1.4.0   2019-02-10 [1] RSPM (R 4.0.3)                    
@@ -98,15 +97,28 @@ These credits are based on our [course contributors table guidelines](https://ww
 
 <!-- Author information -->
 
-[FirstName LastName]: link to personal website
 [John Muschelli]: https://johnmuschelli.com/
 [Candace Savonen]: https://www.cansavvy.com/
 [Carrie Wright]: https://carriewright11.github.io/
 [Ava Hoffman]: https://www.avahoffman.com/
+[Jeffrey Leek]: https://jtleek.com/
+[Christopher Lo]: https://www.linkedin.com/in/christopher-lo-23316221b
+[Shasta Nicholson]: https://www.linkedin.com/in/shastanicholson
+[Sandy Ombrek]: https://www.linkedin.com/in/sandy-ormbrek-1410b113
+[Elizabeth Humphries]: https://www.linkedin.com/in/elizabeth-humphries-61202a103/
+[Christopher Lo]: https://www.linkedin.com/in/christopher-lo-23316221b/
+[Sitapriya Moorthi]: https://www.linkedin.com/in/sitapriyamoorthi/
+[Jennifer Weddle]: https://hutchdatascience.org/ourteam/
+[Robert McDermott]: https://www.linkedin.com/in/robert-mcdermott-a77b9011/
+[Adina Mueller]: https://www.linkedin.com/in/adina-mueller-575aaa/
+[Maleah O'Conner]: https://hutchdatascience.org/ourteam/
+[Monica Gerber]: https://www.monicagerber.com/
+[Amy Paguirigan]: https://amypag.com/
 
 <!-- Links -->
 
 [ottrpal]: https://github.com/jhudsl/ottrpal
+[Fred Hutchinson Cancer Center]:https://www.fredhutch.org/
 
 <!-- Fill out this table using these instructions: https://github.com/jhudsl/OTTR_Template/wiki/How-to-give-credits
 
