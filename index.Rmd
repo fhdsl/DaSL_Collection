@@ -16,9 +16,9 @@ output:
 # Full Collection
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
-source("scripts/render_collection.R")
+#source("scripts/render_collection.R")
 
-knitr::kable(make_collection_table(), format = "html")
+#knitr::kable(make_collection_table(), format = "html")
 ```
 
 <br><br><br>
