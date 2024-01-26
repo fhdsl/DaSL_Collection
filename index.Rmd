@@ -40,6 +40,9 @@ dt <- DT::datatable(
   )
 )
 dt
+
+DT::datatable(
+  make_collection_table())
 ```
 
 ## EdTech Software
