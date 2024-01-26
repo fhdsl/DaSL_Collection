@@ -16,7 +16,7 @@ output:
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 # load libraries ----
-install.packages("DT")
+install.packages("DT", repos='http://cran.us.r-project.org')
 library(DT)
 ```
 
