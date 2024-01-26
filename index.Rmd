@@ -14,22 +14,58 @@ output:
       number_sections: false
 ---
 
-# Search for Courses
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+source("scripts/render_collection.R")
+# load libraries ----
+library(DT)
+```
+
+# Browse Our Materials
 
 ## Courses & Tutorials
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
-source("scripts/render_collection.R")
-
-knitr::kable(make_collection_table(include = c("course")), format = "html", table.attr = "style='width:120%;'")
+dt <- datatable(
+  make_collection_table(include = c("course")),
+  #extensions = c("SearchBuilder", "DateTime"),
+  escape = FALSE,
+  # Make cell values html enabled
+  rownames = FALSE,
+  # Remove 1, 2, 3 labels
+  options = list(
+    autowidth = TRUE,
+    search = list(regex = TRUE),
+    pageLength = 100, # Show 100 results
+    dom = 'ft', # Don't allow to change how many results are displayed
+    # dom = "Qlfrtip",
+    # searchBuilder = TRUE,
+    search = list(return = TRUE)
+  )
+)
+dt
 ```
 
-## Our EdTech Software
+## EdTech Software
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
-source("scripts/render_collection.R")
-
-knitr::kable(make_collection_table(include = c("edtech-software")), format = "html", table.attr = "style='width:120%;'")
+dt <- datatable(
+  make_collection_table(include = c("edtech-software")),
+  #extensions = c("SearchBuilder", "DateTime"),
+  escape = FALSE,
+  # Make cell values html enabled
+  rownames = FALSE,
+  # Remove 1, 2, 3 labels
+  options = list(
+    autowidth = TRUE,
+    search = list(regex = TRUE),
+    pageLength = 100, # Show 100 results
+    dom = 'ft', # Don't allow to change how many results are displayed
+    # dom = "Qlfrtip",
+    # searchBuilder = TRUE,
+    search = list(return = TRUE)
+  )
+)
+dt
 ```
 
 <br><br><br>
