@@ -1,25 +1,35 @@
-# AI for Decision Makers
+# 📚 DaSL Collection
 
-This course was created from [this GitHub template](https://github.com/jhudsl/OTTR_Template).
+[![Render Collection](https://github.com/fhdsl/DaSL_Collection/actions/workflows/render-site.yml/badge.svg)](https://github.com/fhdsl/DaSL_Collection/actions/workflows/render-site.yml)
 
-You can see the rendered course material here: https://hutchdatascience.org/AI_for_Decision_Makers/
+### What is the DaSL Collection?
 
-If you would like to contribute to this course material, take a look at the [OTTR documentation](https://www.ottrproject.org/).
+DaSL Collection uses the Github API to gather jhudsl and fhdsl organization repositories that we have worked on. It renders the table in a markdown-readable format on the [website](https://hutchdatascience.org/DaSL_Collection).
 
-## About this course
+### What repositories are included?
 
-This is the series of courses in Fred Hutch DaSL's "AI for Decision Makers" specialization on Coursera.
+The Collection only includes repositories that meet the following criteria:
 
-## Specialization Sections 
+-   Are public
+-   Have a homepage listed
+-   Have a description listed
 
-* Introduction
-* Course 1: AI Possibilities
-* Course 2: Avoiding AI Harm
-* Course 3: Determining AI Needs
-* Course 4: Developing an AI Policy
+### How often is the Collection updated?
 
-## Encountering problems?
+The collection is rendered nightly at 3am EST.
 
-If you are encountering any problems with this course, please file a GitHub issue or contact us at **data at fredhutch.org**.
+### How can I add my new course/content to the Collection?
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />All materials in this course are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> unless noted otherwise.
+Your repository must be created under the jhudsl, fhdsl, or datatrail-jhu organizations and meet the above criteria. For more information see the [FAQ](https://hutchdatascience.org/DaSL_Collection/faq/) tab.
+
+For repositories under other organizations, you can fork the repository into the jhudsl or fhdsl organizations. [Example](https://github.com/fhdsl/Data-Wrangling)
+
+### I want to use the raw Collection data!
+
+You can use the following link:
+
+<https://raw.githubusercontent.com/fhdsl/DaSL_Collection/main/resources/collection.tsv>
+
+### Testing Locally
+
+Testing the rendering of the collection before committing changes can be done with instructions [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
