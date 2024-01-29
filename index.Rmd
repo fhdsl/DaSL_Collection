@@ -13,7 +13,7 @@ output:
       toc: false
 ---
 
-```{r, message=FALSE, echo=FALSE}
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
 source("scripts/render_collection.R")
 ```
 
@@ -72,5 +72,10 @@ knitr::kable(make_collection_table(include = c("edtech-software")), format = "ht
 
 <br><br><br>
 This page was last updated on `r Sys.time()`
+
+
+
+
+
 
 
