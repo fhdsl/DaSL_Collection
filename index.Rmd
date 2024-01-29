@@ -13,7 +13,7 @@ output:
       toc: false
 ---
 
-```{r}
+```{r, message=FALSE, echo=FALSE}
 source("scripts/render_collection.R")
 ```
 
@@ -21,7 +21,7 @@ source("scripts/render_collection.R")
 
 ## Courses & Tutorials
 
-```{r eval=TRUE}
+```{r eval=TRUE, message=FALSE, echo=FALSE}
 # dt <- DT::datatable(
 #   make_collection_table(include = c("course")),
 #   #extensions = c("SearchBuilder", "DateTime"),
@@ -48,7 +48,7 @@ knitr::kable(make_collection_table(include = c("course")), format = "html")
 
 ## EdTech Software
 
-```{r eval=TRUE}
+```{r eval=TRUE, message=FALSE, echo=FALSE}
 # dt <- DT::datatable(
 #   make_collection_table(include = c("edtech-software")),
 #   #extensions = c("SearchBuilder", "DateTime"),
