@@ -30,6 +30,11 @@ output:
    <td style="text-align:left;"> python, r, reproducibility, version-control </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> [AI for Decision Makers](https://hutchdatascience.org/AI_for_Decision_Makers/) ([github](https://github.com/fhdsl/AI_for_Decision_Makers)) </td>
+   <td style="text-align:left;"> This is the series of courses in Fred Hutch DaSL's &quot;AI for Decision Makers&quot; specialization on Coursera. </td>
+   <td style="text-align:left;"> course, hutch-course </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> [AI for Efficient Programming](https://hutchdatascience.org/AI_for_Efficient_Programming/) ([github](https://github.com/fhdsl/AI_for_Efficient_Programming)) </td>
    <td style="text-align:left;"> DaSL's course on AI skills for efficient programming </td>
    <td style="text-align:left;"> artificial-intelligence, chatbot, course, hutch-course, learn-ai, llm, llms, software-learning </td>
@@ -172,7 +177,7 @@ output:
   <tr>
    <td style="text-align:left;"> [FH Cluster 101](https://leanpub.com/courses/fredhutch/fredhutchcluster101) ([github](https://github.com/fhdsl/FH_Cluster_101)) </td>
    <td style="text-align:left;"> This course introduces users to the Fred Hutch Cluster. It will lead users through account creation, using the terminal, connecting to the cluster, submitting jobs, and transferring files. Available in both web and Leanpub formats. </td>
-   <td style="text-align:left;"> command-line, computing-cluster, course, fredhutch, hpcc, hutch-course </td>
+   <td style="text-align:left;"> command-line, computing-cluster, course, hpcc, hutch-course </td>
   </tr>
   <tr>
    <td style="text-align:left;"> [FH Cluster201](https://hutchdatascience.org/FH_Cluster201/) ([github](https://github.com/fhdsl/FH_Cluster201)) </td>
@@ -322,13 +327,13 @@ output:
   <tr>
    <td style="text-align:left;"> [Using Leanpub](https://hutchdatascience.org/Using_Leanpub/) ([github](https://github.com/fhdsl/Using_Leanpub)) </td>
    <td style="text-align:left;"> A gentle introduction to Leanpub </td>
-   <td style="text-align:left;"> education, leanpub </td>
+   <td style="text-align:left;"> course, education, leanpub </td>
   </tr>
 </tbody>
 </table>
 
 <br><br><br>
-This page was last updated on 2024-01-28 03:04:42
+This page was last updated on 2024-01-29 22:09:02
 
 
 
