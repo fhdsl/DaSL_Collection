@@ -1,6 +1,7 @@
 bookdown::gitbook:
   css: [assets/style.css, assets/style_custom.css]
   lib_dir: libs
+  self_contained: false
   includes:
     in_header: GA_Script.Rhtml
     before_body: assets/big-image_fhdasl.html
