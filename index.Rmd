@@ -27,7 +27,16 @@ source("scripts/render_collection.R")
 
 knitr::kable(make_collection_table(kable = TRUE, include = "course"), format = "html")
 
-DT::datatable(make_collection_table(kable = TRUE, include = "course"))
+library(DT)
+datatable(head(iris, 20), options = list(
+  initComplete = JS(
+    "function(settings, json) {",
+    "$(this.api().table().header()).css({
+      'background-color': '#000',
+      'color': '#fff'
+     });",
+    "}")
+))
 ```
 
 ## Fred Hutch Learning

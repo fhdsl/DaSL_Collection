@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>DaSL Collection</title>
   <meta name="description" content="Description about Course/Book." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
 
   <meta property="og:title" content="DaSL Collection" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Description about Course/Book." />
   
@@ -31,7 +30,6 @@
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
 
 <link rel="next" href="about-the-authors.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -49,8 +47,17 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.31/datatables.js"></script>
+<link href="libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -59,6 +66,10 @@
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="assets/style.css" type="text/css" />
 <link rel="stylesheet" href="assets/style_custom.css" type="text/css" />
@@ -77,7 +88,12 @@
 <a href="https://hutchdatascience.org/" target="_blank"><img src="assets/big-dasl-stacked.png" style="width: 80%; padding-left: 34px; padding-top: 8px;"</a>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Collection</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Collection</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#courses"><i class="fa fa-check"></i>Courses</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#fred-hutch-learning"><i class="fa fa-check"></i>Fred Hutch Learning</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#edtech-software"><i class="fa fa-check"></i>EdTech Software</a></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 <li class="divider"></li>
 <p style="text-align:center;"> <a href="https://github.com/jhudsl/OTTR_Template" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
@@ -118,8 +134,12 @@
 <h1 class="title"><strong>DaSL Collection</strong></h1>
 <p class="date"><em>January, 2024</em></p>
 </div>
-<div id="about-this-collection" class="section level1">
-<h1>About this Collection</h1>
+<div id="about-this-collection" class="section level1 hasAnchor">
+<h1>About this Collection<a href="index.html#about-this-collection" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>The following tables are rendered automatically from our resources using the GitHub API.</p>
+<div id="courses" class="section level2 hasAnchor">
+<h2>Courses<a href="index.html#courses" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The following are our courses, indicated by the <code>course</code> tag.</p>
 <table>
 <thead>
 <tr>
@@ -135,17 +155,6 @@ Topics
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align:left;">
-<a href="https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics">Adv Reproducibility in Cancer Informatics</a> (<a href="https://github.com/jhudsl/Adv_Reproducibility_in_Cancer_Informatics">github</a>)
-</td>
-<td style="text-align:left;">
-This course the second course in a two part series that discusses reproducibility in the context of cancer informatics.
-</td>
-<td style="text-align:left;">
-python, r, reproducibility, version-control
-</td>
-</tr>
 <tr>
 <td style="text-align:left;">
 <a href="https://hutchdatascience.org/AI_for_Decision_Makers/">AI for Decision Makers</a> (<a href="https://github.com/fhdsl/AI_for_Decision_Makers">github</a>)
@@ -181,127 +190,6 @@ anvil, course, epigenetics, human-genomes, module, ucsc-browser
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="https://jhudatascience.org/AnVIL_Book_Getting_Started">AnVIL: Getting Started</a> (<a href="https://github.com/jhudsl/AnVIL_Book_Getting_Started">github</a>)
-</td>
-<td style="text-align:left;">
-A guide for getting started using AnVIL
-</td>
-<td style="text-align:left;">
-anvil, cloud-computing
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://jhudatascience.org/AnVIL_Book_Instructor_Guide">AnVIL: Instructor Guide</a> (<a href="https://github.com/jhudsl/AnVIL_Book_Instructor_Guide">github</a>)
-</td>
-<td style="text-align:left;">
-A guide for instructors using AnVIL for workshops, lessons, or courses.
-</td>
-<td style="text-align:left;">
-anvil, education
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://hutchdatascience.org/AnVIL_Collection/">AnVIL Collection</a> (<a href="https://github.com/fhdsl/AnVIL_Collection">github</a>)
-</td>
-<td style="text-align:left;">
-📚 An auto-generating collection of all materials related to the AnVIL and GDSCN projects
-</td>
-<td style="text-align:left;">
-content-library, website
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://hutchdatascience.org/AnVIL_Data_Subsetting/">AnVIL Data Subsetting</a> (<a href="https://github.com/fhdsl/AnVIL_Data_Subsetting">github</a>)
-</td>
-<td style="text-align:left;">
-Tutorial for running the fastq_subsample WDL workflow on AnVIL!
-</td>
-<td style="text-align:left;">
-anvil, genomics, wdl, wdl-workflow, workflow
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://hutchdatascience.org/AnVIL_Demos/">AnVIL Demos</a> (<a href="https://github.com/fhdsl/AnVIL_Demos">github</a>)
-</td>
-<td style="text-align:left;">
-⏱ 30-minute demos and tutorials from our live AnVIL series
-</td>
-<td style="text-align:left;">
-anvil, cloud, cloud-computing, genomics, research
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/">AnVIL Phylogenetic-Techniques</a> (<a href="https://github.com/jhudsl/AnVIL_Phylogenetic-Techniques">github</a>)
-</td>
-<td style="text-align:left;">
-A semester-long course on the basics of molecular phylogenetic techniques
-</td>
-<td style="text-align:left;">
-anvil, r-programming
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://hutchdatascience.org/AnVIL_SRA_Data/">AnVIL SRA Data</a> (<a href="https://github.com/fhdsl/AnVIL_SRA_Data">github</a>)
-</td>
-<td style="text-align:left;">
-Pull Sequence Read Archive (SRA) data into AnVIL
-</td>
-<td style="text-align:left;">
-anvil, genomics, ncbi-database, sequence-read-archive
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://jhudatascience.org/AnVIL_Template/">AnVIL Template</a> (<a href="https://github.com/jhudsl/AnVIL_Template">github</a>)
-</td>
-<td style="text-align:left;">
-An OTTR spinoff template for creating AnVIL content
-</td>
-<td style="text-align:left;">
-anvil, template
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://hutchdatascience.org/AnVIL_Urban_Genomics_PCA/">AnVIL Urban Genomics PCA</a> (<a href="https://github.com/fhdsl/AnVIL_Urban_Genomics_PCA">github</a>)
-</td>
-<td style="text-align:left;">
-Lab module and lectures for exploring PCA using feral pigeon populations
-</td>
-<td style="text-align:left;">
-anvil, genomics, pca, urban-data-science
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://github.com/fhdsl/AnVIL_WDLs/tree/main">AnVIL WDLs</a> (<a href="https://github.com/fhdsl/AnVIL_WDLs">github</a>)
-</td>
-<td style="text-align:left;">
-Raw WDL workflow files for use on AnVIL and other platforms
-</td>
-<td style="text-align:left;">
-anvil, genomics, wdl, workflows
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://jhudatascience.org/ari/">ari</a> (<a href="https://github.com/jhudsl/ari">github</a>)
-</td>
-<td style="text-align:left;">
-:dancers: The Automated R Instructor
-</td>
-<td style="text-align:left;">
-edtech-software
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 <a href="https://jhudatascience.org/Baltimore_Community_Course">Baltimore Community Course</a> (<a href="https://github.com/jhudsl/Baltimore_Community_Course">github</a>)
 </td>
 <td style="text-align:left;">
@@ -309,17 +197,6 @@ Baltimore Community Data Science Course at JHSPH through partnership with SOURCE
 </td>
 <td style="text-align:left;">
 community-outreach, course, data-science
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="http://hutchdatascience.org/Choosing_Genomics_Tools/">Choosing Genomics Tools</a> (<a href="https://github.com/fhdsl/Choosing_Genomics_Tools">github</a>)
-</td>
-<td style="text-align:left;">
-A course to help learners find resources and tools to help them process and interpret their genomic data
-</td>
-<td style="text-align:left;">
-NA
 </td>
 </tr>
 <tr>
@@ -335,39 +212,6 @@ codereview, fhdasl, hutch-course, training
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="https://jhudatascience.org/Computing_for_Cancer_Informatics">Computing for Cancer Informatics</a> (<a href="https://github.com/jhudsl/Computing_for_Cancer_Informatics">github</a>)
-</td>
-<td style="text-align:left;">
-The course covers the key underlying principles and concepts in computing. It covers concrete discussions of the differences between cloud and local computing. The course highlights a number of computing options and etiquette for using shared resources.
-</td>
-<td style="text-align:left;">
-computing, informatics
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="http://hutchdatascience.org/conrad/">conrad</a> (<a href="https://github.com/fhdsl/conrad">github</a>)
-</td>
-<td style="text-align:left;">
-Client for the Microsoft Cognitive Services Text to Speech REST API (reboot of the mscstts package)
-</td>
-<td style="text-align:left;">
-azure, r, text-to-speech, tts
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://hutchdatascience.org/DaSL_Collection">DaSL Collection</a> (<a href="https://github.com/fhdsl/DaSL_Collection">github</a>)
-</td>
-<td style="text-align:left;">
-📚 An auto-generating library of all Data Science Lab Github-based content
-</td>
-<td style="text-align:left;">
-content-library, website
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 <a href="http://hutchdatascience.org/dasl-snack-github/">dasl-snack-github</a> (<a href="https://github.com/fhdsl/dasl-snack-github">github</a>)
 </td>
 <td style="text-align:left;">
@@ -379,94 +223,6 @@ hutch-course
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="https://hutchdatascience.org/Data-Wrangling/">Data-Wrangling</a> (<a href="https://github.com/fhdsl/Data-Wrangling">github</a>)
-</td>
-<td style="text-align:left;">
-UW Summer Institute in Statistics: Data Wrangling in R
-</td>
-<td style="text-align:left;">
-data-science, data-wrangling, r-programming, r-stats, tidyverse
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://datatrail-jhu.github.io/12_package/">DataTrail: 12 package</a> (<a href="https://github.com/datatrail-jhu/12_package">github</a>)
-</td>
-<td style="text-align:left;">
-How to Create an R package Course
-</td>
-<td style="text-align:left;">
-data-science, package-development, r-package
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://datatrail-jhu.github.io/DataTrail/">DataTrail: DataTrail</a> (<a href="https://github.com/datatrail-jhu/DataTrail">github</a>)
-</td>
-<td style="text-align:left;">
-The re-organized DataTrail curriculum <a href="https://www.datatrail.org/" class="uri">https://www.datatrail.org/</a>
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://datatrail-jhu.github.io/DataTrail_Guides/">DataTrail: DataTrail Guides</a> (<a href="https://github.com/datatrail-jhu/DataTrail_Guides">github</a>)
-</td>
-<td style="text-align:left;">
-Guides for how to launch a DataTrail program
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://datatrail-jhu.github.io/rgoogleclassroom/">DataTrail: rgoogleclassroom</a> (<a href="https://github.com/datatrail-jhu/rgoogleclassroom">github</a>)
-</td>
-<td style="text-align:left;">
-API wrapper for Google Classroom and a bit of Google Forms API too
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="http://swirlstats.com/scn/">DataTrail: scn</a> (<a href="https://github.com/datatrail-jhu/scn">github</a>)
-</td>
-<td style="text-align:left;">
-:school_satchel: The swirl Course Network - A Repository for swirl Courses
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://jhudatascience.org/Documentation_and_Usability/">Documentation and Usability</a> (<a href="https://github.com/jhudsl/Documentation_and_Usability">github</a>)
-</td>
-<td style="text-align:left;">
-A course to cover the basics of creating documentation and tutorials to maximize the usability of informatics tools
-</td>
-<td style="text-align:left;">
-documentation, software-development
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/">Ethical Data Handling for Cancer Research</a> (<a href="https://github.com/fhdsl/Ethical_Data_Handling_for_Cancer_Research">github</a>)
-</td>
-<td style="text-align:left;">
-This course is designed to help researchers and investigators understand the key principles of data management from an ethics, privacy, security, usability and discoverability perspective.
-</td>
-<td style="text-align:left;">
-data, ethics, privacy, research, security
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 <a href="https://leanpub.com/courses/fredhutch/fredhutchcluster101">FH Cluster 101</a> (<a href="https://github.com/fhdsl/FH_Cluster_101">github</a>)
 </td>
 <td style="text-align:left;">
@@ -474,28 +230,6 @@ This course introduces users to the Fred Hutch Cluster. It will lead users throu
 </td>
 <td style="text-align:left;">
 command-line, computing-cluster, course, hpcc, hutch-course
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://hutchdatascience.org/FH_Cluster201/">FH Cluster201</a> (<a href="https://github.com/fhdsl/FH_Cluster201">github</a>)
-</td>
-<td style="text-align:left;">
-An emerging course for effective use of FH Computing.
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://github.com/fhdsl/FH_letterhead">FH letterhead</a> (<a href="https://github.com/fhdsl/FH_letterhead">github</a>)
-</td>
-<td style="text-align:left;">
-A LaTeX template for Fred Hutch letterhead
-</td>
-<td style="text-align:left;">
-latex, letterhead, template
 </td>
 </tr>
 <tr>
@@ -522,105 +256,6 @@ course, fredhutch, openwdl, wdl, workflows
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="https://jhudatascience.org/GDSCN_Book_SARS_Galaxy_on_AnVIL/">GDSCN: SARS Galaxy on AnVIL</a> (<a href="https://github.com/jhudsl/GDSCN_Book_SARS_Galaxy_on_AnVIL">github</a>)
-</td>
-<td style="text-align:left;">
-Lab module and lectures for variant detection in SARS-CoV-2 using Galaxy
-</td>
-<td style="text-align:left;">
-anvil, gdscn, genomics, module, sars-cov-2, variant-detection
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_Differential_Expression/">GDSCN: Statistics for Genomics Differential Expression</a> (<a href="https://github.com/jhudsl/GDSCN_Book_Statistics_for_Genomics_Differential_Expression">github</a>)
-</td>
-<td style="text-align:left;">
-A set of lab modules for an introduction to differential gene expression
-</td>
-<td style="text-align:left;">
-anvil, cloud-computing, gdscn, gene-expression
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_PCA/">GDSCN: Statistics for Genomics PCA</a> (<a href="https://github.com/jhudsl/GDSCN_Book_Statistics_for_Genomics_PCA">github</a>)
-</td>
-<td style="text-align:left;">
-A set of lab modules for PCA analysis
-</td>
-<td style="text-align:left;">
-anvil, gdscn, genomics
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_RNA-seq/">GDSCN: Statistics for Genomics RNA-seq</a> (<a href="https://github.com/jhudsl/GDSCN_Book_Statistics_for_Genomics_RNA-seq">github</a>)
-</td>
-<td style="text-align:left;">
-[WORK IN PROGRESS] A set of lab modules for RNA-seq analysis
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="http://jhudatascience.org/GDSCN_Book_Statistics_for_Genomics_scRNA-seq/">GDSCN: Statistics for Genomics scRNA-seq</a> (<a href="https://github.com/jhudsl/GDSCN_Book_Statistics_for_Genomics_scRNA-seq">github</a>)
-</td>
-<td style="text-align:left;">
-A set of lab modules for single cell RNA-seq analysis
-</td>
-<td style="text-align:left;">
-anvil, gdscn, rna-seq, scrna-seq
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://jhudatascience.org/GDSCN_Book_swirl/">GDSCN: swirl</a> (<a href="https://github.com/jhudsl/GDSCN_Book_swirl">github</a>)
-</td>
-<td style="text-align:left;">
-Lab exercise: learn basic R programming through interactive swirl lessons
-</td>
-<td style="text-align:left;">
-gdscn, swirl
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://hutchdatascience.org/GDSCN_SARS_RStudio_on_AnVIL/">GDSCN SARS RStudio on AnVIL</a> (<a href="https://github.com/fhdsl/GDSCN_SARS_RStudio_on_AnVIL">github</a>)
-</td>
-<td style="text-align:left;">
-Lab module and lectures for identifying phylogenetic history of SARS variants using R
-</td>
-<td style="text-align:left;">
-anvil, gdscn, phylogenetic-analysis, sars-cov-2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="http://hutchdatascience.org/GitHub_Automation_for_Scientists/">GitHub Automation for Scientists</a> (<a href="https://github.com/fhdsl/GitHub_Automation_for_Scientists">github</a>)
-</td>
-<td style="text-align:left;">
-A course that introduces Github actions to developers of scientific worklflows and software
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://jhudatascience.org/Informatics_Research_Leadership/">Informatics Research Leadership</a> (<a href="https://github.com/jhudsl/Informatics_Research_Leadership">github</a>)
-</td>
-<td style="text-align:left;">
-Guidance on supporting multidisciplinary teams in cancer informatics.
-</td>
-<td style="text-align:left;">
-diversity, informatics, leadership
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 <a href="https://jhudatascience.org/intro_to_r/">intro to r</a> (<a href="https://github.com/jhudsl/intro_to_r">github</a>)
 </td>
 <td style="text-align:left;">
@@ -632,46 +267,113 @@ beginner, beginner-friendly, beginner-programming, course, public-health, r-prog
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="http://hutchdatascience.org/itn-metric/">itn-metric</a> (<a href="https://github.com/fhdsl/itn-metric">github</a>)
+<a href="https://hutchdatascience.org/NIH_Data_Sharing/">NIH Data Sharing</a> (<a href="https://github.com/fhdsl/NIH_Data_Sharing">github</a>)
 </td>
 <td style="text-align:left;">
-Analyze ITCR metrics using {metricminer}
+Learn about the new NIH data sharing policy, places where you might want to share your particular kind of data, and how to deal with possible challenges associated with the policy.
 </td>
 <td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://jhudatascience.org">jhudsl.github.io</a> (<a href="https://github.com/jhudsl/jhudsl.github.io">github</a>)
-</td>
-<td style="text-align:left;">
-source code for the JHU Data Science Lab website
-</td>
-<td style="text-align:left;">
-website
+data-management, data-sharing, grant-proposals, hutch-course, nih
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="https://hutchdatascience.org/metricminer/">metricminer</a> (<a href="https://github.com/fhdsl/metricminer">github</a>)
+<a href="https://hutchdatascience.org/Using_Leanpub/">Using Leanpub</a> (<a href="https://github.com/fhdsl/Using_Leanpub">github</a>)
 </td>
 <td style="text-align:left;">
-R package that digs up data that matters from APIs, making it dashboard-ready
+A gentle introduction to Leanpub
 </td>
 <td style="text-align:left;">
-edtech-software
+course, education, leanpub
+</td>
+</tr>
+</tbody>
+</table>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-ffbe4498555cc171daf7" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ffbe4498555cc171daf7">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9,5.4,4.8,4.8,4.3,5.8,5.7,5.4,5.1,5.7,5.1],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1,3.7,3.4,3,3,4,4.4,3.9,3.5,3.8,3.8],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5,1.5,1.6,1.4,1.1,1.2,1.5,1.3,1.4,1.7,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1,0.2,0.2,0.1,0.1,0.2,0.4,0.4,0.3,0.3,0.3],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"initComplete":"function(settings, json) {\n$(this.api().table().header()).css({\n      'background-color': '#000',\n      'color': '#fff'\n     });\n}","columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Sepal.Length","targets":1},{"name":"Sepal.Width","targets":2},{"name":"Petal.Length","targets":3},{"name":"Petal.Width","targets":4},{"name":"Species","targets":5}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+</div>
+<div id="fred-hutch-learning" class="section level2 hasAnchor">
+<h2>Fred Hutch Learning<a href="index.html#fred-hutch-learning" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The following are materials specific to Fred Hutch Cancer Center, indicated by the <code>hutch-course</code> tag.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+Book Name
+</th>
+<th style="text-align:left;">
+Description
+</th>
+<th style="text-align:left;">
+Topics
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="https://hutchdatascience.org/AI_for_Decision_Makers/">AI for Decision Makers</a> (<a href="https://github.com/fhdsl/AI_for_Decision_Makers">github</a>)
+</td>
+<td style="text-align:left;">
+This is the series of courses in Fred Hutch DaSL’s "AI for Decision Makers" specialization on Coursera.
+</td>
+<td style="text-align:left;">
+course, hutch-course
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="http://www.metricminer.org/">metricminer.org</a> (<a href="https://github.com/fhdsl/metricminer.org">github</a>)
+<a href="https://hutchdatascience.org/AI_for_Efficient_Programming/">AI for Efficient Programming</a> (<a href="https://github.com/fhdsl/AI_for_Efficient_Programming">github</a>)
 </td>
 <td style="text-align:left;">
-A website for metricminer
+DaSL’s course on AI skills for efficient programming
 </td>
 <td style="text-align:left;">
-NA
+artificial-intelligence, chatbot, course, hutch-course, learn-ai, llm, llms, software-learning
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="https://hutchdatascience.org/code_review/">code review</a> (<a href="https://github.com/fhdsl/code_review">github</a>)
+</td>
+<td style="text-align:left;">
+A repository with tips about code review and implementing it in a lab
+</td>
+<td style="text-align:left;">
+codereview, fhdasl, hutch-course, training
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="http://hutchdatascience.org/dasl-snack-github/">dasl-snack-github</a> (<a href="https://github.com/fhdsl/dasl-snack-github">github</a>)
+</td>
+<td style="text-align:left;">
+A DaSL training "snack" covering the benefits and basics of using Git and GitHub to support your biomedical data science work.
+</td>
+<td style="text-align:left;">
+hutch-course
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="https://leanpub.com/courses/fredhutch/fredhutchcluster101">FH Cluster 101</a> (<a href="https://github.com/fhdsl/FH_Cluster_101">github</a>)
+</td>
+<td style="text-align:left;">
+This course introduces users to the Fred Hutch Cluster. It will lead users through account creation, using the terminal, connecting to the cluster, submitting jobs, and transferring files. Available in both web and Leanpub formats.
+</td>
+<td style="text-align:left;">
+command-line, computing-cluster, course, hpcc, hutch-course
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="https://hutchdatascience.org/FH_WDL101_Cromwell/">FH WDL101 Cromwell</a> (<a href="https://github.com/fhdsl/FH_WDL101_Cromwell">github</a>)
+</td>
+<td style="text-align:left;">
+An introduction to using Cromwell and WDL at the Fred Hutch
+</td>
+<td style="text-align:left;">
+course, fredhutch, hutch-course, wdl
 </td>
 </tr>
 <tr>
@@ -683,6 +385,49 @@ Learn about the new NIH data sharing policy, places where you might want to shar
 </td>
 <td style="text-align:left;">
 data-management, data-sharing, grant-proposals, hutch-course, nih
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="edtech-software" class="section level2 hasAnchor">
+<h2>EdTech Software<a href="index.html#edtech-software" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The following are tools and software we’ve designed to make training more streamlined and reproducible. They have the <code>edtech-software</code> tag.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+Book Name
+</th>
+<th style="text-align:left;">
+Description
+</th>
+<th style="text-align:left;">
+Topics
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="https://jhudatascience.org/ari/">ari</a> (<a href="https://github.com/jhudsl/ari">github</a>)
+</td>
+<td style="text-align:left;">
+:dancers: The Automated R Instructor
+</td>
+<td style="text-align:left;">
+edtech-software
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<a href="https://hutchdatascience.org/metricminer/">metricminer</a> (<a href="https://github.com/fhdsl/metricminer">github</a>)
+</td>
+<td style="text-align:left;">
+R package that digs up data that matters from APIs, making it dashboard-ready
+</td>
+<td style="text-align:left;">
+edtech-software
 </td>
 </tr>
 <tr>
@@ -720,61 +465,6 @@ edtech-software
 </tr>
 <tr>
 <td style="text-align:left;">
-<a href="https://www.ottrproject.org/">ottrproject.org</a> (<a href="https://github.com/jhudsl/ottrproject.org">github</a>)
-</td>
-<td style="text-align:left;">
-This repo publishes ottrproject.org
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://hutchdatascience.org/Overleaf_and_LaTeX_for_Scientific_Articles/">Overleaf and LaTeX for Scientific Articles</a> (<a href="https://github.com/fhdsl/Overleaf_and_LaTeX_for_Scientific_Articles">github</a>)
-</td>
-<td style="text-align:left;">
-The course covers basic information about why LaTeX can be useful, how to get started in Overleaf using LaTeX with a template, how to work with a team on Overleaf, and what to do when you encounter problems.
-</td>
-<td style="text-align:left;">
-latex, overleaf, scientific-publications
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="http://hutchdatascience.org/personas">personas</a> (<a href="https://github.com/fhdsl/personas">github</a>)
-</td>
-<td style="text-align:left;">
-Where RDI curates the DaSL Data Science Personas
-</td>
-<td style="text-align:left;">
-data-science, personas, training
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/">Reproducibility in Cancer Informatics</a> (<a href="https://github.com/jhudsl/Reproducibility_in_Cancer_Informatics">github</a>)
-</td>
-<td style="text-align:left;">
-This course discusses reproducibility and replicability in the context of cancer informatics.
-</td>
-<td style="text-align:left;">
-data-science, informatics, python, r, reproducibility
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://hutchdatascience.org/SeattleStatSummer_R/">SeattleStatSummer R</a> (<a href="https://github.com/fhdsl/SeattleStatSummer_R">github</a>)
-</td>
-<td style="text-align:left;">
-A 4-day introduction to R programming, focused on Fred Hutch Research Interns
-</td>
-<td style="text-align:left;">
-beginner, beginner-friendly, data-analysis, data-science, introduction-to-programming, r-programming, tidyverse
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 <a href="http://jhudatascience.org/text2speech/">text2speech</a> (<a href="https://github.com/jhudsl/text2speech">github</a>)
 </td>
 <td style="text-align:left;">
@@ -784,33 +474,12 @@ Text to Speech
 edtech-software, speech-synthesis, text-to-speech, tts, voice
 </td>
 </tr>
-<tr>
-<td style="text-align:left;">
-<a href="http://jhudatascience.org/tidyversecourse/">tidyversecourse</a> (<a href="https://github.com/jhudsl/tidyversecourse">github</a>)
-</td>
-<td style="text-align:left;">
-Tidyverse Skills for Data Science in R
-</td>
-<td style="text-align:left;">
-r, tidyverse
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<a href="https://hutchdatascience.org/Using_Leanpub/">Using Leanpub</a> (<a href="https://github.com/fhdsl/Using_Leanpub">github</a>)
-</td>
-<td style="text-align:left;">
-A gentle introduction to Leanpub
-</td>
-<td style="text-align:left;">
-course, education, leanpub
-</td>
-</tr>
 </tbody>
 </table>
 <p><br><br><br>
-This page was last updated on 2024-01-30 21:30:23</p>
+This page was last updated on 2024-01-30 18:53:00.076076</p>
 
+</div>
 </div>
 <hr>
 <center> 
