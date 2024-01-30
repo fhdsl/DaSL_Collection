@@ -17,7 +17,7 @@ input_quiz_dir = "quizzes"
 output_quiz_dir = "coursera_quizzes"
 verbose = TRUE
 
-root_dir <- bookdown_path()
+root_dir <- ottrpal::bookdown_path()
 output_dir <- file.path(root_dir, output_dir)
 if (!dir.exists(output_dir)) {
   message(paste0("Creating output folder: ", output_dir))
