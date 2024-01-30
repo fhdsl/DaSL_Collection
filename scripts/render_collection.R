@@ -1,7 +1,7 @@
 library(dplyr)
 library(stringr)
 
-make_collection_table <- function(exclude = NULL) {
+make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE) {
   # Read in repos found by GHA
   df <- tryCatch(
     # Check for the file created by GHA
@@ -16,14 +16,37 @@ make_collection_table <- function(exclude = NULL) {
         stringr::str_replace_all("_", " ")
       
       # Concatenate columns to create links
-      df <-
+      # kable = TRUE creates a markdown compatible kable table
+      # kable = FALSE creates an html table, such as one necessary for DT::datatable()
+      if(kable){
+        df <-
+          df %>%
+          mutate(`Book Name` = paste0("[", name, "](", homepage, ") ([github](", html_url, "))"))
+      } else {
+        df <-
+          df %>%
+          mutate(`Book Name` = paste0('<a href="', homepage, '">', name, '</a> (<a href="', html_url, '">github</a>)')) %>% 
+          mutate(topics = str_replace_all(topics, pattern = ", ", replacement = "<br>"))
+      }
+      
+      # Rename and clip unnecessary columns
+      df <- 
         df %>%
-        mutate(`Book Name` = paste0("[", name, "](", homepage, ") ([github](", html_url, "))")) %>%
         rename(Description = description, Topics = topics) %>%
         select(`Book Name`, Description, Topics)
       
       # Remove duplicates if necessary
       df <- distinct(df)
+      
+      # Filter if desired
+      if(!is.null(include)){
+        df <- 
+          df %>% filter(stringr::str_detect(Topics, paste(include, collapse = "|")))
+      }
+      if(!is.null(exclude)){
+        df <- 
+          df %>% filter(!stringr::str_detect(Topics, paste(exclude, collapse = "|")))
+      }
       
       return(df)
     },

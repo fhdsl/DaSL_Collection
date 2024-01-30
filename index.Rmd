@@ -20,32 +20,32 @@ The following tables are rendered automatically from our resources using the Git
 
 ## Courses
 
-The following are our courses, indicated by the "courses" tag.
+The following are our courses, indicated by the `course` tag.
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 
-knitr::kable(make_collection_table(), format = "html")
+knitr::kable(make_collection_table(kable = TRUE, include = "course"), format = "html")
 ```
 
 ## Fred Hutch Learning
 
-The following are materials specific to Fred Hutch Cancer Center.
+The following are materials specific to Fred Hutch Cancer Center, indicated by the `hutch-course` tag.
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 
-knitr::kable(make_collection_table(), format = "html")
+knitr::kable(make_collection_table(kable = TRUE, include = "hutch-course"), format = "html")
 ```
 
 ## EdTech Software
 
-The following are tools and software we've designed to make training more streamlined and reproducible.
+The following are tools and software we've designed to make training more streamlined and reproducible. They have the `edtech-software` tag.
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 
-knitr::kable(make_collection_table(), format = "html")
+knitr::kable(make_collection_table(kable = TRUE, include = "edtech-software"), format = "html")
 ```
 
 <br><br><br>
