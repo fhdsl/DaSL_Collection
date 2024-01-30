@@ -26,6 +26,8 @@ The following are our courses, indicated by the `course` tag.
 source("scripts/render_collection.R")
 
 knitr::kable(make_collection_table(kable = TRUE, include = "course"), format = "html")
+
+DT::datatable(make_collection_table(kable = TRUE, include = "course"))
 ```
 
 ## Fred Hutch Learning
