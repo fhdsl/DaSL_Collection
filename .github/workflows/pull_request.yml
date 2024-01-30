@@ -136,6 +136,7 @@ jobs:
       
       # Now we want to render Rmd -> html
       - name: Convert Rmd to html
+        id: bookdown
         run: |
           Rscript scripts/build.R
 
@@ -144,7 +145,7 @@ jobs:
       # This job creates a shared scaffold for both.
       - name: Run TOC-less version of render
         id: tocless
-        run: Rscript -e "ottrpal::render_without_toc()"
+        run: Rscript -e "ottrpal::render_without_toc(verbose = TRUE)"
 
       # This checks on the steps before it and makes sure that they completed.
       # If the renders didn't complete we don't want to commit the file changes
