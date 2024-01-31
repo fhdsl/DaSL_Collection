@@ -59,6 +59,7 @@ jobs:
       toggle_spell_check: "${{ env.SPELL_CHECK }}"
       toggle_url_check: "${{ env.URL_CHECKER }}"
       toggle_render_preview: "${{ env.RENDER_PREVIEW }}"
+      rendering_docker_image: "${{ env.RENDERING_DOCKER_IMAGE }}"
 
   build-collection:
     name: Build Collection
@@ -67,6 +68,7 @@ jobs:
     with:
       render-type: 'preview'
       repository: $GITHUB_REPOSITORY
+      image-name: ${{needs.yaml-check.outputs.rendering_docker_image}}
     secrets:
       gh_pat: ${{ secrets.GH_PAT }}
 
@@ -95,7 +97,7 @@ jobs:
     needs: [yaml-check, build-collection]
     runs-on: ubuntu-latest
     container:
-      image: jhudsl/base_ottr:tidy4.3.2
+      image: ${{needs.yaml-check.outputs.rendering_docker_image}}
     if: ${{needs.yaml-check.outputs.toggle_render_preview == 'yes'}}
 
     steps:
@@ -115,24 +117,10 @@ jobs:
           git checkout $branch_name
           git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
         shell: bash
-        
-      # # We want a fresh run of the renders each time - so first delete old index.md file
-      # - name: Delete old index.md
-      #   run: |
-      #     rm -f _pages/index.md
       
       # We want a fresh run of the renders each time
       - name: Delete old docs/*
         run: rm -rf docs/*
-
-      # # Now we want to render Rmd -> md
-      # # Requires a little bit of shuffling around of files.
-      # - name: Convert Rmd to md
-      #   run: |
-      #     mv _pages/index.Rmd .
-      #     Rscript scripts/build.R
-      #     mv index.Rmd _pages/
-      #     mv index.md _pages/
       
       # Now we want to render Rmd -> html
       - name: Convert Rmd to html
@@ -145,7 +133,7 @@ jobs:
       # This job creates a shared scaffold for both.
       - name: Run TOC-less version of render
         id: tocless
-        run: Rscript -e "devtools::install_github('jhudsl/ottrpal', ref = remotes::github_pull('124'), upgrade = 'never'); ottrpal::render_without_toc()"
+        run: Rscript -e "devtools::install_github('jhudsl/ottrpal', upgrade = 'never'); ottrpal::render_without_toc()"
         env:
           GITHUB_PAT: ${{ secrets.gh_pat }}
 
@@ -201,6 +189,7 @@ jobs:
             Re-rendered previews from the latest commit:
             - See [preview of Bookdown here](${{ steps.build-components.outputs.bookdown_link }})
             - See [preview of Coursera/Leanpub version here](${{ steps.build-components.outputs.tocless_link }})
+            _Note that `DT::datatable()` content does not appear in preview._
 
             _Updated at ${{ steps.build-components.outputs.time }} with changes from ${{ steps.build-components.outputs.commit_id }}_
           edit-mode: replace

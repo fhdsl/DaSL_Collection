@@ -1,6 +1,6 @@
 ---
 title: '**DaSL Collection**'
-date: "`r format(Sys.time(), '%B, %Y')`"
+date: "Last Updated: `r format(Sys.time(), '%B %d, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -16,29 +16,38 @@ output:
 
 # About this Collection
 
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
-library(DT)
-DT::datatable(iris)
+The following tables are rendered automatically from our resources using the GitHub API. 
 
-datatable(head(iris, 20), options = list(
-  initComplete = JS(
-    "function(settings, json) {",
-    "$(this.api().table().header()).css({
-      'background-color': '#000',
-      'color': '#fff'
-     });",
-    "}")
-))
-```
+## Courses
+
+The following are our courses, indicated by the `course` tag.
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
+DT::datatable(
+  make_collection_table(kable = FALSE, include = "course") # must include "course" tag from github
+)
+```
 
-knitr::kable(make_collection_table(), format = "html")
+## Fred Hutch Learning
 
-sessionInfo()
+The following are materials specific to Fred Hutch Cancer Center, indicated by the `hutch-course` tag.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+DT::datatable(
+  make_collection_table(kable = FALSE, include = "hutch-course") # must include "hutch-course" tag from github
+)
+```
+
+## EdTech Software
+
+The following are tools and software we've designed to make training more streamlined and reproducible. They have the `edtech-software` tag.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+DT::datatable(
+  make_collection_table(kable = FALSE, include = "edtech-software") # must include "edtech-software" tag from github
+)
 ```
 
 <br><br><br>
-This page was last updated on `r Sys.time()`
-
+Check out our [FAQ](https://hutchdatascience.org/DaSL_Collection/FAQ.html) to learn how to contribute to the DaSL Collection. Learn about the authors [here](https://hutchdatascience.org/DaSL_Collection/about-the-authors.html).
