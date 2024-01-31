@@ -1,7 +1,0 @@
-main:
-  - title: "Collection"
-    url: /
-  - title: "FAQ"
-    url: /faq/
-  - title: "DaSL Home"
-    url: https://hutchdatascience.org
