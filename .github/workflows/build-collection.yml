@@ -17,10 +17,9 @@ on:
 jobs:
   build-repo-collection:
     name: Gather Repositories
-    needs: yaml-check
     runs-on: ubuntu-latest
     container:
-      image: ${{needs.yaml-check.outputs.rendering_docker_image}}
+      image: jhudsl/base_ottr:tidy4.3.2
 
     steps:
       - name: Checkout files

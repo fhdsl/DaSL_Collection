@@ -41,7 +41,7 @@ jobs:
           # remotes::install_deps(dependencies = TRUE)
     needs: [yaml-check, build-collection]
     container:
-      image: ${{needs.yaml-check.outputs.rendering_docker_image}}
+      image: jhudsl/base_ottr:tidy4.3.2
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
