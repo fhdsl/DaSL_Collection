@@ -39,14 +39,14 @@ jobs:
           # install.packages("remotes") # in case we decide not to go with the container...
           # remotes::install_cran("rmarkdown")
           # remotes::install_deps(dependencies = TRUE)
-    needs: build-collection
+    needs: [yaml-check, build-collection]
     container:
-      image: jhudsl/course_template
+      image: jhudsl/base_ottr:tidy4.3.2
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           # get the full repo
           fetch-depth: 0
