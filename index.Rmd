@@ -16,11 +16,19 @@ output:
 
 # About this Collection
 
+
+```{r message=TRUE, warning=TRUE}
+library(DT)
+DT::datatable(iris)
+```
+
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 
 knitr::kable(make_collection_table(), format = "html")
 ```
+
+
 
 <br><br><br>
 This page was last updated on `r Sys.time()`
