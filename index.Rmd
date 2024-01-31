@@ -29,7 +29,6 @@ datatable(head(iris, 20), options = list(
      });",
     "}")
 ))
-
 ```
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
