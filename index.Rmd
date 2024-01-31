@@ -49,3 +49,5 @@ DT::datatable(
 )
 ```
 
+<br><br><br>
+Check out our [FAQ](https://hutchdatascience.org/DaSL_Collection/FAQ.html) to learn how to contribute to the DaSL Collection. Learn about the authors [here](https://hutchdatascience.org/DaSL_Collection/about-the-authors.html).

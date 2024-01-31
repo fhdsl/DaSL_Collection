@@ -93,6 +93,12 @@ jobs:
         run: Rscript -e "devtools::install_github('jhudsl/ottrpal', upgrade = 'never'); ottrpal::render_without_toc()"
         env:
           GITHUB_PAT: ${{ secrets.gh_pat }}
+          
+      # Semi janky, but I like the TOC-less version better for the main website.
+      - name: Swap index.html for toc-less version
+        id: tocless-swap
+        run: |
+          cp docs/no_toc/index.html docs/index.html
 
       # Commit the rendered site files - html files and site_libs files
       - name: Commit rendered site files
