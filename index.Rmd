@@ -26,6 +26,8 @@ DT::datatable(iris)
 source("scripts/render_collection.R")
 
 knitr::kable(make_collection_table(), format = "html")
+
+sessionInfo()
 ```
 
 
