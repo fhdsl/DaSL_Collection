@@ -78,6 +78,7 @@ jobs:
           git config --global --add safe.directory ${GITHUB_WORKSPACE}
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
+          git config --global pull.ff true
           git add . --force
           git commit -m 'Render site' || echo "No changes to commit"
           git pull --allow-unrelated-histories --strategy-option=ours
