@@ -26,17 +26,60 @@ The following are our courses, indicated by the `course` tag.
 source("scripts/render_collection.R")
 
 knitr::kable(make_collection_table(kable = TRUE, include = "course"), format = "html")
-
-library(DT)
-iris_dt <- datatable(head(iris, 20))
-saveWidget(iris_dt, "iris_DT.html", selfcontained = TRUE, libdir = NULL,
-           background = "white", knitrOptions = list())
-
-print(iris_dt)
-return(iris_dt)
 ```
 
-<iframe src="iris_DT.html" width="640" height="360"></iframe>
+```{r echo = FALSE}
+library(DT)
+dt_table <- iris %>% DT::datatable(
+  rownames = FALSE,
+  #caption = 'Table 1: This is a simple caption for the table.',
+  class = 'cell-border stripe',
+  escape = FALSE,
+  filter = "top",
+  extensions = list("Scroller"),
+  #   options = list(autoWidth = FALSE,
+  # columnDefs = list(width = '300px', width = '200px', width = '90px', width = '200px', width = '100px'),
+  
+  options = list(
+    autoWidth = TRUE,
+    columnDefs = list(
+      list(
+        targets = c(0),
+        visible = TRUE,
+        width = '120'
+      ),
+      list(
+        targets = c(1),
+        visible = TRUE,
+        width = '120'
+      ),
+      list(
+        targets = c(2),
+        visible = TRUE,
+        width = '110'
+      ),
+      list(targets = '_all', visible = FALSE)
+    ),
+    
+    pageLength = 10,
+    scrollY = TRUE,
+    scrollX = TRUE,
+    scrollCollapse = TRUE,
+    fillContainer = TRUE,
+    initComplete = JS(
+      "function(settings, json) {",
+      "$(this.api().table().header()).css({'background-color': '#888888', 'color': '#fff'});",
+      "}"
+    )
+  )
+)
+  
+ 
+```
+
+``` {r echo = FALSE, include=TRUE}
+dt_table
+```
 
 ## Fred Hutch Learning
 
