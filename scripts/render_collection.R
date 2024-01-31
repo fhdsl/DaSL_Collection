@@ -25,7 +25,8 @@ make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE)
       } else {
         df <-
           df %>%
-          mutate(`Book Name` = paste0('<a href="', homepage, '">', name, '</a> (<a href="', html_url, '">github</a>)'))
+          mutate(`Book Name` = paste0('<a href="', homepage, '">', name, '</a>'))
+          #mutate(`Book Name` = paste0('<a href="', homepage, '">', name, '</a> (<a href="', html_url, '">github</a>)'))
           #mutate(topics = str_replace_all(topics, pattern = ", ", replacement = "<br>"))
       }
       
