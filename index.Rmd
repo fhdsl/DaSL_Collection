@@ -20,6 +20,16 @@ output:
 ```{r message=TRUE, warning=TRUE}
 library(DT)
 DT::datatable(iris)
+
+datatable(head(iris, 20), options = list(
+  initComplete = JS(
+    "function(settings, json) {",
+    "$(this.api().table().header()).css({
+      'background-color': '#000',
+      'color': '#fff'
+     });",
+    "}")
+))
 ```
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
