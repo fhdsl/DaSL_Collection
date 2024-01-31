@@ -9,6 +9,7 @@ print(getwd())
 file.copy(from = 'assets',
           to = 'docs/assets',
           overwrite = TRUE)
+install.packages(c("httpuv", "promises", "knitr"), repos = "https://cloud.r-project.org")
 rmarkdown::render(
   input = 'index.Rmd',
   output_file = "index.html",
