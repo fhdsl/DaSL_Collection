@@ -36,7 +36,7 @@ print(iris_dt)
 return(iris_dt)
 ```
 
-<iframe src="docs/iris_DT.html" width="640" height="360"></iframe>
+<iframe src="iris_DT.html" width="640" height="360"></iframe>
 
 ## Fred Hutch Learning
 
