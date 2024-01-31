@@ -12,6 +12,6 @@ file.copy(from = 'assets',
 rmarkdown::render(
   input = 'index.Rmd',
   output_file = "index.html",
-  output_format = html_document(output_dir = "docs"),
+  output_format = rmarkdown::html_document(output_dir = "docs"),
   output_dir = "docs",
 )
