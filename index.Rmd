@@ -1,6 +1,6 @@
 ---
 title: '**DaSL Collection**'
-date: "`r format(Sys.time(), '%B, %Y')`"
+date: "Last Updated: `r format(Sys.time(), '%B %d, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -48,7 +48,4 @@ DT::datatable(
   make_collection_table(kable = FALSE, include = "edtech-software") # must include "edtech-software" tag from github
 )
 ```
-
-<br><br><br>
-This page was last updated on `r Sys.time()`
 
