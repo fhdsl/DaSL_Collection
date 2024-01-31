@@ -39,7 +39,7 @@ jobs:
           # install.packages("remotes") # in case we decide not to go with the container...
           # remotes::install_cran("rmarkdown")
           # remotes::install_deps(dependencies = TRUE)
-    needs: [yaml-check, build-collection]
+    needs: build-collection
     container:
       image: jhudsl/base_ottr:tidy4.3.2
     # Steps represent a sequence of tasks that will be executed as part of the job
