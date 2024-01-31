@@ -39,9 +39,9 @@ jobs:
           # install.packages("remotes") # in case we decide not to go with the container...
           # remotes::install_cran("rmarkdown")
           # remotes::install_deps(dependencies = TRUE)
-    needs: build-collection
+    needs: [yaml-check, build-collection]
     container:
-      image: jhudsl/course_template
+      image: ${{needs.yaml-check.outputs.rendering_docker_image}}
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it

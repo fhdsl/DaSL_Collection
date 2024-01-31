@@ -17,9 +17,10 @@ on:
 jobs:
   build-repo-collection:
     name: Gather Repositories
+    needs: yaml-check
     runs-on: ubuntu-latest
     container:
-      image: jhudsl/course_template:main
+      image: ${{needs.yaml-check.outputs.rendering_docker_image}}
 
     steps:
       - name: Checkout files
