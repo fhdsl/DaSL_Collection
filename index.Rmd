@@ -25,7 +25,20 @@ The following are our courses, indicated by the `course` tag.
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
 DT::datatable(
-  make_collection_table(kable = FALSE, include = "course") # must include "course" tag from github
+  make_collection_table(kable = FALSE, include = "course"), # must include "course" tag from github
+  escape = FALSE,
+  # Make cell values html enabled
+  rownames = FALSE,
+  # Remove 1, 2, 3 labels
+  options = list(
+    autowidth = TRUE,
+    search = list(regex = TRUE),
+    pageLength = 100, # Show 100 results
+    dom = 'ft', # Don't allow to change how many results are displayed
+    # dom = "Qlfrtip",
+    # searchBuilder = TRUE,
+    search = list(return = TRUE)
+  )
 )
 ```
 
@@ -35,7 +48,20 @@ The following are materials specific to Fred Hutch Cancer Center, indicated by t
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 DT::datatable(
-  make_collection_table(kable = FALSE, include = "hutch-course") # must include "hutch-course" tag from github
+  make_collection_table(kable = FALSE, include = "hutch-course"), # must include "hutch-course" tag from github
+  escape = FALSE,
+  # Make cell values html enabled
+  rownames = FALSE,
+  # Remove 1, 2, 3 labels
+  options = list(
+    autowidth = TRUE,
+    search = list(regex = TRUE),
+    pageLength = 100, # Show 100 results
+    dom = 'ft', # Don't allow to change how many results are displayed
+    # dom = "Qlfrtip",
+    # searchBuilder = TRUE,
+    search = list(return = TRUE)
+  )
 )
 ```
 
@@ -45,9 +71,24 @@ The following are tools and software we've designed to make training more stream
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 DT::datatable(
-  make_collection_table(kable = FALSE, include = "edtech-software") # must include "edtech-software" tag from github
+  make_collection_table(kable = FALSE, include = "edtech-software"), # must include "edtech-software" tag from github
+  escape = FALSE,
+  # Make cell values html enabled
+  rownames = FALSE,
+  # Remove 1, 2, 3 labels
+  options = list(
+    autowidth = TRUE,
+    search = list(regex = TRUE),
+    pageLength = 100,
+    # Show 100 results
+    dom = 'ft',
+    # Don't allow to change how many results are displayed
+    # dom = "Qlfrtip",
+    # searchBuilder = TRUE,
+    search = list(return = TRUE)
+  )
 )
 ```
 
 <br><br><br>
-Check out our [FAQ](https://hutchdatascience.org/DaSL_Collection/FAQ.html) to learn how to contribute to the DaSL Collection. Learn about the authors [here](https://hutchdatascience.org/DaSL_Collection/about-the-authors.html).
+Check out our [FAQ](https://hutchdatascience.org/DaSL_Collection/faq.html) to learn how to contribute to the DaSL Collection. Learn about the authors [here](https://hutchdatascience.org/DaSL_Collection/about-the-authors.html).
