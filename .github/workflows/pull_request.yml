@@ -59,6 +59,7 @@ jobs:
       toggle_spell_check: "${{ env.SPELL_CHECK }}"
       toggle_url_check: "${{ env.URL_CHECKER }}"
       toggle_render_preview: "${{ env.RENDER_PREVIEW }}"
+      rendering_docker_image: "${{ env.RENDERING_DOCKER_IMAGE }}"
 
   build-collection:
     name: Build Collection
@@ -67,6 +68,7 @@ jobs:
     with:
       render-type: 'preview'
       repository: $GITHUB_REPOSITORY
+      image-name: ${{needs.yaml-check.outputs.rendering_docker_image}}
     secrets:
       gh_pat: ${{ secrets.GH_PAT }}
 
@@ -95,7 +97,7 @@ jobs:
     needs: [yaml-check, build-collection]
     runs-on: ubuntu-latest
     container:
-      image: jhudsl/base_ottr:tidy4.3.2
+      image: ${{needs.yaml-check.outputs.rendering_docker_image}}
     if: ${{needs.yaml-check.outputs.toggle_render_preview == 'yes'}}
 
     steps:
@@ -145,7 +147,7 @@ jobs:
       # This job creates a shared scaffold for both.
       - name: Run TOC-less version of render
         id: tocless
-        run: Rscript -e "devtools::install_github('jhudsl/ottrpal', ref = remotes::github_pull('124'), upgrade = 'never'); ottrpal::render_without_toc()"
+        run: Rscript -e "devtools::install_github('jhudsl/ottrpal', upgrade = 'never'); ottrpal::render_without_toc()"
         env:
           GITHUB_PAT: ${{ secrets.gh_pat }}
 

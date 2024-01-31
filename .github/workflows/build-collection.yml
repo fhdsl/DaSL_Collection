@@ -10,6 +10,9 @@ on:
       repository:
         type: string
         required: true
+      image-name:
+        type: string
+        required: true
     secrets:
       gh_pat:
         required: true
@@ -19,7 +22,7 @@ jobs:
     name: Gather Repositories
     runs-on: ubuntu-latest
     container:
-      image: jhudsl/base_ottr:tidy4.3.2
+      image: ${{ inputs.image-name }}
 
     steps:
       - name: Checkout files

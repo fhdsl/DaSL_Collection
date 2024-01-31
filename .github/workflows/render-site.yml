@@ -25,12 +25,34 @@ on:
       - collection.tsv
 
 jobs:
+  yaml-check:
+    name: Load user automation choices
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+        # Use the yaml-env-action action.
+      - name: Load environment from YAML
+        uses: doughepi/yaml-env-action@v1.0.0
+        with:
+            files: config_automation.yml # Pass a space-separated list of configuration files. Rightmost files take precedence.
+    outputs:
+      toggle_bookdown: "${{ env.RENDER_BOOKDOWN }}"
+      toggle_coursera: "${{ env.RENDER_COURSERA }}"
+      toggle_leanpub: "${{ env.RENDER_LEANPUB }}"
+      make_book_txt: "${{ env.MAKE_BOOK_TXT }}"
+      rendering_docker_image: "${{ env.RENDERING_DOCKER_IMAGE }}"
+      toggle_quiz_check: "${{ env.CHECK_QUIZZES }}"
+
   build-collection:
     name: Build Collection
+    needs: yaml-check
     uses: ./.github/workflows/build-collection.yml
     with:
       render-type: 'main'
       repository: $GITHUB_REPOSITORY
+      image-name: ${{needs.yaml-check.outputs.rendering_docker_image}}
     secrets:
       gh_pat: ${{ secrets.GH_PAT }}
 
@@ -39,9 +61,9 @@ jobs:
           # install.packages("remotes") # in case we decide not to go with the container...
           # remotes::install_cran("rmarkdown")
           # remotes::install_deps(dependencies = TRUE)
-    needs: build-collection
+    needs: [yaml-check, build-collection]
     container:
-      image: jhudsl/base_ottr:tidy4.3.2
+      image: ${{needs.yaml-check.outputs.rendering_docker_image}}
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -68,7 +90,7 @@ jobs:
       # This job creates a shared scaffold for both.
       - name: Run TOC-less version of render
         id: tocless
-        run: Rscript -e "devtools::install_github('jhudsl/ottrpal', ref = remotes::github_pull('124'), upgrade = 'never'); ottrpal::render_without_toc()"
+        run: Rscript -e "devtools::install_github('jhudsl/ottrpal', upgrade = 'never'); ottrpal::render_without_toc()"
         env:
           GITHUB_PAT: ${{ secrets.gh_pat }}
 
