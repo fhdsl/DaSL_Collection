@@ -98,7 +98,9 @@ jobs:
       - name: Swap index.html for toc-less version
         id: tocless-swap
         run: |
-          mv docs/no_toc/index.html docs/index.html
+          pwd
+          ls
+          cp docs/no_toc/index.html docs/index.html
 
       # Commit the rendered site files - html files and site_libs files
       - name: Commit rendered site files
