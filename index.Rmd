@@ -33,7 +33,7 @@ saveWidget(iris_dt, "iris_DT.html", selfcontained = TRUE, libdir = NULL,
            background = "white", knitrOptions = list())
 ```
 
-<iframe src="iris_DT.html" width="640" height="360"></iframe>
+<iframe src="docs/iris_DT.html" width="640" height="360"></iframe>
 
 ## Fred Hutch Learning
 
