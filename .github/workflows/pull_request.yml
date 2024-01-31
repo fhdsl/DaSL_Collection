@@ -134,6 +134,12 @@ jobs:
       #     mv index.Rmd _pages/
       #     mv index.md _pages/
       
+      # Update docs
+      - name: Ensure DT is up to date
+        run: Rscript -e "devtools::install_github('rstudio/DT'); update.packages(ask = FALSE, checkBuilt = TRUE)"
+        env:
+          GITHUB_PAT: ${{ secrets.gh_pat }}
+      
       # Now we want to render Rmd -> html
       - name: Convert Rmd to html
         id: bookdown

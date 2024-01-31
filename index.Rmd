@@ -27,8 +27,6 @@ source("scripts/render_collection.R")
 
 knitr::kable(make_collection_table(kable = TRUE, include = "course"), format = "html")
 
-devtools::install_github('rstudio/DT')
-update.packages(ask = FALSE, checkBuilt = TRUE)
 library(DT)
 datatable(head(iris, 20), options = list(
   initComplete = JS(
