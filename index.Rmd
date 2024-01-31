@@ -16,8 +16,7 @@ output:
 
 # About this Collection
 
-
-```{r message=TRUE, warning=TRUE}
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
 library(DT)
 DT::datatable(iris)
 
@@ -31,12 +30,6 @@ datatable(head(iris, 20), options = list(
     "}")
 ))
 
-
-
-
-
-
-
 ```
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
@@ -46,8 +39,6 @@ knitr::kable(make_collection_table(), format = "html")
 
 sessionInfo()
 ```
-
-
 
 <br><br><br>
 This page was last updated on `r Sys.time()`
