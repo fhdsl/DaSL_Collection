@@ -21,6 +21,7 @@ Data-Wrangling	https://hutchdatascience.org/Data-Wrangling/	https://github.com/f
 DataTrail: 12_package	https://datatrail-jhu.github.io/12_package/	https://github.com/datatrail-jhu/12_package	How to Create an R package Course	data-science, package-development, r-package
 DataTrail: DataTrail	https://datatrail-jhu.github.io/DataTrail/	https://github.com/datatrail-jhu/DataTrail	The re-organized DataTrail curriculum https://www.datatrail.org/	
 DataTrail: DataTrail_Guides	https://datatrail-jhu.github.io/DataTrail_Guides/	https://github.com/datatrail-jhu/DataTrail_Guides	Guides for how to launch a DataTrail program	
+DataTrail: open-datasets	https://datatrail-jhu.github.io/open-datasets/	https://github.com/datatrail-jhu/open-datasets	Open datasets for DataTrail learners to play and practice with	
 DataTrail: rgoogleclassroom	https://datatrail-jhu.github.io/rgoogleclassroom/	https://github.com/datatrail-jhu/rgoogleclassroom	API wrapper for Google Classroom and a bit of Google Forms API too	
 DataTrail: scn	http://swirlstats.com/scn/	https://github.com/datatrail-jhu/scn	:school_satchel: The swirl Course Network - A Repository for swirl Courses	
 Documentation_and_Usability	https://jhudatascience.org/Documentation_and_Usability/	https://github.com/jhudsl/Documentation_and_Usability	A course to cover the basics of creating documentation and tutorials to maximize the usability of informatics tools	documentation, software-development
@@ -59,5 +60,6 @@ metricminer.org	http://www.metricminer.org/	https://github.com/fhdsl/metricminer
 ottrpal	https://jhudatascience.org/ottrpal/	https://github.com/jhudsl/ottrpal	Tools for converting OTTR courses into Leanpub or Coursera courses :otter:	edtech-software
 ottrproject.org	https://www.ottrproject.org/	https://github.com/jhudsl/ottrproject.org	This repo publishes ottrproject.org	
 personas	http://hutchdatascience.org/personas	https://github.com/fhdsl/personas	Where RDI curates the DaSL Data Science Personas	data-science, personas, training
+simplydatascience.org	http://simplydatascience.org/	https://github.com/fhdsl/simplydatascience.org	Data science is for everyone -- a social media outreach project	
 text2speech	http://jhudatascience.org/text2speech/	https://github.com/jhudsl/text2speech	Text to Speech	edtech-software, speech-synthesis, text-to-speech, tts, voice
 tidyversecourse	http://jhudatascience.org/tidyversecourse/	https://github.com/jhudsl/tidyversecourse	Tidyverse Skills for Data Science in R	r, tidyverse
