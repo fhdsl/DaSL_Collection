@@ -56,6 +56,7 @@ intro_to_r	https://jhudatascience.org/intro_to_r/	https://github.com/jhudsl/intr
 itn-metric	http://hutchdatascience.org/itn-metric/	https://github.com/fhdsl/itn-metric	Analyze ITCR metrics using {metricminer}	
 jhudsl.github.io	https://jhudatascience.org	https://github.com/jhudsl/jhudsl.github.io	source code for the JHU Data Science Lab website	website
 metricminer	https://hutchdatascience.org/metricminer/	https://github.com/fhdsl/metricminer	R package that digs up data that matters from APIs, making it dashboard-ready	edtech-software
+metricminer-dashboard	http://hutchdatascience.org/metricminer-dashboard/	https://github.com/fhdsl/metricminer-dashboard	A template dashboard that helps you display your metricmined data in no time! 	
 metricminer.org	http://www.metricminer.org/	https://github.com/fhdsl/metricminer.org	A website for metricminer	
 ottrpal	https://jhudatascience.org/ottrpal/	https://github.com/jhudsl/ottrpal	Tools for converting OTTR courses into Leanpub or Coursera courses :otter:	edtech-software
 ottrproject.org	https://www.ottrproject.org/	https://github.com/jhudsl/ottrproject.org	This repo publishes ottrproject.org	
