@@ -3,6 +3,7 @@
 The following are tools and software we've designed to make training more streamlined and reproducible. They have the `edtech-software` tag.
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
+source("scripts/render_collection.R")
 DT::datatable(
   make_collection_table(kable = FALSE, include = "edtech-software"), # must include "edtech-software" tag from github
   escape = FALSE,

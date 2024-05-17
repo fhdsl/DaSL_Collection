@@ -5,6 +5,7 @@
 This suite of online materials provide Fred Hutch researchers and data scientists with training on essential computational skills, as well as information how to use tools at the Hutch, such as the computing cluster. 
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
+source("scripts/render_collection.R")
 DT::datatable(
   make_collection_table(kable = FALSE, include = "hutch-course"), # must include "hutch-course" tag from github
   escape = FALSE,
