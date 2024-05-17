@@ -29,12 +29,12 @@ make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE)
           #mutate(`Book Name` = paste0('<a href="', homepage, '">', name, '</a> (<a href="', html_url, '">github</a>)'))
           #mutate(topics = str_replace_all(topics, pattern = ", ", replacement = "<br>"))
       }
-      
+
       # Rename and clip unnecessary columns
       df <-
         df %>% 
-        rename(Description = description, Topics = topics) %>%
-        select(`Book Name`, Description, Topics)
+        rename(Description = description, Topics = topics, Funding = funding) %>%
+        select(`Book Name`, Funding, Description, Topics)
       
       # Remove duplicates if necessary
       df <- distinct(df)
@@ -55,6 +55,7 @@ make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE)
     error = function(e) {
       df <-
         tibble(`Book Name` = "none",
+               Funding = "none",
                Description = "none",
                Topics = "none")
       

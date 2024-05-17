@@ -56,6 +56,9 @@ for (page in 1:last){
     jsonlite::fromJSON(httr::content(req, as = "text"), flatten = TRUE)
   message(paste("... Gathered", nrow(repo_dat$items), "repositories."))
 
+  repo_dat$items$funding <- lapply(repo_dat$items$topics, function(x) x[x %in% c("anvil", "itn", "daseh", "gdscn", "hutch-course")])
+  repo_dat$items$funding <- lapply(repo_dat$items$funding, function(x) replace(x, rlang::is_empty(x), NA) )
+
   repo_df <-
     tibble(repo_dat$items) %>%
     select(full_name, homepage, html_url, description, private) %>%
@@ -69,6 +72,11 @@ for (page in 1:last){
     # Collapse topics so they can be printed
     bind_cols(tibble(topics = unlist(
       lapply(repo_dat$items$topics, paste, collapse = ", ")
+    ))) %>%
+    
+    # Collapse funding sources so they can be printed
+    bind_cols(tibble(funding = unlist(
+      lapply(repo_dat$items$funding, paste, collapse = ", ")
     ))) %>%
 
     # Drop private repos and remove org column
