@@ -61,7 +61,7 @@ make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE)
           ),
           TRUE ~ funding
         )) %>%
-        mutate(funding = gsub("^.*<a href", "<a href", funding)) # trim any leading funding sources
+        mutate(funding = gsub("^.*?<a href", "<a href", funding)) # trim any leading funding sources
       
       # Rename and clip unnecessary columns
       df <-
