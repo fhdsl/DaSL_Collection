@@ -36,28 +36,28 @@ make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE)
         mutate(funding = case_when(
           stringr::str_detect(funding, "hutch-course") ~ paste0(
             funding,
-            '<a href =\"https://www.fredhutch.org/en/about/about-the-hutch.html"style="color:#0000FF\" target=\"_blank\"<div title =\"About Fred Hutch\"></div><img src=\"https://raw.githubusercontent.com/fhdsl/ITN_course_search/main/resources/images/fhlogo.png\" height=\"40\"></img><p class=\"image-name\">Fred Hutch</p></a>'
+            '<a href =\"https://www.fredhutch.org/en/about/about-the-hutch.html"style="color:#0000FF\" target=\"_blank\"<div title =\"About Fred Hutch\"></div><img src=\"https://raw.githubusercontent.com/fhdsl/DaSL_Collection/main/resources/images/fhlogo.png\" height=\"40\"></img><p class=\"image-name\">Fred Hutch</p></a>'
           ),
           TRUE ~ funding
         )) %>%
         mutate(funding = case_when(
           stringr::str_detect(funding, "anvil") ~ paste0(
             funding,
-            '<a href =\"https://www.anvilproject.org"style="color:#0000FF\" target=\"_blank\"<div title =\"About AnVIL\"></div><img src=\"https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/assets/AnVIL_style/logo-anvil-img.png\" height=\"40\"></img><p class=\"image-name\">AnVIL</p></a><br>'
+            '<a href =\"https://www.anvilproject.org"style="color:#0000FF\" target=\"_blank\"<div title =\"About AnVIL\"></div><img src=\"https://raw.githubusercontent.com/fhdsl/DaSL_Collection/main/resources/images/logo-anvil-img.png\" height=\"40\"></img><p class=\"image-name\">AnVIL</p></a><br>'
           ),
           TRUE ~ funding
         )) %>%
         mutate(funding = case_when(
           stringr::str_detect(funding, "gdscn") ~ paste0(
             funding,
-            '<a href =\"https://www.gdscn.org"style="color:#0000FF\" target=\"_blank\"<div title =\"About GDSCN\"></div><img src=\"https://raw.githubusercontent.com/jhudsl/AnVIL_Template/main/assets/GDSCN_style/logo-gdscn.png\" height=\"40\"></img><p class=\"image-name\">GDSCN</p></a>'
+            '<a href =\"https://www.gdscn.org"style="color:#0000FF\" target=\"_blank\"<div title =\"About GDSCN\"></div><img src=\"https://raw.githubusercontent.com/fhdsl/DaSL_Collection/main/resources/images/logo-gdscn.png\" height=\"40\"></img><p class=\"image-name\">GDSCN</p></a>'
           ),
           TRUE ~ funding
         )) %>%
         mutate(funding = case_when(
           stringr::str_detect(funding, "daseh") ~ paste0(
             funding,
-            '<a href =\"https://www.daseh.org"style="color:#0000FF\" target=\"_blank\"<div title =\"About DaSEH\"></div><img src=\"https://raw.githubusercontent.com/fhdsl/DaSEH/main/images/logo_icon_medium.png\" height=\"40\"></img><p class=\"image-name\">DaSEH</p></a>'
+            '<a href =\"https://www.daseh.org"style="color:#0000FF\" target=\"_blank\"<div title =\"About DaSEH\"></div><img src=\"https://raw.githubusercontent.com/fhdsl/DaSL_Collection/main/resources/images/logo_icon_medium.png\" height=\"40\"></img><p class=\"image-name\">DaSEH</p></a>'
           ),
           TRUE ~ funding
         )) %>%
