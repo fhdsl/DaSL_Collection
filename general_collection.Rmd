@@ -1,0 +1,26 @@
+
+# General Courses
+
+This collection of materials covers a wide range of data-related topics from introductory programming in R to specialized domains like genomics, environmental health, shared computing, version control, software development and more. 
+
+<br>
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+source("scripts/render_collection.R")
+DT::datatable(
+  make_collection_table(kable = FALSE, include = "course"), # must include "course" tag from github
+  escape = FALSE,
+  # Make cell values html enabled
+  rownames = FALSE,
+  # Remove 1, 2, 3 labels
+  options = list(
+    autowidth = TRUE,
+    search = list(regex = TRUE),
+    pageLength = 100, # Show 100 results
+    dom = 'ft', # Don't allow to change how many results are displayed
+    # dom = "Qlfrtip",
+    # searchBuilder = TRUE,
+    search = list(return = TRUE)
+  )
+)
+```
