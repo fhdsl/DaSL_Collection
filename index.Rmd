@@ -18,9 +18,11 @@ output:
 
 The following tables are rendered automatically from our resources using the GitHub API. 
 
-## Courses
+## General Courses
 
-The following are our courses, indicated by the `course` tag.
+This collection of materials covers a wide range of data-related topics from introductory programming in R to specialized domains like genomics, environmental health, shared computing, version control, software development and more. 
+
+<br>
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 source("scripts/render_collection.R")
@@ -44,7 +46,7 @@ DT::datatable(
 
 ## Fred Hutch Learning
 
-The following are materials specific to Fred Hutch Cancer Center, indicated by the `hutch-course` tag.
+This suite of online and in-person materials provide Fred Hutch researchers and data scientists with training on essential computational skills, as well as information how to use tools at the Hutch, such as the computing cluster. 
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 DT::datatable(
