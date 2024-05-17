@@ -21,7 +21,6 @@ These credits are based on our [course contributors table guidelines](https://gi
 <!-- Author information -->
 
 [FirstName LastName]: link to personal website
-[Allie Cliffe]: https://alliecliffe.com/
 [Katherine Cox]: https://katherinecox.github.io/
 [Ava Hoffman]: https://www.avahoffman.com/
 [Elizabeth Humphries]: https://www.linkedin.com/in/elizabeth-humphries-61202a103/

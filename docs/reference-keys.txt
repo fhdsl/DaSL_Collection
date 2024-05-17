@@ -1,6 +1,5 @@
-about-this-collection
-courses
-fred-hutch-learning
+general-courses
+fred-hutch-online-learning
 edtech-software
 faq
 what-is-the-dasl-collection
