@@ -14,11 +14,9 @@ output:
       toc: true
 ---
 
-# About this Collection
 
-The following tables are rendered automatically from our resources using the GitHub API. 
 
-## General Courses
+# General Courses
 
 This collection of materials covers a wide range of data-related topics from introductory programming in R to specialized domains like genomics, environmental health, shared computing, version control, software development and more. 
 

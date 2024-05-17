@@ -1,6 +1,6 @@
 
 
-## Fred Hutch Online Learning
+# Fred Hutch Online Learning
 
 This suite of online materials provide Fred Hutch researchers and data scientists with training on essential computational skills, as well as information how to use tools at the Hutch, such as the computing cluster. 
 

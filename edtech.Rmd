@@ -1,4 +1,4 @@
-## EdTech Software
+# EdTech Software
 
 The following are tools and software we've designed to make training more streamlined and reproducible. They have the `edtech-software` tag.
 
