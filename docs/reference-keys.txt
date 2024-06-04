@@ -5,7 +5,6 @@ edtech-software
 faq
 what-is-the-dasl-collection
 how-can-i-add-my-new-coursecontent-to-the-collection
-what-else-is-needed-to-list-my-repository
 how-often-is-the-collection-updated
 i-want-to-use-the-raw-collection-data
 how-do-i-edit-description-homepage-and-topics
