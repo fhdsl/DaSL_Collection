@@ -8,11 +8,12 @@ DaSL Collection uses the GitHub API to gather jhudsl and fhdsl organization repo
 
 ### What repositories are included?
 
-The Collection only includes repositories that meet the following criteria:
+The Collection only includes repositories that meet the following criteria. Repositories must:
 
--   Are public
--   Have a homepage listed
--   Have a description listed
+- be created under the `jhudsl` or `fhdsl` organizations
+- have **description**, **homepage**, and **topic tags** filled out in the "About" section on the righthand side
+- be set to **public**
+- have at least one of three tags: `course` (general purpose courses), `hutch-course` (Fred Hutch specific courses), `edtech-software`
 
 ### How often is the Collection updated?
 
@@ -20,7 +21,7 @@ The collection is rendered nightly at 3am EST.
 
 ### How can I add my new course/content to the Collection?
 
-Your repository must be created under the jhudsl, fhdsl, or datatrail-jhu organizations and meet the above criteria. For more information see the FAQ.
+See information above on what repositories are included.
 
 For repositories under other organizations, you can fork the repository into the jhudsl or fhdsl organizations. [Example](https://github.com/fhdsl/Data-Wrangling)
 
@@ -29,7 +30,3 @@ For repositories under other organizations, you can fork the repository into the
 You can use the following link:
 
 <https://raw.githubusercontent.com/fhdsl/DaSL_Collection/main/resources/collection.tsv>
-
-### Testing Locally
-
-Testing the rendering of the collection before committing changes can be done with instructions [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).

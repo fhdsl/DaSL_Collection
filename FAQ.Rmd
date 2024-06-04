@@ -6,18 +6,12 @@ DaSL Collection uses the GitHub API to gather repositories that we have worked o
 
 ## How can I add my new course/content to the Collection?
 
-Your repository must be created under the `jhudsl`, `fhdsl`, or `datatrail-jhu` organizations and meet the above criteria.
+The following are needed to list your repository in the collection:
 
-For repositories under other organizations, you can fork the repository into the `jhudsl` or `fhdsl` organizations. [Example](https://github.com/fhdsl/Data-Wrangling)
-
-## What else is needed to list my repository?
-
-The Collection workflow uses three important things to add courses to the DaSL Collection. These are the repository **description**, **homepage**, and **topics** tags. 
-
-Please note that:
-
-- Repositories must be set to **public** to be listed in the Collection.
-- The collection is divided up by three tags: `courses` (general purpose courses), `hutch-courses` (Fred Hutch specific courses), and `edtech-software`. **One of these tags is required** to be listed. If you feel there is another applicable category that should be listed, please reach out to [Ava](https://github.com/avahoffman).
+- Your repository must be created under the `jhudsl` or `fhdsl` organizations. For repositories under other organizations, you can fork the repository into the `jhudsl` or `fhdsl` organizations. [Example](https://github.com/fhdsl/Data-Wrangling)
+- Your repository "code" tab must have a **description**, **homepage**, and **topic tags** filled out in the "About" section on the righthand side. 
+- Your repository must be set to **public**.
+- Your repository must have at least one of three tags: `course` (general purpose courses), `hutch-course` (Fred Hutch specific courses), or `edtech-software`. If you feel there is another applicable category that should be listed, please reach out to [Ava](https://github.com/avahoffman).
 
 ## How often is the Collection updated?
 
