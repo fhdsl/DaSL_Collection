@@ -133,7 +133,7 @@ jobs:
       # This job creates a shared scaffold for both.
       - name: Run TOC-less version of render
         id: tocless
-        run: Rscript -e "devtools::install_github('jhudsl/ottrpal', upgrade = 'never'); ottrpal::render_without_toc()"
+        run: Rscript -e "devtools::install_github('jhudsl/ottrpal', ref = remotes::github_pull('133'), upgrade = 'never'); ottrpal::render_without_toc()"
         env:
           GITHUB_PAT: ${{ secrets.gh_pat }}
 
