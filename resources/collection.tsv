@@ -30,6 +30,8 @@ DataTrail: open-datasets	https://datatrail-jhu.github.io/open-datasets/	https://
 DataTrail: python	https://datatrail-jhu.github.io/python/	https://github.com/datatrail-jhu/python	A bonus course for DataTrail graduates who wish to learn python		NA
 DataTrail: rgoogleclassroom	https://datatrail-jhu.github.io/rgoogleclassroom/	https://github.com/datatrail-jhu/rgoogleclassroom	API wrapper for Google Classroom and a bit of Google Forms API too		NA
 DataTrail: scn	http://swirlstats.com/scn/	https://github.com/datatrail-jhu/scn	:school_satchel: The swirl Course Network - A Repository for swirl Courses		NA
+DataViz_Considerations	https://hutchdatascience.org/DataViz_Considerations/	https://github.com/fhdsl/DataViz_Considerations	ITN course ""Considerations for Bioinformatic Data Visualization"" focusing on considerations for best practices in data visualization		NA
+DataViz_Practice	http://hutchdatascience.org/DataViz_Practice/	https://github.com/fhdsl/DataViz_Practice	ITN course ""Cancer Informatics Data Visualization in Practice"" focusing on practicing best practices in data visualization		NA
 Data_Management_and_Sharing	http://hutchdatascience.org/Data_Management_and_Sharing/	https://github.com/fhdsl/Data_Management_and_Sharing	Data management and sharing best practices for biomedical data handling folks		NA
 Developing_WDL_Workflows	https://hutchdatascience.org/Developing_WDL_Workflows/	https://github.com/fhdsl/Developing_WDL_Workflows	""Developing WDL Workflows"" shows a bioinformatics workflow developer how to strategically develop and scale up a WDL workflow that is iterative, reproducible, and efficient in terms of time and resource used. This guide is flexible regardless of where the data is, what computing resources are being used, and what software is being used.	hutch-course	hutch-course
 Documentation_and_Usability	https://jhudatascience.org/Documentation_and_Usability/	https://github.com/jhudsl/Documentation_and_Usability	A course to cover the basics of creating documentation and tutorials to maximize the usability of informatics tools	documentation, software-development	NA
@@ -78,7 +80,7 @@ metricminer-dashboard	http://dashboard.metricminer.org/	https://github.com/fhdsl
 metricminer.org	http://www.metricminer.org/	https://github.com/fhdsl/metricminer.org	A website for metricminer		NA
 ottrpal	https://jhudatascience.org/ottrpal/	https://github.com/jhudsl/ottrpal	Tools for converting OTTR courses into Leanpub or Coursera courses :otter:	edtech-software	NA
 ottrproject.org	http://www.ottrproject.org/	https://github.com/jhudsl/ottrproject.org	This repo publishes ottrproject.org		NA
-personas	http://hutchdatascience.org/personas	https://github.com/fhdsl/personas	Where RDI curates the DaSL Data Science Personas	data-science, personas, training	NA
+personas-old	http://hutchdatascience.org/personas	https://github.com/fhdsl/personas-old	Where RDI curates the DaSL Data Science Personas	data-science, personas, training	NA
 simplydatascience.org	http://simplydatascience.org/	https://github.com/fhdsl/simplydatascience.org	Data science is for everyone -- a social media outreach project		NA
 software_health_cheatsheets	http://hutchdatascience.org/software_health_cheatsheets/	https://github.com/fhdsl/software_health_cheatsheets	Cheatsheets from the Best Practices in Software Metrics manuscript		NA
 text2speech	http://jhudatascience.org/text2speech/	https://github.com/jhudsl/text2speech	Text to Speech	edtech-software, speech-synthesis, text-to-speech, tts, voice	NA
