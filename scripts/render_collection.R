@@ -62,9 +62,9 @@ make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE)
           TRUE ~ funding
         )) %>%
         mutate(funding = case_when(
-          stringr::str_detect(funding, "itn") ~ paste0(
+          stringr::str_detect(funding, "itn-course") ~ paste0(
             funding,
-            '<a href =\"https://www.itcrtraining.org/\" target=\"_blank\"<div title =\"About ITN\"></div><img src=\"https://lh6.googleusercontent.com/8e3MJBNEyxXNONxumnGjnc2a9bkboUPEEoJrG8DqB0KMOI90rHbbXud-Osj8hMtsqZmmbgYUkn8aVmgI3NLWDf_oS6Sjk1buIg62dKv892uHw6rJ9VPKqg91C2lAL648dg=w1280\" height=\"40\"></img><p class=\"image-name\">ITN</p></a>'
+            '<a href =\"https://www.itcrtraining.org/\" target=\"_blank\"<div title =\"About ITN\"></div><img src=\"https://raw.githubusercontent.com/fhdsl/DaSL_Collection/main/resources/images/ITNlogo.png\" height=\"40\"></img><p class=\"image-name\">ITN</p></a>'
           ),
           TRUE ~ funding
         )) %>%
