@@ -69,7 +69,7 @@ jobs:
           Rscript --vanilla "scripts/query_collection.R" --git_pat "$GH_PAT"
 
       - name: Archive collection
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4.6.2
         with:
           name: collection
           path: resources/collection.tsv

@@ -56,7 +56,7 @@ for (page in 1:last){
     jsonlite::fromJSON(httr::content(req, as = "text"), flatten = TRUE)
   message(paste("... Gathered", nrow(repo_dat$items), "repositories."))
 
-  repo_dat$items$funding <- lapply(repo_dat$items$topics, function(x) x[x %in% c("anvil", "itn", "daseh", "gdscn", "hutch-course")])
+  repo_dat$items$funding <- lapply(repo_dat$items$topics, function(x) x[x %in% c("anvil", "itn-course", "daseh", "gdscn", "hutch-course")])
   repo_dat$items$funding <- lapply(repo_dat$items$funding, function(x) replace(x, rlang::is_empty(x), NA) )
 
   repo_df <-

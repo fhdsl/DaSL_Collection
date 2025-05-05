@@ -80,7 +80,7 @@ jobs:
     with:
       check_type: spelling
       error_min: 3
-      gh_pat: secrets.GH_PAT
+      gh_pat: ${{ secrets.GH_PAT }}
 
   url-check:
     name: Check URLs
@@ -90,7 +90,7 @@ jobs:
     with:
       check_type: urls
       error_min: 0
-      gh_pat: secrets.GH_PAT
+      gh_pat: ${{ secrets.GH_PAT }}
       
   render-preview:
     name: Render preview
