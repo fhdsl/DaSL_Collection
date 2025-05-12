@@ -11,7 +11,7 @@ DaSL Collection uses the GitHub API to gather jhudsl and fhdsl organization repo
 The Collection only includes repositories that meet the following criteria. Repositories must:
 
 - be created under the `jhudsl` or `fhdsl` organizations
-- have **description**, **homepage**, and **topic tags** filled out in the "About" section on the righthand side
+- have **description**, **homepage**, and **topic tags** filled out in the "About" section on the right-hand side
 - be set to **public**
 - have at least one of three tags: `course` (general purpose courses), `hutch-course` (Fred Hutch specific courses), `edtech-software`
 
