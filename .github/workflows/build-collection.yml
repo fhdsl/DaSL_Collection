@@ -2,6 +2,7 @@
 name: Build Collection
 
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       render-type:
