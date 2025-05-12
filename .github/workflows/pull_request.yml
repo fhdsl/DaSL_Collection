@@ -135,7 +135,7 @@ jobs:
         id: tocless
         run: Rscript -e "devtools::install_github('jhudsl/ottrpal', upgrade = 'never'); ottrpal::render_without_toc()"
         env:
-          GITHUB_PAT: ${{ secrets.gh_pat }}
+          GITHUB_PAT: ${{ secrets.GH_PAT }}
 
       # This checks on the steps before it and makes sure that they completed.
       # If the renders didn't complete we don't want to commit the file changes
