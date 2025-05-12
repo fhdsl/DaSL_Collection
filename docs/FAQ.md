@@ -9,7 +9,7 @@ DaSL Collection uses the GitHub API to gather repositories that we have worked o
 The following are needed to list your repository in the collection:
 
 - Your repository must be created under the `jhudsl` or `fhdsl` organizations. For repositories under other organizations, you can fork the repository into the `jhudsl` or `fhdsl` organizations. [Example](https://github.com/fhdsl/Data-Wrangling)
-- Your repository "code" tab must have a **description**, **homepage**, and **topic tags** filled out in the "About" section on the righthand side. 
+- Your repository "code" tab must have a **description**, **homepage**, and **topic tags** filled out in the "About" section on the right-hand side. 
 - Your repository must be set to **public**.
 - Your repository must have at least one of three tags: `course` (general purpose courses), `hutch-course` (Fred Hutch specific courses), or `edtech-software`. If you feel there is another applicable category that should be listed, please reach out to [Ava](https://github.com/avahoffman).
 
