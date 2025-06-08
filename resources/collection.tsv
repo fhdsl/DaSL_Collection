@@ -90,6 +90,7 @@ data_snacks	https://hutchdatascience.org/data_snacks	https://github.com/fhdsl/da
 intro_to_r	https://jhudatascience.org/intro_to_r/	https://github.com/jhudsl/intro_to_r	A 2-week introduction to R programming course, with a focus on public health datasets	beginner, beginner-friendly, beginner-programming, course, public-health, r-programming, tidyverse	NA
 intro_to_sql	https://intro-sql-fh.netlify.app/	https://github.com/fhdsl/intro_to_sql	Intro to SQL Course for Fred Hutch Winter 2025		NA
 itn-metric	http://hutchdatascience.org/itn-metric/	https://github.com/fhdsl/itn-metric	Analyze ITCR metrics using {metricminer}		NA
+itn-training-metrics	https://hutchdatascience.org/itn-training-metrics/	https://github.com/fhdsl/itn-training-metrics	A ""dashboard' displaying the ITN training metrics in plots and tables		NA
 jhudsl.github.io	https://jhudatascience.org	https://github.com/jhudsl/jhudsl.github.io	source code for the JHU Data Science Lab website	website	NA
 metricminer	https://hutchdatascience.org/metricminer/	https://github.com/fhdsl/metricminer	R package that digs up data that matters from APIs, making it dashboard-ready	edtech-software	NA
 metricminer-dashboard	http://dashboard.metricminer.org/	https://github.com/fhdsl/metricminer-dashboard	A template dashboard that helps you display your metricmined data in no time! 		NA
@@ -98,6 +99,7 @@ nyu2024-galaxy-activity	http://hutchdatascience.org/nyu2024-galaxy-activity/	htt
 ottrpal	https://jhudatascience.org/ottrpal/	https://github.com/jhudsl/ottrpal	Tools for converting OTTR courses into Leanpub or Coursera courses :otter:	edtech-software	NA
 ottrproject.org	http://www.ottrproject.org/	https://github.com/jhudsl/ottrproject.org	This repo publishes ottrproject.org		NA
 posterpoller	http://hutchdatascience.org/posterpoller/	https://github.com/fhdsl/posterpoller	opensource polling system for poster competitions or other things!	edtech-software	NA
+reproducibility_capstone	http://hutchdatascience.org/reproducibility_capstone/	https://github.com/fhdsl/reproducibility_capstone	A capstone course for the ITN Reproducibility Series	reproducibility, reproducible-research	NA
 simplydatascience.org	http://simplydatascience.org/	https://github.com/fhdsl/simplydatascience.org	Data science is for everyone -- a social media outreach project		NA
 software_health_cheatsheets	http://hutchdatascience.org/software_health_cheatsheets/	https://github.com/fhdsl/software_health_cheatsheets	Cheatsheets from the Best Practices in Software Metrics manuscript		NA
 text2speech	http://jhudatascience.org/text2speech/	https://github.com/jhudsl/text2speech	Text to Speech	edtech-software, speech-synthesis, text-to-speech, tts, voice	NA
