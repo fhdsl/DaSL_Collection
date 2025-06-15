@@ -82,11 +82,13 @@ Using_Leanpub	https://hutchdatascience.org/Using_Leanpub/	https://github.com/fhd
 ari	https://jhudatascience.org/ari/	https://github.com/jhudsl/ari	:dancers: The Automated R Instructor	edtech-software	NA
 bench_to_bytes	https://hutchdatascience.org/bench_to_bytes/	https://github.com/fhdsl/bench_to_bytes	A guide for wet bench researchers about why considering computational and data science skills can be useful for all types of scientific work.		NA
 bioconductor_for_genomics	http://hutchdatascience.org/bioconductor_for_genomics/	https://github.com/fhdsl/bioconductor_for_genomics	Analysis and Interpretation of Bulk RNA-Seq Data using Bioconductor		NA
+capstone-sandbox	https://hutchdatascience.org/reproducibility_capstone/	https://github.com/fhdsl/capstone-sandbox	Sandbox for the activities associated with the reproducibility capstone course: https://hutchdatascience.org/reproducibility_capstone/	capstone, reproducibility	NA
 code_review	https://hutchdatascience.org/code_review/	https://github.com/fhdsl/code_review	A repository with tips about code review and implementing it in a lab	codereview, fhdasl, hutch-course, training	hutch-course
 conrad	http://hutchdatascience.org/conrad/	https://github.com/fhdsl/conrad	Client for the Microsoft Cognitive Services Text to Speech REST API (reboot of the mscstts package)	azure, r, text-to-speech, tts	NA
 containers-for-scientists-sandbox	http://hutchdatascience.org/containers-for-scientists-sandbox/	https://github.com/fhdsl/containers-for-scientists-sandbox	A sandbox of dockerfiles to play with for the purposes of a workshop (or independent learning)	itn-workshop	NA
 dasl-snack-github	http://hutchdatascience.org/dasl-snack-github/	https://github.com/fhdsl/dasl-snack-github	A DaSL training ""snack"" covering the benefits and basics of using Git and GitHub to support your biomedical data science work. 	hutch-course	hutch-course
 data_snacks	https://hutchdatascience.org/data_snacks	https://github.com/fhdsl/data_snacks	Sharing cool data tricks in Python and R		NA
+fair-explainable-ml	https://carpentries-incubator.github.io/fair-explainable-ml/	https://github.com/fhdsl/fair-explainable-ml	Fair and explainable ML workshop		NA
 intro_to_r	https://jhudatascience.org/intro_to_r/	https://github.com/jhudsl/intro_to_r	A 2-week introduction to R programming course, with a focus on public health datasets	beginner, beginner-friendly, beginner-programming, course, public-health, r-programming, tidyverse	NA
 intro_to_sql	https://intro-sql-fh.netlify.app/	https://github.com/fhdsl/intro_to_sql	Intro to SQL Course for Fred Hutch Winter 2025		NA
 itn-metric	http://hutchdatascience.org/itn-metric/	https://github.com/fhdsl/itn-metric	Analyze ITCR metrics using {metricminer}		NA
