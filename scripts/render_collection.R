@@ -80,6 +80,19 @@ make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE)
       # Remove duplicates if necessary
       df <- distinct(df)
       
+      # Create a "category" column
+      df <-
+        df %>%
+        mutate(
+          Category =
+            case_when(
+              stringr::str_detect(Topics, "course") &
+                !stringr::str_detect(Topics, "hutch-course") ~ "Course",
+              stringr::str_detect(Topics, "hutch-course") ~ "Hutch Course",
+              stringr::str_detect(Topics, "edtech-software") ~ "Software",
+            )
+        )
+      
       # Filter if desired
       if(!is.null(include)){
         df <- 
@@ -98,7 +111,8 @@ make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE)
         tibble(Name = "none",
                Funding = "none",
                Description = "none",
-               Topics = "none")
+               Topics = "none",
+               Category = "none")
       
       return(df)
     }
