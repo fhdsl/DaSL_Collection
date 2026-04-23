@@ -51,7 +51,7 @@ jobs:
     needs: yaml-check
     uses: ./.github/workflows/build-collection.yml
     with:
-      render-type: 'preview'
+      render-type: 'main'
       repository: $GITHUB_REPOSITORY
       image-name: ${{needs.yaml-check.outputs.rendering_docker_image}}
     secrets:
