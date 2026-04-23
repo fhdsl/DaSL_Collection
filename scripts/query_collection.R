@@ -30,7 +30,7 @@ message(paste("Querying Github API..."))
 
 # Request search results specific to jhudsl + fhdsl + DataTrail organizations
 # Also allows us to pull in repos forked into these organizations
-url <- "https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl+user:datatrail-jhu+fork:true&per_page=50"
+url <- "https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl+user:ottrproject+user:datatrail-jhu+fork:true&per_page=50"
 
 # Provide the appropriate GH token & Make the request
 req <- GET(url = url, config = add_headers(Authorization = paste("token", git_pat)))
@@ -49,7 +49,7 @@ last <- str_extract(req$headers$link, pattern = '.(?=>; rel=\"last\")')
 full_repo_df <- tibble()
 for (page in 1:last){
 
-  url <- paste0("https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl+user:datatrail-jhu+fork:true&per_page=50&page=", page)
+  url <- paste0("https://api.github.com/search/repositories?q=user:jhudsl+user:fhdsl+user:ottrproject+user:datatrail-jhu+fork:true&per_page=50&page=", page)
   message(paste("Gathering results from:", url))
   req <- GET(url = url, config = add_headers(Authorization = paste("token", git_pat)))
   repo_dat <-
