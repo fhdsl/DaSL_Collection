@@ -1,10 +1,21 @@
 # Candace Savonen 2021
 # Updated April 2025
 
+
+# +---------------- minute (0 - 59)
+# |  +------------- hour (0 - 23)
+# |  |  +---------- day of month (1 - 31)
+# |  |  |  +------- month (1 - 12)
+# |  |  |  |  +---- day of week (0 - 6) (Sunday=0 or 7)
+# |  |  |  |  |
+# *  *  *  *  *  command to be executed
+
 name: Render website
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * 0"
   push:
     branches: [ main, staging ]
     paths:
@@ -12,6 +23,7 @@ on:
       - '*.Rmd'
       - assets/*
       - quizzes/*
+      - collection.tsv
 
 jobs:
 
@@ -31,9 +43,25 @@ jobs:
       toggle_website: "${{ env.RENDER_WEBSITE }}"
       rendering_docker_image: "${{ env.RENDERING_DOCKER_IMAGE }}"
 
+
+########################## Make the Collection ################################
+
+  build-collection:
+    name: Build Collection
+    needs: yaml-check
+    uses: ./.github/workflows/build-collection.yml
+    with:
+      render-type: 'preview'
+      repository: $GITHUB_REPOSITORY
+      image-name: ${{needs.yaml-check.outputs.rendering_docker_image}}
+    secrets:
+      gh_pat: ${{ secrets.GH_PAT }}
+
+########################## Make the Website ####################################
+
   render-website:
     name: Render website
-    needs: yaml-check
+    needs: [yaml-check, build-collection]
     runs-on: ubuntu-latest
 
     steps:
