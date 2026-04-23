@@ -28,6 +28,12 @@ url-check-periodically: true
 ##### Renderings run upon merge to main branch #####
 # Rendering each platform's content
 render-website: rmd_web
+render-leanpub: true
+render-coursera: false
+
+## Automate the creation of Book.txt file? yes/no
+## This is only relevant if render-leanpub is yes, otherwise it will be ignored
+make-book-txt: true
 
 # What docker image should be used for rendering?
 # The default is jhudsl/base_ottr:main

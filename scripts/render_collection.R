@@ -21,12 +21,12 @@ make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE)
       if(kable){
         df <-
           df %>%
-          mutate(`Book Name` = paste0("[", name, "](", homepage, ") ([github](", html_url, "))"))
+          mutate(Name = paste0("[", name, "](", homepage, ") ([github](", html_url, "))"))
       } else {
         df <-
           df %>%
-          mutate(`Book Name` = paste0('<a href="', homepage, '">', name, '</a>'))
-          #mutate(`Book Name` = paste0('<a href="', homepage, '">', name, '</a> (<a href="', html_url, '">github</a>)'))
+          mutate(Name = paste0('<a href="', homepage, '">', name, '</a>'))
+          #mutate(Name = paste0('<a href="', homepage, '">', name, '</a> (<a href="', html_url, '">github</a>)'))
           #mutate(topics = str_replace_all(topics, pattern = ", ", replacement = "<br>"))
       }
       
@@ -75,10 +75,23 @@ make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE)
       df <-
         df %>% 
         rename(Description = description, Topics = topics, Funding = funding) %>%
-        select(`Book Name`, Funding, Description, Topics)
+        select(Name, Funding, Description, Topics)
       
       # Remove duplicates if necessary
       df <- distinct(df)
+      
+      # Create a "category" column
+      df <-
+        df %>%
+        mutate(
+          Category =
+            case_when(
+              stringr::str_detect(Topics, "course") &
+                !stringr::str_detect(Topics, "hutch-course") ~ "Course",
+              stringr::str_detect(Topics, "hutch-course") ~ "Hutch Course",
+              stringr::str_detect(Topics, "edtech-software") ~ "Software",
+            )
+        )
       
       # Filter if desired
       if(!is.null(include)){
@@ -95,10 +108,11 @@ make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE)
     # Will error out if file doesn't exist - provides a blank tibble instead
     error = function(e) {
       df <-
-        tibble(`Book Name` = "none",
+        tibble(Name = "none",
                Funding = "none",
                Description = "none",
-               Topics = "none")
+               Topics = "none",
+               Category = "none")
       
       return(df)
     }
