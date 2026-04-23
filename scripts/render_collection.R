@@ -84,12 +84,12 @@ make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE)
       df <-
         df %>%
         mutate(
-          Category =
+          `DaSL Category` =
             case_when(
-              stringr::str_detect(Topics, "course") &
-                !stringr::str_detect(Topics, "hutch-course") ~ "Course",
-              stringr::str_detect(Topics, "hutch-course") ~ "Hutch Course",
-              stringr::str_detect(Topics, "edtech-software") ~ "Software",
+              stringr::str_detect(Topics, "data-science-programming") ~ "Data Science Programming",
+              stringr::str_detect(Topics, "data4all") ~ "Data4all",
+              stringr::str_detect(Topics, "reproducible-research") ~ "Reproducible Research",
+              stringr::str_detect(Topics, "scalable-computing") ~ "Scalable Computing"
             )
         )
       
@@ -112,7 +112,7 @@ make_collection_table <- function(exclude = NULL, include = NULL, kable = FALSE)
                Funding = "none",
                Description = "none",
                Topics = "none",
-               Category = "none")
+               `DaSL Category` = "none")
       
       return(df)
     }
