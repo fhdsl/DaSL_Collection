@@ -108,6 +108,7 @@ intro_to_sql	https://intro-sql-fh.netlify.app/	https://github.com/fhdsl/intro_to
 itn-metric	http://hutchdatascience.org/itn-metric/	https://github.com/fhdsl/itn-metric	Analyze ITCR metrics using {metricminer}		NA
 itn-training-metrics	https://hutchdatascience.org/itn-training-metrics/	https://github.com/fhdsl/itn-training-metrics	A ""dashboard' displaying the ITN training metrics in plots and tables		NA
 jhudsl.github.io	https://jhudatascience.org	https://github.com/jhudsl/jhudsl.github.io	source code for the JHU Data Science Lab website	website	NA
+matahari	https://jhudatascience.org/matahari/	https://github.com/jhudsl/matahari	🔎 I Spy With My Little Eye		NA
 metricminer	https://hutchdatascience.org/metricminer/	https://github.com/fhdsl/metricminer	R package that digs up data that matters from APIs, making it dashboard-ready	edtech-software	NA
 metricminer	https://ottrproject.org/metricminer/	https://github.com/ottrproject/metricminer	R package for digging up your metrics using the power of APIs!		NA
 metricminer-dashboard	http://dashboard.metricminer.org/	https://github.com/fhdsl/metricminer-dashboard	A template dashboard that helps you display your metricmined data in no time! 		NA
