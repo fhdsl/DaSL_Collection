@@ -102,9 +102,11 @@ conrad	http://hutchdatascience.org/conrad/	https://github.com/fhdsl/conrad	Clien
 containers-for-scientists-sandbox	http://hutchdatascience.org/containers-for-scientists-sandbox/	https://github.com/fhdsl/containers-for-scientists-sandbox	A sandbox of dockerfiles to play with for the purposes of a workshop (or independent learning)	itn-workshop	NA
 dasl-snack-github	http://hutchdatascience.org/dasl-snack-github/	https://github.com/fhdsl/dasl-snack-github	A DaSL training ""snack"" covering the benefits and basics of using Git and GitHub to support your biomedical data science work. 	hutch-course, reproducible-research	hutch-course
 data_snacks	https://hutchdatascience.org/data_snacks	https://github.com/fhdsl/data_snacks	Sharing cool data tricks in Python and R	data-science-programming	NA
+decode_dataviz_workshop	https://hutchdatascience.org/decode_dataviz_workshop/	https://github.com/fhdsl/decode_dataviz_workshop	Materials associated with the background information and activities for the DeCoDE data viz workshop	itn-workshop	NA
 fair-explainable-ml	https://carpentries-incubator.github.io/fair-explainable-ml/	https://github.com/fhdsl/fair-explainable-ml	Fair and explainable ML workshop		NA
 intro_to_r	https://jhudatascience.org/intro_to_r/	https://github.com/jhudsl/intro_to_r	A 2-week introduction to R programming course, with a focus on public health datasets	beginner, beginner-friendly, beginner-programming, course, data-science-programming, public-health, r-programming, tidyverse	NA
 intro_to_sql	https://intro-sql-fh.netlify.app/	https://github.com/fhdsl/intro_to_sql	Intro to SQL Course for Fred Hutch	data-science-programming	NA
+itcr2026_workshops	https://hutchdatascience.org/itcr2026_workshops/	https://github.com/fhdsl/itcr2026_workshops	Website for materials, resources, and activity instructions for the ITCR Annual Meeting 2026 Workshops	itn-workshop	NA
 itn-metric	http://hutchdatascience.org/itn-metric/	https://github.com/fhdsl/itn-metric	Analyze ITCR metrics using {metricminer}		NA
 itn-training-metrics	https://hutchdatascience.org/itn-training-metrics/	https://github.com/fhdsl/itn-training-metrics	A ""dashboard' displaying the ITN training metrics in plots and tables		NA
 jhudsl.github.io	https://jhudatascience.org	https://github.com/jhudsl/jhudsl.github.io	source code for the JHU Data Science Lab website	website	NA
