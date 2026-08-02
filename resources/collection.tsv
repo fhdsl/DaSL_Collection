@@ -94,6 +94,7 @@ Using_Leanpub	https://hutchdatascience.org/Using_Leanpub/	https://github.com/fhd
 ari	https://jhudatascience.org/ari/	https://github.com/jhudsl/ari	:dancers: The Automated R Instructor	edtech-software	NA
 bash_for_bio	https://hutchdatascience.org/bash_for_bio	https://github.com/fhdsl/bash_for_bio	Reworking of the Bash for HPC book into a class format	scalable-computing	NA
 bench_to_bytes	https://hutchdatascience.org/bench_to_bytes/	https://github.com/fhdsl/bench_to_bytes	A guide for wet bench researchers about why considering computational and data science skills can be useful for all types of scientific work.	data4all	NA
+bioc2026Intro	http://hutchdatascience.org/bioc2026Intro/	https://github.com/fhdsl/bioc2026Intro	Workshop Materials for Introductory Bioconductor 2026 workshop		NA
 bioconductor_for_genomics	https://bioconductor-genomics.netlify.app/	https://github.com/fhdsl/bioconductor_for_genomics	Analysis and Interpretation of Bulk RNA-Seq Data using Bioconductor	data-science-programming	NA
 capstone-sandbox	https://hutchdatascience.org/reproducibility_capstone/	https://github.com/fhdsl/capstone-sandbox	Sandbox for the activities associated with the reproducibility capstone course: https://hutchdatascience.org/reproducibility_capstone/	capstone, reproducibility	NA
 cheatsheets	http://ottrproject.org/cheatsheets/	https://github.com/ottrproject/cheatsheets	Lots of cool cheatsheets and tools to render them!		NA
