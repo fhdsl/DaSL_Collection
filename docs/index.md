@@ -1,6 +1,6 @@
 ---
 title: '**DaSL Collection**'
-date: "Last Updated: September 06, 2026"
+date: "Last Updated: September 13, 2026"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
