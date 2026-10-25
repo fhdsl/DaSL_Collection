@@ -120,10 +120,9 @@ metricminer-dashboard	https://ottrproject.github.io/metricminer-dashboard/	https
 metricminer.org	https://www.metricminer.org/	https://github.com/ottrproject/metricminer.org	The website for metricminer docs!		NA
 metricminer.org	http://www.metricminer.org/	https://github.com/fhdsl/metricminer.org	A website for metricminer		NA
 nyu2024-galaxy-activity	http://hutchdatascience.org/nyu2024-galaxy-activity/	https://github.com/fhdsl/nyu2024-galaxy-activity	Demo for possible website for ITN NYU 2024 Workshops (logistics and activity walkthroughs)	itn-workshop	NA
-ottr_documentation_dev	https://www.ottrproject.org/ottr_documentation_dev/	https://github.com/ottrproject/ottr_documentation_dev	Documentation for using OTTR (quarto website) version		NA
 ottrpal	https://jhudatascience.org/ottrpal/	https://github.com/jhudsl/ottrpal	Tools for converting OTTR courses into Leanpub or Coursera courses :otter:	edtech-software	NA
 ottrpal	https://ottrproject.org/ottrpal/	https://github.com/ottrproject/ottrpal	R package that does the checks and mechanics for OTTR		NA
-ottrproject.github.io	https://www.ottrproject.org/	https://github.com/ottrproject/ottrproject.github.io	The website for OTTR docs!		NA
+ottrproject.github.io	https://www.ottrproject.org	https://github.com/ottrproject/ottrproject.github.io	Documentation for using OTTR (quarto website) version		NA
 ottrproject.org	http://www.ottrproject.org/	https://github.com/jhudsl/ottrproject.org	This repo publishes ottrproject.org		NA
 posterpoller	http://hutchdatascience.org/posterpoller/	https://github.com/fhdsl/posterpoller	opensource polling system for poster competitions or other things!	edtech-software	NA
 reproducibility_capstone	http://hutchdatascience.org/reproducibility_capstone/	https://github.com/fhdsl/reproducibility_capstone	A capstone course for the ITN Reproducibility Series with hands-on activities 	audience-researchers, audience-software-developers, capstone-project, category-hands-on-practice, docker, github-actions, github-secrets, itn-course, launched-jul2025, reproducibility, reproducibility-series-capstone, reproducible-research, workflow-automation	itn-course
